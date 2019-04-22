@@ -1,3 +1,8 @@
+"""
+The classifier of linked dynamic graph CNN.
+@author: Kuangen Zhang
+
+"""
 import tensorflow as tf
 import numpy as np
 import sys
@@ -13,12 +18,14 @@ def placeholder_inputs(batch_size, num_feature):
   return pointclouds_pl, labels_pl
 
 def get_model(feature, is_training, bn_decay=None):
-  """ Classification PointNet, input is BxNx3, output Bx40 """
-  # MLP on global point cloud vector
+  # Fully connected layers: classifier
   layers = {}
   feature = tf.squeeze(feature)
   layer_name = 'ft_'
   
+  # B: batch size; C: channels;
+  # feature: B*C
+  # net: B*512
   net = tf_util.fully_connected(feature, 512, bn=True, is_training=is_training,
                                 scope=layer_name + 'fc2', bn_decay=bn_decay,
                                 activation_fn = tf.nn.relu)
@@ -27,6 +34,7 @@ def get_model(feature, is_training, bn_decay=None):
   net = tf_util.dropout(net, keep_prob=0.5, is_training=is_training,
                          scope=layer_name + 'dp2')
   
+  # net: B*256
   net = tf_util.fully_connected(net, 256, bn=True, is_training=is_training,
                                 scope=layer_name + 'fc3', bn_decay=bn_decay,
                                 activation_fn = tf.nn.relu)
@@ -34,6 +42,7 @@ def get_model(feature, is_training, bn_decay=None):
   
   net = tf_util.dropout(net, keep_prob=0.5, is_training=is_training,
                         scope=layer_name + 'dp3')
+  # net: B*40
   net = tf_util.fully_connected(net, 40, activation_fn=None, scope='fc4')
   layers[layer_name + 'fc4'] = net
 
@@ -43,11 +52,13 @@ def get_model(feature, is_training, bn_decay=None):
 def get_loss(pred, label):
   """ pred: B*NUM_CLASSES,
       label: B, """
+  # Change the label from an integer to the one_hot vector.
   labels = tf.one_hot(indices=label, depth=40)
+  # Calculate the loss based on cross entropy method.
   loss = tf.losses.softmax_cross_entropy(onehot_labels=labels, logits=pred, label_smoothing=0.2)
+  # Calculate the mean loss of a batch input.
   classify_loss = tf.reduce_mean(loss)
   return classify_loss
-
 
 if __name__=='__main__':
   batch_size = 2

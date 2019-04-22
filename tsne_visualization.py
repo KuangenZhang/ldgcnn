@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sun Apr 14 06:16:51 2019
-
+Created on Sun Apr 14 06:16:51 2019 
+Visulize T-SNE of orginal point cloud and extracted features.
 @author: Kuangen Zhang
 """
 from sklearn.manifold import TSNE
@@ -24,7 +24,7 @@ TRAIN_FILES_VEC = [[],[]]
 TEST_FILES_VEC = [[],[]]
 for i in range(1):
     path = 'data/extracted_feature'
-#    path = 'data/modelnet40_ply_hdf5_2048_0/'
+#    path = 'data/modelnet40_ply_hdf5_2048/'
     TRAIN_FILES_VEC[i] = provider.getDataFiles( \
         os.path.join(BASE_DIR, path + '/train_files.txt'))
     TEST_FILES_VEC[i] = provider.getDataFiles(\
@@ -33,7 +33,7 @@ for i in range(1):
 ## data are point cloud 
 #data = np.array([], dtype=np.float32).reshape(0,2048,3)
 #label = np.array([], dtype=np.float32).reshape(0,1)
-    
+
 ## data are features
 data = np.array([], dtype=np.float32).reshape(0,1024) 
 label = np.array([], dtype=np.float32).reshape(0)

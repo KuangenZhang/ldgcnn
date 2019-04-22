@@ -1,9 +1,17 @@
+"""
+Evaluate the classification accuracy on the ModelNet40 based on our ldgcnn 
+trained feature extractor and classifier. We borrow the evaluation code 
+from the DGCNN, and add the code of combining the classifier with the 
+feature extractor. 
+Reference code: https://github.com/WangYueFt/dgcnn
+@author: Kuangen Zhang
+
+"""
 import tensorflow as tf
 import numpy as np
 import argparse
 import socket
 import importlib
-import time
 import os
 import scipy.misc
 import sys
@@ -34,8 +42,10 @@ BATCH_SIZE = FLAGS.batch_size
 NUM_POINT = FLAGS.num_point
 NUM_FEATURE = FLAGS.num_feature
 GPU_INDEX = FLAGS.gpu
-MODEL_CNN = importlib.import_module(FLAGS.model_cnn) # import network module
-MODEL_FC = importlib.import_module(FLAGS.model_fc) # import network module
+# MODEL_CNN: Model of feature extractor (convolutional layers)
+MODEL_CNN = importlib.import_module(FLAGS.model_cnn)
+# MODEL_FC: Model of feature extractor (convolutional layers)
+MODEL_FC = importlib.import_module(FLAGS.model_fc)
 DUMP_DIR = FLAGS.dump_dir
 if not os.path.exists(DUMP_DIR): os.mkdir(DUMP_DIR)
 LOG_FOUT = open(os.path.join(DUMP_DIR, 'log_evaluate.txt'), 'w')
@@ -44,7 +54,6 @@ LOG_FOUT.write(str(FLAGS)+'\n')
 NUM_CLASSES = 40
 SHAPE_NAMES = [line.rstrip() for line in \
     open(os.path.join(BASE_DIR, 'data/modelnet40_ply_hdf5_2048/shape_names.txt'))] 
-
 HOSTNAME = socket.gethostname()
 #%%
 # ModelNet40 official train/test split
@@ -56,7 +65,9 @@ TEST_FILES = provider.getDataFiles(\
 is_training = False
 #%%
 with tf.device('/gpu:'+str(GPU_INDEX)):
+    # Input of the MODEL_CNN is the point cloud and label.
     pointclouds_pl, labels_pl = MODEL_CNN.placeholder_inputs(BATCH_SIZE, NUM_POINT)
+    # Input of the MODEL_FC is the global feature and label.
     features, labels_features = MODEL_FC.placeholder_inputs(BATCH_SIZE, NUM_FEATURE)
     is_training_pl = tf.placeholder(tf.bool, shape=())
 
@@ -68,7 +79,9 @@ with tf.device('/gpu:'+str(GPU_INDEX)):
     # Add ops to save and restore all the variables.
     variable_names = [v.name for v in tf.global_variables()]
     variables = tf.global_variables()
+    # Variables before #43 belong to the feature extractor.
     saver_cnn = tf.train.Saver(variables[0:44])
+    # Variables after #43 belong to the classifier.
     saver_fc = tf.train.Saver(variables[44:])
 #%%
 # Create a session
@@ -94,9 +107,10 @@ i = 0
 Files = TEST_FILES
 with tf.Session(config=config) as sess:
     with tf.device('/gpu:'+str(GPU_INDEX)):
-        #Restore variables from disk.
+        #Restore variables of feature extractor from disk.
         saver_cnn.restore(sess, os.path.join(LOG_DIR, FLAGS.model_cnn+'_'+ 
                                              str(NAME_MODEL)+"model.ckpt"))
+        #Restore variables of classifier from disk.
         saver_fc.restore(sess, os.path.join(LOG_DIR, FLAGS.model_fc+'_'+ 
                                              str(NAME_MODEL)+"model.ckpt"))
         log_string("Model restored.")
@@ -126,23 +140,27 @@ with tf.Session(config=config) as sess:
                 end_idx = (batch_idx+1) * BATCH_SIZE
                 cur_batch_size = end_idx - start_idx
                 
-                # Aggregating BEG
+                # Aggregating begin
                 batch_loss_sum = 0 # sum of losses for the batch
                 batch_pred_sum = np.zeros((cur_batch_size, NUM_CLASSES)) # score for classes
                 batch_pred_classes = np.zeros((cur_batch_size, NUM_CLASSES)) # 0/1 for classes  
                 feed_dict_cnn = {ops['pointclouds_pl']: current_data[start_idx:end_idx, :, :],
                              ops['labels_pl']: current_label[start_idx:end_idx],
                              ops['is_training_pl']: is_training}
+                # Extract the global_feature from the feature extractor.
                 global_feature = np.squeeze(layers['global_feature'].eval(
                     feed_dict=feed_dict_cnn))
                 
+                # I find that we can increase the accuracy by about 0.2% after 
+                # padding zero vectors, but I do not know the reason.
                 global_feature = np.concatenate([global_feature, np.zeros((
                 global_feature.shape[0], NUM_FEATURE - global_feature.shape[1]))], axis  = -1)
                 
+                # Input the extracted features and labels to the classifier.
                 feed_dict = {ops['features']: global_feature,
                              ops['labels_pl']: current_label[start_idx:end_idx],
                              ops['is_training_pl']: is_training}
-                                
+                # Calculate the loss and classification scores.
                 loss_val, pred_val = sess.run([ops['loss'], ops['pred']],
                                           feed_dict=feed_dict)
                 batch_pred_sum += pred_val
@@ -152,7 +170,7 @@ with tf.Session(config=config) as sess:
                 batch_loss_sum += (loss_val * cur_batch_size)
                 # pred_val_topk = np.argsort(batch_pred_sum, axis=-1)[:,-1*np.array(range(topk))-1]
                 pred_val = np.argmax(batch_pred_sum, 1)
-                # Aggregating END
+                # Aggregating end
                 
                 correct = np.sum(pred_val == current_label[start_idx:end_idx])
                 # correct = np.sum(pred_val_topk[:,0:topk] == label_val)
@@ -185,5 +203,6 @@ data = np.array(list(map(int, data)))
 data = np.reshape(data, (-1, 2))
 f = open("dump/shape_names.txt", "r")
 class_names = np.array(f.read().split())
+# Plot the confusion matrix
 cm,ax = PlotClass.plot_confusion_matrix(data[:,1], data[:,0], classes=class_names, normalize=True,
                       title='Normalized confusion matrix')

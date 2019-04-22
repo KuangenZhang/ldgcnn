@@ -122,7 +122,8 @@ def predict():
   with tf.device('/gpu:'+str(gpu_to_use)):
     pointclouds_ph, input_label_ph = placeholder_inputs()
     is_training_ph = tf.placeholder(tf.bool, shape=())
-
+    
+    # Get model and loss 
     seg_pred, layers = model.get_model(pointclouds_ph, input_label_ph, \
         cat_num=NUM_OBJ_CATS, part_num=NUM_PART_CATS, is_training=is_training_ph, \
         batch_size=batch_size, num_point=point_num, weight_decay=0.0, bn_decay=None)
@@ -177,7 +178,8 @@ def predict():
       ori_point_num = len(seg)
 
       batch_data[0, ...] = pc_augment_to_point_num(pc_normalize(pts), point_num)
-
+      
+      # Input the point cloud , object labels, and point labels to the graph.
       seg_pred_res = sess.run(seg_pred, feed_dict={
             pointclouds_ph: batch_data,
             input_label_ph: cur_label_one_hot, 
@@ -191,7 +193,8 @@ def predict():
       seg_pred_res[:, non_cat_labels] = mini - 1000
 
       seg_pred_val = np.argmax(seg_pred_res, axis=1)[:ori_point_num]
-
+      
+      # Calculate the accuracy of the input data.  
       seg_acc = np.mean(seg_pred_val == seg)
 
       total_acc += seg_acc
@@ -202,6 +205,7 @@ def predict():
 
       mask = np.int32(seg_pred_val == seg)
 
+      # Calculate the mean IoU. 
       total_iou = 0.0
       iou_log = ''
       for oid in iou_oids:

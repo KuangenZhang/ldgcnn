@@ -155,7 +155,8 @@ def train():
     lr_op = tf.summary.scalar('learning_rate', learning_rate)
     batch_op = tf.summary.scalar('batch_number', batch)
     bn_decay_op = tf.summary.scalar('bn_decay', bn_decay)
-
+    
+    # Get training optimizer
     trainer = tf.train.AdamOptimizer(learning_rate)
     
     # store tensors for different gpus
@@ -173,11 +174,11 @@ def train():
             input_label_phs.append(tf.placeholder(tf.float32, shape=(batch_size, NUM_CATEGORIES))) # for one-hot category label
             seg_phs.append(tf.placeholder(tf.int32, shape=(batch_size, point_num))) # for part labels
             is_training_phs.append(tf.placeholder(tf.bool, shape=()))
-
+            
+            # Get model and loss 
             seg_pred, layers = model.get_model(pointclouds_phs[-1], input_label_phs[-1], \
                 is_training=is_training_phs[-1], bn_decay=bn_decay, cat_num=NUM_CATEGORIES, \
                 part_num=NUM_PART_CATS, batch_size=batch_size, num_point=point_num, weight_decay=FLAGS.wd)
-
 
             loss, per_instance_seg_loss, per_instance_seg_pred_res  \
               = model.get_loss(seg_pred, seg_phs[-1])
@@ -198,7 +199,8 @@ def train():
             seg_test_acc_avg_cat_op = tf.summary.scalar('seg_testing_acc_avg_cat', seg_testing_acc_avg_cat_ph)
 
             tf.get_variable_scope().reuse_variables()
-
+            
+            # Calculate the gradient
             grads = trainer.compute_gradients(loss)
 
             tower_grads.append(grads)
@@ -239,7 +241,8 @@ def train():
       for i in range(num_train_file):
         cur_train_filename = os.path.join(hdf5_data_dir, train_file_list[train_file_idx[i]])
 #        printout(flog, 'Loading train file ' + cur_train_filename)
-
+        
+        # Load the point cloud , object labels, and point labels.
         cur_data, cur_labels, cur_seg = provider.load_h5_data_label_seg(cur_train_filename)
         cur_data, cur_labels, order = provider.shuffle_data(cur_data, np.squeeze(cur_labels))
         cur_seg = cur_seg[order, ...]
@@ -258,6 +261,7 @@ def train():
           begidx_1 = (j + 1) * batch_size
           endidx_1 = (j + 2) * batch_size
 
+          # Input the point cloud , object labels, and point labels to the graph.
           feed_dict = {
               # For the first gpu
               pointclouds_phs[0]: cur_data[begidx_0: endidx_0, ...], 
@@ -271,7 +275,7 @@ def train():
               is_training_phs[1]: is_training, 
               }
 
-
+          # Calculate the loss and accuracy of the input batch data.  
           # train_op is for both gpus, and the others are for gpu_1
           _, loss_val, per_instance_seg_loss_val, seg_pred_val, pred_seg_res \
               = sess.run([train_op, loss, per_instance_seg_loss, seg_pred, per_instance_seg_pred_res], \
@@ -313,6 +317,7 @@ def train():
         cur_test_filename = os.path.join(hdf5_data_dir, test_file_list[i])
 #        printout(flog, 'Loading test file ' + cur_test_filename)
 
+        # Load the point cloud , object labels, and point labels.
         cur_data, cur_labels, cur_seg = provider.load_h5_data_label_seg(cur_test_filename)
         cur_labels = np.squeeze(cur_labels)
 
@@ -325,12 +330,14 @@ def train():
         for j in range(num_batch):
           begidx = j * batch_size
           endidx = (j + 1) * batch_size
+          # Input the point cloud , object labels, and point labels to the graph.
           feed_dict = {
               pointclouds_phs[1]: cur_data[begidx: endidx, ...], 
               input_label_phs[1]: cur_labels_one_hot[begidx: endidx, ...], 
               seg_phs[1]: cur_seg[begidx: endidx, ...],
               is_training_phs[1]: is_training}
-
+          
+          # Calculate the loss and accuracy of the input batch data.  
           loss_val, per_instance_seg_loss_val, seg_pred_val, pred_seg_res \
               = sess.run([loss, per_instance_seg_loss, seg_pred, per_instance_seg_pred_res], \
               feed_dict=feed_dict)
@@ -383,6 +390,7 @@ def train():
       printout(flog, '\n<<< Testing on the test dataset ...')
       seg_acc = eval_one_epoch(epoch)
       
+      # Save the variables that achieves the best accuracy to disk.
       if seg_acc > best_seg_acc:
         best_seg_acc = seg_acc
         printout(flog, 'Best validation accuracy: ' + str(seg_acc))

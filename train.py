@@ -1,3 +1,10 @@
+"""
+Training process of linked dynamic graph CNN. We borrow the training code 
+from the DGCNN, and add the code of retraining classifier. 
+Reference code: https://github.com/WangYueFt/dgcnn
+@author: Kuangen Zhang
+
+"""
 import argparse
 import numpy as np
 import tensorflow as tf
@@ -12,7 +19,6 @@ sys.path.append(os.path.join(BASE_DIR, 'utils'))
 sys.path.append(os.path.join(BASE_DIR, 'VisionProcess'))
 import provider
 from FileIO import FileIO
-from datetime import datetime
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--gpu', type=int, default=0, help='GPU to use [default: GPU 0]')
@@ -79,19 +85,21 @@ TRAIN_FILES = provider.getDataFiles( \
 TEST_FILES = provider.getDataFiles(\
     os.path.join(BASE_DIR, folder + '/test_files.txt'))
 
-# Feature file
+# Feature files, which are generated after training the whole network.
+# The extracted feature files are utilized to train the classifier.
 path = 'data/extracted_feature'
 TRAIN_FILES_CLS = provider.getDataFiles( \
     os.path.join(BASE_DIR, path + '/train_files.txt'))
 TEST_FILES_CLS = provider.getDataFiles(\
     os.path.join(BASE_DIR, path + '/test_files.txt'))
 
+# Print the log contents to a txt file.
 def log_string(out_str):
     LOG_FOUT.write(out_str+'\n')
     LOG_FOUT.flush()
     print(out_str)
 
-
+# Decay the learning rate to avoid oscillation.
 def get_learning_rate(batch):
     learning_rate = tf.train.exponential_decay(
                         BASE_LEARNING_RATE,  # Base learning rate.
@@ -119,8 +127,9 @@ def train():
             is_training_pl = tf.placeholder(tf.bool, shape=())
             print(is_training_pl)
             
-            # Note the global_step=batch parameter to minimize. 
-            # That tells the optimizer to helpfully increment the 'batch' parameter for you every time it trains.
+            # Note the global_step = batch parameter to minimize. 
+            # That tells the optimizer to helpfully increment the 'batch' 
+            # parameter for you every time it trains.
             batch = tf.Variable(0)
             bn_decay = get_bn_decay(batch)
             tf.summary.scalar('bn_decay', bn_decay)
@@ -129,12 +138,12 @@ def train():
             pred,layers = MODEL.get_model(pointclouds_pl, is_training_pl, bn_decay=bn_decay)
             loss = MODEL.get_loss(pred, labels_pl)
             tf.summary.scalar('loss', loss)
-
+            
             correct = tf.equal(tf.argmax(pred, 1), tf.to_int64(labels_pl))
             accuracy = tf.reduce_sum(tf.cast(correct, tf.float32)) / float(BATCH_SIZE)
             tf.summary.scalar('accuracy', accuracy)
 
-            # Get training operator
+            # Get training optimizer
             learning_rate = get_learning_rate(batch)
             tf.summary.scalar('learning_rate', learning_rate)
             if OPTIMIZER == 'momentum':
@@ -185,16 +194,21 @@ def train():
         for epoch in range(MAX_EPOCH):
             log_string('**** EPOCH %03d ****' % (epoch))
             sys.stdout.flush()
-             
+            
             train_one_epoch(sess, ops, train_writer)
             accuracy = eval_one_epoch(sess, ops, test_writer)
+            # Save the network that achieves the best validation accuracy.
+            # There are only training set and validation set for ModelNet40. 
+            # Previous researchers report their best accuracy rather than 
+            # final accuracy because they also regard the testing set as 
+            # validation set.
             if accuracy > best_accuracy:
                 best_accuracy = accuracy
                 save_path = saver.save(sess, os.path.join(
                         LOG_DIR, FLAGS.model+ NAME_MODEL +"_model.ckpt"))
                 log_string("Best accuracy, model saved in file: %s" % save_path)
         
-#         Save the extracted global feature 
+        # Save the extracted global feature 
         save_global_feature(sess, ops, saver,layers)
                 
 
@@ -208,8 +222,10 @@ def train_one_epoch(sess, ops, train_writer):
     
     for fn in range(len(TRAIN_FILES)):
         log_string('----' + str(fn) + '-----')
+        # Load data and labels from the files.
         current_data, current_label = provider.loadDataFile(TRAIN_FILES[train_file_idxs[fn]])
         current_data = current_data[:,0:NUM_POINT,:]
+        # Shuffle the data in the training set.
         current_data, current_label, _ = provider.shuffle_data(current_data, np.squeeze(current_label))            
         current_label = np.squeeze(current_label)
         
@@ -224,18 +240,23 @@ def train_one_epoch(sess, ops, train_writer):
             start_idx = batch_idx * BATCH_SIZE
             end_idx = (batch_idx+1) * BATCH_SIZE
             
-            # Augment batched point clouds by rotation and jittering
+            # Augment batched point clouds by rotating, jittering, shifting, 
+            # and scaling.
             rotated_data = provider.rotate_point_cloud(current_data[start_idx:end_idx, :, :])
             jittered_data = provider.jitter_point_cloud(rotated_data)
             jittered_data = provider.random_scale_point_cloud(jittered_data)
             jittered_data = provider.rotate_perturbation_point_cloud(jittered_data)
             jittered_data = provider.shift_point_cloud(jittered_data)
-
+            
+            # Input the augmented point cloud and labels to the graph.
             feed_dict = {ops['pointclouds_pl']: jittered_data,
                          ops['labels_pl']: current_label[start_idx:end_idx],
                          ops['is_training_pl']: is_training,}
+            
+            # Calculate the loss and accuracy of the input batch data.            
             summary, step, _, loss_val, pred_val = sess.run([ops['merged'], ops['step'],
                 ops['train_op'], ops['loss'], ops['pred']], feed_dict=feed_dict)
+            
             train_writer.add_summary(summary, step)
             pred_val = np.argmax(pred_val, 1)
             correct = np.sum(pred_val == current_label[start_idx:end_idx])
@@ -268,10 +289,11 @@ def eval_one_epoch(sess, ops, test_writer):
         for batch_idx in range(num_batches):
             start_idx = batch_idx * BATCH_SIZE
             end_idx = (batch_idx+1) * BATCH_SIZE
-
+            # Input the point cloud and labels to the graph.
             feed_dict = {ops['pointclouds_pl']: current_data[start_idx:end_idx, :, :],
                          ops['labels_pl']: current_label[start_idx:end_idx],
                          ops['is_training_pl']: is_training}
+            # Calculate the loss and classification scores.
             summary, step, loss_val, pred_val = sess.run([ops['merged'], ops['step'],
                 ops['loss'], ops['pred']], feed_dict=feed_dict)
             pred_val = np.argmax(pred_val, 1)
@@ -293,44 +315,46 @@ def save_global_feature(sess, ops, saver, layers):
     feature_name = 'global_feature'
     file_name_vec = ['train_' + feature_name, 'test_' + feature_name]
     Files_vec = [TRAIN_FILES, TEST_FILES]
-    #Restore variables from disk.
+    #Restore variables that achieves the best validation accuracy from the disk.
     saver.restore(sess, os.path.join(LOG_DIR, FLAGS.model+
-                                         str(NAME_MODEL)+ "_model.ckpt"))
+                                         str(NAME_MODEL)+ "_model.ckpt")) 
+    log_string("Model restored.") 
+    is_training = False
+    # Extract the features from training set and validation set.
     for r in range(2):
         file_name = file_name_vec[r]
         Files = Files_vec[r]
-        log_string("Model restored.")
-        is_training = False
         global_feature_vec = np.array([])
         label_vec = np.array([])
-        for i in range(1):
-            for fn in range(len(Files)):
-                log_string('----'+str(fn)+'----')
-                current_data, current_label = provider.loadDataFile(Files[fn])
-                current_data = current_data[:,0:NUM_POINT,:]
-                current_label = np.squeeze(current_label)
-                print(current_data.shape)
+        for fn in range(len(Files)):
+            log_string('----'+str(fn)+'----')
+            current_data, current_label = provider.loadDataFile(Files[fn])
+            current_data = current_data[:,0:NUM_POINT,:]
+            current_label = np.squeeze(current_label)
+            print(current_data.shape)
+            
+            file_size = current_data.shape[0]
+            num_batches = file_size // BATCH_SIZE
+            print(file_size)
+            
+            for batch_idx in range(num_batches):
+                start_idx = batch_idx * BATCH_SIZE
+                end_idx = (batch_idx+1) * BATCH_SIZE
+                # Input the point cloud and labels to the graph.
+                feed_dict = {ops['pointclouds_pl']: current_data[start_idx:end_idx, :, :],
+                             ops['labels_pl']: current_label[start_idx:end_idx],
+                             ops['is_training_pl']: is_training}
+                # Extract the global features from the input batch data.
+                global_feature = np.squeeze(layers[feature_name].eval(
+                    feed_dict=feed_dict,session=sess))
                 
-                file_size = current_data.shape[0]
-                num_batches = file_size // BATCH_SIZE
-                print(file_size)
-                
-                for batch_idx in range(num_batches):
-                    start_idx = batch_idx * BATCH_SIZE
-                    end_idx = (batch_idx+1) * BATCH_SIZE
-                    feed_dict = {ops['pointclouds_pl']: current_data[start_idx:end_idx, :, :],
-                                 ops['labels_pl']: current_label[start_idx:end_idx],
-                                 ops['is_training_pl']: is_training}
-                    
-                    global_feature = np.squeeze(layers[feature_name].eval(
-                        feed_dict=feed_dict,session=sess))
-                    
-                    if label_vec.shape[0] == 0:
-                        global_feature_vec = global_feature
-                        label_vec = current_label[start_idx:end_idx]
-                    else:
-                        global_feature_vec = np.concatenate([global_feature_vec, global_feature])
-                        label_vec = np.concatenate([label_vec, current_label[start_idx:end_idx]])      
+                if label_vec.shape[0] == 0:
+                    global_feature_vec = global_feature
+                    label_vec = current_label[start_idx:end_idx]
+                else:
+                    global_feature_vec = np.concatenate([global_feature_vec, global_feature])
+                    label_vec = np.concatenate([label_vec, current_label[start_idx:end_idx]])      
+        # Save all global features to the disk.
         FileIO.write_h5('data/extracted_feature/' + file_name + '.h5', global_feature_vec, label_vec)
 
 def train_classifier():
@@ -359,6 +383,8 @@ def train_classifier():
             # Get training operator
             learning_rate = get_learning_rate(batch)
             tf.summary.scalar('learning_rate', learning_rate)
+            # We change the optimier to momentum. Because the momentum can 
+            # find better parameters
             if OPTIMIZER_CLS == 'momentum':
                 optimizer = tf.train.MomentumOptimizer(learning_rate, momentum=MOMENTUM)
             elif OPTIMIZER_CLS == 'adam':
@@ -401,6 +427,9 @@ def train_classifier():
                'merged': merged,
                'step': batch}
         
+        # We retrain the classifier three times to see the stable accuracy.
+        # It takes much less time to retrain the classifier than to 
+        # train the whole network. 
         idx_num = 3
         best_accuracy_vec = np.zeros(idx_num)
         class_accuracy_vec = np.zeros(idx_num)
@@ -430,7 +459,7 @@ def train_classifier():
                 train_classifier_one_epoch(sess, ops, train_writer)
                 accuracy, class_accuracy = eval_classifier_one_epoch(sess, ops, test_writer)
     
-                # Save the variables to disk.
+                # Save the variables that achieves the best accuracy to disk.
                 if accuracy > best_accuracy:
                     best_accuracy = accuracy
                     best_accuracy_vec[idx:] = accuracy
@@ -439,7 +468,6 @@ def train_classifier():
                     log_string('Class accuracy,: %f'% class_accuracy)
                     save_path = saver.save(sess, os.path.join(LOG_DIR, 
                                                 FLAGS.model_classifier+str(NAME_MODEL)+"_model.ckpt"))
-        
         
         log_string('Max of best accuracy,: %f'% np.max(best_accuracy_vec))
         print(best_accuracy_vec)
@@ -452,11 +480,13 @@ def train_classifier_one_epoch(sess, ops, train_writer):
     """ ops: dict mapping from string to tf ops """
     is_training = True
     
-    # Shuffle train files
-    for fn in range(len(TRAIN_FILES_CLS)):
+    for fn in range(len(TRAIN_FILES_CLS)):    
+        # Shuffle train files
         current_data, current_label = provider.loadDataFile(TRAIN_FILES_CLS[fn]) 
         current_data, current_label, _ = provider.shuffle_data(current_data, np.squeeze(current_label))
         current_label = np.squeeze(current_label)
+        # I find that we can increase the accuracy by about 0.2% after 
+        # padding zero vectors, but I do not know the reason.
         current_data = np.concatenate([current_data, np.zeros((
                 current_data.shape[0], NUM_FEATURE_CLS - current_data.shape[1]))], axis  = -1)
         file_size = current_data.shape[0]
@@ -470,11 +500,14 @@ def train_classifier_one_epoch(sess, ops, train_writer):
             start_idx = batch_idx * BATCH_SIZE
             end_idx = (batch_idx+1) * BATCH_SIZE
             
+            # Input the features and labels to the graph.
             feed_dict = {ops['pointclouds_pl']: current_data[start_idx:end_idx,...],
                          ops['labels_pl']: current_label[start_idx:end_idx],
                          ops['is_training_pl']: is_training,}
+            # Calculate the loss and classification scores.
             summary, step, _, loss_val, pred_val = sess.run([ops['merged'], ops['step'],
                 ops['train_op'], ops['loss'], ops['pred']], feed_dict=feed_dict)
+                    
             train_writer.add_summary(summary, step)
             pred_val = np.argmax(pred_val, 1)
             correct = np.sum(pred_val == current_label[start_idx:end_idx])
@@ -493,8 +526,9 @@ def eval_classifier_one_epoch(sess, ops, test_writer):
     file_size_sum = 0
     for fn in range(len(TEST_FILES_CLS)):
         current_data, current_label = provider.loadDataFile(TEST_FILES_CLS[fn])
-        
         current_label = np.squeeze(current_label)
+        # I find that we can increase the accuracy by about 0.2% after 
+        # padding zero vectors, but I do not know the reason.
         current_data = np.concatenate([current_data, np.zeros((
                 current_data.shape[0], NUM_FEATURE_CLS - current_data.shape[1]))], axis  = -1)
         
@@ -504,9 +538,11 @@ def eval_classifier_one_epoch(sess, ops, test_writer):
         for batch_idx in range(num_batches):
             start_idx = batch_idx * BATCH_SIZE
             end_idx = (batch_idx+1) * BATCH_SIZE
+            # Input the features and labels to the graph.
             feed_dict = {ops['pointclouds_pl']: current_data[start_idx:end_idx,:],
                          ops['labels_pl']: current_label[start_idx:end_idx],
                          ops['is_training_pl']: is_training}
+            # Calculate the loss and classification scores.
             summary, step, loss_val, pred_val = sess.run([ops['merged'], ops['step'],
                 ops['loss'], ops['pred']], feed_dict=feed_dict)
             
