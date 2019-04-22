@@ -19,7 +19,7 @@ import tf_util
 def calc_ldgcnn_feature(point_cloud, is_training, weight_decay, bn_decay = None):
     # B: batch size; N: number of points, C: channels; k: number of nearest neighbors
     # point_cloud: B*N*3
-    layer_name = 'fast_dgcnn_seg'
+    layer_name = 'ldgcnn_seg'
     k = 30
     # adj_matrix: B*N*N
     adj_matrix = tf_util.pairwise_distance(point_cloud)

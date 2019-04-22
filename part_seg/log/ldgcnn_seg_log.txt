@@ -1,2247 +1,2946 @@
 
->>> Training for the epoch 0/201 ...
-	Training Total Mean_loss: 1.289955
-		Training Seg Accuracy: 0.674166
-	Training Total Mean_loss: 0.593266
-		Training Seg Accuracy: 0.824714
-	Training Total Mean_loss: 0.389879
-		Training Seg Accuracy: 0.874139
-	Training Total Mean_loss: 0.405157
-		Training Seg Accuracy: 0.866358
-	Training Total Mean_loss: 0.421342
-		Training Seg Accuracy: 0.866309
-	Training Total Mean_loss: 0.344117
-		Training Seg Accuracy: 0.887052
+>>> Training for the epoch 0/180 ...
+	Training Total Mean_loss: 1.321991
+		Training Seg Accuracy: 0.668157
+	Training Total Mean_loss: 0.669221
+		Training Seg Accuracy: 0.804533
+	Training Total Mean_loss: 0.435877
+		Training Seg Accuracy: 0.866078
+	Training Total Mean_loss: 0.430395
+		Training Seg Accuracy: 0.859570
+	Training Total Mean_loss: 0.376931
+		Training Seg Accuracy: 0.874284
+	Training Total Mean_loss: 0.362839
+		Training Seg Accuracy: 0.880032
 
 <<< Testing on the test dataset ...
-Best validation accuracy: 0.9074172646190987
+Best validation accuracy: 0.9029947043488465
 Successfully store the checkpoint model into train_results/trained_models/epoch_0.ckpt
 
->>> Training for the epoch 1/201 ...
-	Training Total Mean_loss: 0.322806
-		Training Seg Accuracy: 0.893793
-	Training Total Mean_loss: 0.284636
-		Training Seg Accuracy: 0.902768
-	Training Total Mean_loss: 0.292636
-		Training Seg Accuracy: 0.901557
-	Training Total Mean_loss: 0.254253
-		Training Seg Accuracy: 0.913940
-	Training Total Mean_loss: 0.277011
-		Training Seg Accuracy: 0.906761
-	Training Total Mean_loss: 0.293740
-		Training Seg Accuracy: 0.901973
+>>> Training for the epoch 1/180 ...
+	Training Total Mean_loss: 0.340420
+		Training Seg Accuracy: 0.885828
+	Training Total Mean_loss: 0.284225
+		Training Seg Accuracy: 0.904522
+	Training Total Mean_loss: 0.309053
+		Training Seg Accuracy: 0.893563
+	Training Total Mean_loss: 0.297085
+		Training Seg Accuracy: 0.901215
+	Training Total Mean_loss: 0.298945
+		Training Seg Accuracy: 0.898711
+	Training Total Mean_loss: 0.270953
+		Training Seg Accuracy: 0.907758
 
 <<< Testing on the test dataset ...
-Best validation accuracy: 0.9238367694641899
+Best validation accuracy: 0.9145494714826985
 Successfully store the checkpoint model into train_results/trained_models/epoch_1.ckpt
 
->>> Training for the epoch 2/201 ...
-	Training Total Mean_loss: 0.260621
-		Training Seg Accuracy: 0.909863
-	Training Total Mean_loss: 0.245844
-		Training Seg Accuracy: 0.915252
-	Training Total Mean_loss: 0.260456
-		Training Seg Accuracy: 0.911201
-	Training Total Mean_loss: 0.290587
-		Training Seg Accuracy: 0.899412
-	Training Total Mean_loss: 0.254089
-		Training Seg Accuracy: 0.912853
-	Training Total Mean_loss: 0.243155
-		Training Seg Accuracy: 0.919871
+>>> Training for the epoch 2/180 ...
+	Training Total Mean_loss: 0.247400
+		Training Seg Accuracy: 0.916793
+	Training Total Mean_loss: 0.265575
+		Training Seg Accuracy: 0.910244
+	Training Total Mean_loss: 0.269322
+		Training Seg Accuracy: 0.910962
+	Training Total Mean_loss: 0.262824
+		Training Seg Accuracy: 0.910869
+	Training Total Mean_loss: 0.284463
+		Training Seg Accuracy: 0.904193
+	Training Total Mean_loss: 0.267244
+		Training Seg Accuracy: 0.909273
 
 <<< Testing on the test dataset ...
-Best validation accuracy: 0.9266040458188036
+Best validation accuracy: 0.9226239249429989
 Successfully store the checkpoint model into train_results/trained_models/epoch_2.ckpt
 
->>> Training for the epoch 3/201 ...
-	Training Total Mean_loss: 0.298555
-		Training Seg Accuracy: 0.898853
-	Training Total Mean_loss: 0.248845
-		Training Seg Accuracy: 0.919668
-	Training Total Mean_loss: 0.228386
-		Training Seg Accuracy: 0.921087
-	Training Total Mean_loss: 0.243420
-		Training Seg Accuracy: 0.918693
-	Training Total Mean_loss: 0.249877
-		Training Seg Accuracy: 0.914539
-	Training Total Mean_loss: 0.260296
-		Training Seg Accuracy: 0.911962
+>>> Training for the epoch 3/180 ...
+	Training Total Mean_loss: 0.235865
+		Training Seg Accuracy: 0.917162
+	Training Total Mean_loss: 0.252795
+		Training Seg Accuracy: 0.914057
+	Training Total Mean_loss: 0.242264
+		Training Seg Accuracy: 0.916479
+	Training Total Mean_loss: 0.236828
+		Training Seg Accuracy: 0.919260
+	Training Total Mean_loss: 0.284689
+		Training Seg Accuracy: 0.903969
+	Training Total Mean_loss: 0.232381
+		Training Seg Accuracy: 0.919546
 
 <<< Testing on the test dataset ...
-Best validation accuracy: 0.9273142016496781
+Best validation accuracy: 0.9314074864203327
 Successfully store the checkpoint model into train_results/trained_models/epoch_3.ckpt
 
->>> Training for the epoch 4/201 ...
-	Training Total Mean_loss: 0.235746
-		Training Seg Accuracy: 0.917717
-	Training Total Mean_loss: 0.223560
-		Training Seg Accuracy: 0.924833
-	Training Total Mean_loss: 0.214252
-		Training Seg Accuracy: 0.926158
-	Training Total Mean_loss: 0.230717
-		Training Seg Accuracy: 0.919512
-	Training Total Mean_loss: 0.235895
-		Training Seg Accuracy: 0.918969
-	Training Total Mean_loss: 0.240402
-		Training Seg Accuracy: 0.918562
+>>> Training for the epoch 4/180 ...
+	Training Total Mean_loss: 0.239060
+		Training Seg Accuracy: 0.918998
+	Training Total Mean_loss: 0.234460
+		Training Seg Accuracy: 0.919353
+	Training Total Mean_loss: 0.226495
+		Training Seg Accuracy: 0.921733
+	Training Total Mean_loss: 0.251805
+		Training Seg Accuracy: 0.914587
+	Training Total Mean_loss: 0.239387
+		Training Seg Accuracy: 0.917176
+	Training Total Mean_loss: 0.221041
+		Training Seg Accuracy: 0.924872
 
 <<< Testing on the test dataset ...
-Best validation accuracy: 0.9316073569105419
-Successfully store the checkpoint model into train_results/trained_models/epoch_4.ckpt
 
->>> Training for the epoch 5/201 ...
-	Training Total Mean_loss: 0.246150
-		Training Seg Accuracy: 0.913585
-	Training Total Mean_loss: 0.218905
-		Training Seg Accuracy: 0.923697
-	Training Total Mean_loss: 0.218904
-		Training Seg Accuracy: 0.925984
-	Training Total Mean_loss: 0.231640
-		Training Seg Accuracy: 0.922868
-	Training Total Mean_loss: 0.217178
-		Training Seg Accuracy: 0.925134
-	Training Total Mean_loss: 0.219916
-		Training Seg Accuracy: 0.925458
+>>> Training for the epoch 5/180 ...
+	Training Total Mean_loss: 0.249637
+		Training Seg Accuracy: 0.915053
+	Training Total Mean_loss: 0.226350
+		Training Seg Accuracy: 0.922201
+	Training Total Mean_loss: 0.205231
+		Training Seg Accuracy: 0.930126
+	Training Total Mean_loss: 0.230859
+		Training Seg Accuracy: 0.921409
+	Training Total Mean_loss: 0.240167
+		Training Seg Accuracy: 0.916188
+	Training Total Mean_loss: 0.221707
+		Training Seg Accuracy: 0.922584
 
 <<< Testing on the test dataset ...
-Best validation accuracy: 0.9349118998122318
+Best validation accuracy: 0.9357768701381438
 Successfully store the checkpoint model into train_results/trained_models/epoch_5.ckpt
 
->>> Training for the epoch 6/201 ...
-	Training Total Mean_loss: 0.222728
-		Training Seg Accuracy: 0.922762
-	Training Total Mean_loss: 0.216440
-		Training Seg Accuracy: 0.925287
-	Training Total Mean_loss: 0.231653
-		Training Seg Accuracy: 0.923294
-	Training Total Mean_loss: 0.195532
-		Training Seg Accuracy: 0.933489
-	Training Total Mean_loss: 0.216052
-		Training Seg Accuracy: 0.923630
-	Training Total Mean_loss: 0.208197
-		Training Seg Accuracy: 0.928139
+>>> Training for the epoch 6/180 ...
+	Training Total Mean_loss: 0.240066
+		Training Seg Accuracy: 0.916672
+	Training Total Mean_loss: 0.215835
+		Training Seg Accuracy: 0.926573
+	Training Total Mean_loss: 0.206699
+		Training Seg Accuracy: 0.927913
+	Training Total Mean_loss: 0.239698
+		Training Seg Accuracy: 0.920998
+	Training Total Mean_loss: 0.210428
+		Training Seg Accuracy: 0.928633
+	Training Total Mean_loss: 0.216838
+		Training Seg Accuracy: 0.925126
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 7/201 ...
-	Training Total Mean_loss: 0.192714
-		Training Seg Accuracy: 0.932390
-	Training Total Mean_loss: 0.228214
-		Training Seg Accuracy: 0.923971
-	Training Total Mean_loss: 0.224411
-		Training Seg Accuracy: 0.922194
-	Training Total Mean_loss: 0.208143
-		Training Seg Accuracy: 0.926941
-	Training Total Mean_loss: 0.229074
-		Training Seg Accuracy: 0.923768
-	Training Total Mean_loss: 0.218856
-		Training Seg Accuracy: 0.923339
+>>> Training for the epoch 7/180 ...
+	Training Total Mean_loss: 0.209939
+		Training Seg Accuracy: 0.926279
+	Training Total Mean_loss: 0.211015
+		Training Seg Accuracy: 0.925109
+	Training Total Mean_loss: 0.195434
+		Training Seg Accuracy: 0.931388
+	Training Total Mean_loss: 0.200267
+		Training Seg Accuracy: 0.930458
+	Training Total Mean_loss: 0.201667
+		Training Seg Accuracy: 0.929754
+	Training Total Mean_loss: 0.226910
+		Training Seg Accuracy: 0.923958
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 8/201 ...
-	Training Total Mean_loss: 0.200040
-		Training Seg Accuracy: 0.929083
-	Training Total Mean_loss: 0.204501
-		Training Seg Accuracy: 0.930108
-	Training Total Mean_loss: 0.187926
-		Training Seg Accuracy: 0.933874
-	Training Total Mean_loss: 0.209880
-		Training Seg Accuracy: 0.928134
-	Training Total Mean_loss: 0.208495
-		Training Seg Accuracy: 0.929278
-	Training Total Mean_loss: 0.231812
-		Training Seg Accuracy: 0.921215
+>>> Training for the epoch 8/180 ...
+	Training Total Mean_loss: 0.210358
+		Training Seg Accuracy: 0.928546
+	Training Total Mean_loss: 0.203435
+		Training Seg Accuracy: 0.929508
+	Training Total Mean_loss: 0.204637
+		Training Seg Accuracy: 0.929373
+	Training Total Mean_loss: 0.201659
+		Training Seg Accuracy: 0.929921
+	Training Total Mean_loss: 0.202544
+		Training Seg Accuracy: 0.930562
+	Training Total Mean_loss: 0.221057
+		Training Seg Accuracy: 0.923753
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 9/201 ...
-	Training Total Mean_loss: 0.217791
-		Training Seg Accuracy: 0.925477
-	Training Total Mean_loss: 0.198068
-		Training Seg Accuracy: 0.931962
-	Training Total Mean_loss: 0.224195
-		Training Seg Accuracy: 0.923822
-	Training Total Mean_loss: 0.216776
-		Training Seg Accuracy: 0.925582
-	Training Total Mean_loss: 0.200442
-		Training Seg Accuracy: 0.932311
-	Training Total Mean_loss: 0.201124
-		Training Seg Accuracy: 0.929681
+>>> Training for the epoch 9/180 ...
+	Training Total Mean_loss: 0.213052
+		Training Seg Accuracy: 0.926249
+	Training Total Mean_loss: 0.190742
+		Training Seg Accuracy: 0.933581
+	Training Total Mean_loss: 0.194785
+		Training Seg Accuracy: 0.931055
+	Training Total Mean_loss: 0.207032
+		Training Seg Accuracy: 0.927530
+	Training Total Mean_loss: 0.217305
+		Training Seg Accuracy: 0.926058
+	Training Total Mean_loss: 0.207398
+		Training Seg Accuracy: 0.928975
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 10/201 ...
-	Training Total Mean_loss: 0.206399
-		Training Seg Accuracy: 0.929857
-	Training Total Mean_loss: 0.189260
-		Training Seg Accuracy: 0.934187
-	Training Total Mean_loss: 0.216900
-		Training Seg Accuracy: 0.925167
-	Training Total Mean_loss: 0.181519
-		Training Seg Accuracy: 0.936144
-	Training Total Mean_loss: 0.208047
-		Training Seg Accuracy: 0.926268
-	Training Total Mean_loss: 0.195791
-		Training Seg Accuracy: 0.931340
+>>> Training for the epoch 10/180 ...
+	Training Total Mean_loss: 0.193543
+		Training Seg Accuracy: 0.932647
+	Training Total Mean_loss: 0.182618
+		Training Seg Accuracy: 0.936323
+	Training Total Mean_loss: 0.204288
+		Training Seg Accuracy: 0.930662
+	Training Total Mean_loss: 0.193858
+		Training Seg Accuracy: 0.933197
+	Training Total Mean_loss: 0.227223
+		Training Seg Accuracy: 0.926985
+	Training Total Mean_loss: 0.212558
+		Training Seg Accuracy: 0.926622
 
 <<< Testing on the test dataset ...
+Best validation accuracy: 0.9375848729211373
+Successfully store the checkpoint model into train_results/trained_models/epoch_10.ckpt
 
->>> Training for the epoch 11/201 ...
-	Training Total Mean_loss: 0.196576
-		Training Seg Accuracy: 0.930347
-	Training Total Mean_loss: 0.198118
-		Training Seg Accuracy: 0.933801
-	Training Total Mean_loss: 0.214195
-		Training Seg Accuracy: 0.926416
-	Training Total Mean_loss: 0.179814
-		Training Seg Accuracy: 0.936726
-	Training Total Mean_loss: 0.178647
-		Training Seg Accuracy: 0.937519
-	Training Total Mean_loss: 0.190689
-		Training Seg Accuracy: 0.934459
+>>> Training for the epoch 11/180 ...
+	Training Total Mean_loss: 0.190018
+		Training Seg Accuracy: 0.933663
+	Training Total Mean_loss: 0.186570
+		Training Seg Accuracy: 0.934024
+	Training Total Mean_loss: 0.191408
+		Training Seg Accuracy: 0.935228
+	Training Total Mean_loss: 0.184222
+		Training Seg Accuracy: 0.934919
+	Training Total Mean_loss: 0.195401
+		Training Seg Accuracy: 0.932172
+	Training Total Mean_loss: 0.200406
+		Training Seg Accuracy: 0.931518
 
 <<< Testing on the test dataset ...
-Best validation accuracy: 0.9385100925429185
+Best validation accuracy: 0.93990656643978
 Successfully store the checkpoint model into train_results/trained_models/epoch_11.ckpt
 
->>> Training for the epoch 12/201 ...
-	Training Total Mean_loss: 0.207125
-		Training Seg Accuracy: 0.928206
-	Training Total Mean_loss: 0.182364
-		Training Seg Accuracy: 0.936054
-	Training Total Mean_loss: 0.188831
-		Training Seg Accuracy: 0.933387
-	Training Total Mean_loss: 0.179264
-		Training Seg Accuracy: 0.937267
-	Training Total Mean_loss: 0.193746
-		Training Seg Accuracy: 0.933618
-	Training Total Mean_loss: 0.211656
-		Training Seg Accuracy: 0.927034
+>>> Training for the epoch 12/180 ...
+	Training Total Mean_loss: 0.187115
+		Training Seg Accuracy: 0.936100
+	Training Total Mean_loss: 0.215489
+		Training Seg Accuracy: 0.927893
+	Training Total Mean_loss: 0.186132
+		Training Seg Accuracy: 0.935668
+	Training Total Mean_loss: 0.188903
+		Training Seg Accuracy: 0.934119
+	Training Total Mean_loss: 0.167442
+		Training Seg Accuracy: 0.942043
+	Training Total Mean_loss: 0.199423
+		Training Seg Accuracy: 0.930571
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 13/201 ...
-	Training Total Mean_loss: 0.176702
-		Training Seg Accuracy: 0.936818
-	Training Total Mean_loss: 0.190650
-		Training Seg Accuracy: 0.932580
-	Training Total Mean_loss: 0.177564
-		Training Seg Accuracy: 0.938055
-	Training Total Mean_loss: 0.204036
-		Training Seg Accuracy: 0.927250
-	Training Total Mean_loss: 0.191308
-		Training Seg Accuracy: 0.932950
-	Training Total Mean_loss: 0.187673
-		Training Seg Accuracy: 0.933899
+>>> Training for the epoch 13/180 ...
+	Training Total Mean_loss: 0.194325
+		Training Seg Accuracy: 0.931467
+	Training Total Mean_loss: 0.193987
+		Training Seg Accuracy: 0.931688
+	Training Total Mean_loss: 0.185893
+		Training Seg Accuracy: 0.933069
+	Training Total Mean_loss: 0.189231
+		Training Seg Accuracy: 0.934349
+	Training Total Mean_loss: 0.193497
+		Training Seg Accuracy: 0.932597
+	Training Total Mean_loss: 0.188832
+		Training Seg Accuracy: 0.933457
 
 <<< Testing on the test dataset ...
-Best validation accuracy: 0.9398822047679721
+Best validation accuracy: 0.9418541904171137
 Successfully store the checkpoint model into train_results/trained_models/epoch_13.ckpt
 
->>> Training for the epoch 14/201 ...
-	Training Total Mean_loss: 0.187345
-		Training Seg Accuracy: 0.935189
-	Training Total Mean_loss: 0.185923
-		Training Seg Accuracy: 0.934509
-	Training Total Mean_loss: 0.177187
-		Training Seg Accuracy: 0.935929
-	Training Total Mean_loss: 0.180430
-		Training Seg Accuracy: 0.937047
-	Training Total Mean_loss: 0.185452
-		Training Seg Accuracy: 0.933553
-	Training Total Mean_loss: 0.175648
-		Training Seg Accuracy: 0.937015
+>>> Training for the epoch 14/180 ...
+	Training Total Mean_loss: 0.183907
+		Training Seg Accuracy: 0.936475
+	Training Total Mean_loss: 0.182764
+		Training Seg Accuracy: 0.936446
+	Training Total Mean_loss: 0.179447
+		Training Seg Accuracy: 0.938493
+	Training Total Mean_loss: 0.173331
+		Training Seg Accuracy: 0.939659
+	Training Total Mean_loss: 0.198425
+		Training Seg Accuracy: 0.932931
+	Training Total Mean_loss: 0.179984
+		Training Seg Accuracy: 0.936681
 
 <<< Testing on the test dataset ...
+Best validation accuracy: 0.9432606185454667
+Successfully store the checkpoint model into train_results/trained_models/epoch_14.ckpt
 
->>> Training for the epoch 15/201 ...
-	Training Total Mean_loss: 0.185458
-		Training Seg Accuracy: 0.936113
-	Training Total Mean_loss: 0.170913
-		Training Seg Accuracy: 0.938868
-	Training Total Mean_loss: 0.202195
-		Training Seg Accuracy: 0.930586
-	Training Total Mean_loss: 0.186239
-		Training Seg Accuracy: 0.933867
-	Training Total Mean_loss: 0.181850
-		Training Seg Accuracy: 0.934918
-	Training Total Mean_loss: 0.171907
-		Training Seg Accuracy: 0.939880
+>>> Training for the epoch 15/180 ...
+	Training Total Mean_loss: 0.177614
+		Training Seg Accuracy: 0.936557
+	Training Total Mean_loss: 0.170094
+		Training Seg Accuracy: 0.940792
+	Training Total Mean_loss: 0.179137
+		Training Seg Accuracy: 0.936377
+	Training Total Mean_loss: 0.170896
+		Training Seg Accuracy: 0.940519
+	Training Total Mean_loss: 0.187770
+		Training Seg Accuracy: 0.936068
+	Training Total Mean_loss: 0.165635
+		Training Seg Accuracy: 0.941161
 
 <<< Testing on the test dataset ...
-Best validation accuracy: 0.9413232107530848
+Best validation accuracy: 0.943390809415236
 Successfully store the checkpoint model into train_results/trained_models/epoch_15.ckpt
 
->>> Training for the epoch 16/201 ...
-	Training Total Mean_loss: 0.187178
-		Training Seg Accuracy: 0.935627
-	Training Total Mean_loss: 0.186918
-		Training Seg Accuracy: 0.935974
-	Training Total Mean_loss: 0.188247
-		Training Seg Accuracy: 0.934787
-	Training Total Mean_loss: 0.176967
-		Training Seg Accuracy: 0.937091
-	Training Total Mean_loss: 0.178573
-		Training Seg Accuracy: 0.938513
-	Training Total Mean_loss: 0.177092
-		Training Seg Accuracy: 0.937130
-
-<<< Testing on the test dataset ...
-Best validation accuracy: 0.94235661715397
-Successfully store the checkpoint model into train_results/trained_models/epoch_16.ckpt
-
->>> Training for the epoch 17/201 ...
-	Training Total Mean_loss: 0.167315
-		Training Seg Accuracy: 0.940292
-	Training Total Mean_loss: 0.184722
-		Training Seg Accuracy: 0.937036
-	Training Total Mean_loss: 0.172587
-		Training Seg Accuracy: 0.939331
-	Training Total Mean_loss: 0.160947
-		Training Seg Accuracy: 0.941985
-	Training Total Mean_loss: 0.188517
-		Training Seg Accuracy: 0.933251
-	Training Total Mean_loss: 0.164047
-		Training Seg Accuracy: 0.941987
+>>> Training for the epoch 16/180 ...
+	Training Total Mean_loss: 0.179279
+		Training Seg Accuracy: 0.937978
+	Training Total Mean_loss: 0.178976
+		Training Seg Accuracy: 0.939179
+	Training Total Mean_loss: 0.171836
+		Training Seg Accuracy: 0.940761
+	Training Total Mean_loss: 0.180333
+		Training Seg Accuracy: 0.936181
+	Training Total Mean_loss: 0.202916
+		Training Seg Accuracy: 0.931171
+	Training Total Mean_loss: 0.178238
+		Training Seg Accuracy: 0.937784
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 18/201 ...
-	Training Total Mean_loss: 0.168794
-		Training Seg Accuracy: 0.940149
-	Training Total Mean_loss: 0.176774
-		Training Seg Accuracy: 0.937942
-	Training Total Mean_loss: 0.199927
-		Training Seg Accuracy: 0.928936
-	Training Total Mean_loss: 0.187755
-		Training Seg Accuracy: 0.933567
-	Training Total Mean_loss: 0.188176
-		Training Seg Accuracy: 0.934763
-	Training Total Mean_loss: 0.179929
-		Training Seg Accuracy: 0.937317
+>>> Training for the epoch 17/180 ...
+	Training Total Mean_loss: 0.179168
+		Training Seg Accuracy: 0.937832
+	Training Total Mean_loss: 0.165042
+		Training Seg Accuracy: 0.941980
+	Training Total Mean_loss: 0.171983
+		Training Seg Accuracy: 0.938229
+	Training Total Mean_loss: 0.193055
+		Training Seg Accuracy: 0.932712
+	Training Total Mean_loss: 0.187304
+		Training Seg Accuracy: 0.937117
+	Training Total Mean_loss: 0.165996
+		Training Seg Accuracy: 0.942102
 
 <<< Testing on the test dataset ...
-Best validation accuracy: 0.9424862841168187
+
+>>> Training for the epoch 18/180 ...
+	Training Total Mean_loss: 0.167088
+		Training Seg Accuracy: 0.940072
+	Training Total Mean_loss: 0.194485
+		Training Seg Accuracy: 0.933125
+	Training Total Mean_loss: 0.172286
+		Training Seg Accuracy: 0.938604
+	Training Total Mean_loss: 0.159694
+		Training Seg Accuracy: 0.942819
+	Training Total Mean_loss: 0.176810
+		Training Seg Accuracy: 0.937817
+	Training Total Mean_loss: 0.172319
+		Training Seg Accuracy: 0.938967
+
+<<< Testing on the test dataset ...
+Best validation accuracy: 0.9435123558208155
 Successfully store the checkpoint model into train_results/trained_models/epoch_18.ckpt
 
->>> Training for the epoch 19/201 ...
-	Training Total Mean_loss: 0.172517
-		Training Seg Accuracy: 0.939114
-	Training Total Mean_loss: 0.171755
-		Training Seg Accuracy: 0.940138
-	Training Total Mean_loss: 0.170848
-		Training Seg Accuracy: 0.939678
-	Training Total Mean_loss: 0.170088
-		Training Seg Accuracy: 0.940682
-	Training Total Mean_loss: 0.174820
-		Training Seg Accuracy: 0.939445
-	Training Total Mean_loss: 0.187684
-		Training Seg Accuracy: 0.935008
+>>> Training for the epoch 19/180 ...
+	Training Total Mean_loss: 0.165862
+		Training Seg Accuracy: 0.940969
+	Training Total Mean_loss: 0.164344
+		Training Seg Accuracy: 0.942006
+	Training Total Mean_loss: 0.169722
+		Training Seg Accuracy: 0.941540
+	Training Total Mean_loss: 0.177434
+		Training Seg Accuracy: 0.938319
+	Training Total Mean_loss: 0.156716
+		Training Seg Accuracy: 0.944346
+	Training Total Mean_loss: 0.172872
+		Training Seg Accuracy: 0.939758
+
+<<< Testing on the test dataset ...
+Best validation accuracy: 0.9436739811058208
+Successfully store the checkpoint model into train_results/trained_models/epoch_19.ckpt
+
+>>> Training for the epoch 20/180 ...
+	Training Total Mean_loss: 0.186581
+		Training Seg Accuracy: 0.935657
+	Training Total Mean_loss: 0.170129
+		Training Seg Accuracy: 0.939404
+	Training Total Mean_loss: 0.161288
+		Training Seg Accuracy: 0.942802
+	Training Total Mean_loss: 0.167639
+		Training Seg Accuracy: 0.939865
+	Training Total Mean_loss: 0.178141
+		Training Seg Accuracy: 0.937855
+	Training Total Mean_loss: 0.165755
+		Training Seg Accuracy: 0.942734
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 20/201 ...
-	Training Total Mean_loss: 0.174589
-		Training Seg Accuracy: 0.938425
-	Training Total Mean_loss: 0.166056
-		Training Seg Accuracy: 0.940532
-	Training Total Mean_loss: 0.170405
-		Training Seg Accuracy: 0.941720
-	Training Total Mean_loss: 0.176803
-		Training Seg Accuracy: 0.937513
-	Training Total Mean_loss: 0.182565
-		Training Seg Accuracy: 0.935424
-	Training Total Mean_loss: 0.184078
-		Training Seg Accuracy: 0.937294
+>>> Training for the epoch 21/180 ...
+	Training Total Mean_loss: 0.163089
+		Training Seg Accuracy: 0.942571
+	Training Total Mean_loss: 0.176039
+		Training Seg Accuracy: 0.938540
+	Training Total Mean_loss: 0.171033
+		Training Seg Accuracy: 0.940085
+	Training Total Mean_loss: 0.171587
+		Training Seg Accuracy: 0.939878
+	Training Total Mean_loss: 0.157023
+		Training Seg Accuracy: 0.944297
+	Training Total Mean_loss: 0.161544
+		Training Seg Accuracy: 0.942570
 
 <<< Testing on the test dataset ...
-Best validation accuracy: 0.9443592513579667
-Successfully store the checkpoint model into train_results/trained_models/epoch_20.ckpt
+Best validation accuracy: 0.9451275608570279
+Successfully store the checkpoint model into train_results/trained_models/epoch_21.ckpt
 
->>> Training for the epoch 21/201 ...
-	Training Total Mean_loss: 0.186328
-		Training Seg Accuracy: 0.937019
-	Training Total Mean_loss: 0.202981
-		Training Seg Accuracy: 0.932045
-	Training Total Mean_loss: 0.164828
-		Training Seg Accuracy: 0.941404
-	Training Total Mean_loss: 0.160470
-		Training Seg Accuracy: 0.943895
-	Training Total Mean_loss: 0.168592
-		Training Seg Accuracy: 0.940365
-	Training Total Mean_loss: 0.181523
-		Training Seg Accuracy: 0.937352
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 22/201 ...
-	Training Total Mean_loss: 0.172681
-		Training Seg Accuracy: 0.940218
-	Training Total Mean_loss: 0.172981
-		Training Seg Accuracy: 0.938116
-	Training Total Mean_loss: 0.158856
-		Training Seg Accuracy: 0.942926
-	Training Total Mean_loss: 0.165728
-		Training Seg Accuracy: 0.941235
-	Training Total Mean_loss: 0.165192
-		Training Seg Accuracy: 0.940395
-	Training Total Mean_loss: 0.171073
-		Training Seg Accuracy: 0.939037
+>>> Training for the epoch 22/180 ...
+	Training Total Mean_loss: 0.180590
+		Training Seg Accuracy: 0.936899
+	Training Total Mean_loss: 0.152403
+		Training Seg Accuracy: 0.946127
+	Training Total Mean_loss: 0.164002
+		Training Seg Accuracy: 0.942436
+	Training Total Mean_loss: 0.167711
+		Training Seg Accuracy: 0.942199
+	Training Total Mean_loss: 0.155253
+		Training Seg Accuracy: 0.945421
+	Training Total Mean_loss: 0.175046
+		Training Seg Accuracy: 0.938255
 
 <<< Testing on the test dataset ...
+Best validation accuracy: 0.9456347027561696
+Successfully store the checkpoint model into train_results/trained_models/epoch_22.ckpt
 
->>> Training for the epoch 23/201 ...
-	Training Total Mean_loss: 0.165944
-		Training Seg Accuracy: 0.941172
-	Training Total Mean_loss: 0.156555
-		Training Seg Accuracy: 0.945031
-	Training Total Mean_loss: 0.181266
-		Training Seg Accuracy: 0.936821
-	Training Total Mean_loss: 0.161151
-		Training Seg Accuracy: 0.944122
-	Training Total Mean_loss: 0.176983
-		Training Seg Accuracy: 0.937871
-	Training Total Mean_loss: 0.166174
-		Training Seg Accuracy: 0.941493
-
-<<< Testing on the test dataset ...
-Best validation accuracy: 0.9444320744199303
-Successfully store the checkpoint model into train_results/trained_models/epoch_23.ckpt
-
->>> Training for the epoch 24/201 ...
-	Training Total Mean_loss: 0.171135
-		Training Seg Accuracy: 0.939111
-	Training Total Mean_loss: 0.160710
-		Training Seg Accuracy: 0.942650
-	Training Total Mean_loss: 0.169308
-		Training Seg Accuracy: 0.939992
-	Training Total Mean_loss: 0.173850
-		Training Seg Accuracy: 0.938100
-	Training Total Mean_loss: 0.168935
-		Training Seg Accuracy: 0.941442
-	Training Total Mean_loss: 0.159821
-		Training Seg Accuracy: 0.942761
+>>> Training for the epoch 23/180 ...
+	Training Total Mean_loss: 0.201176
+		Training Seg Accuracy: 0.932413
+	Training Total Mean_loss: 0.163957
+		Training Seg Accuracy: 0.941432
+	Training Total Mean_loss: 0.152342
+		Training Seg Accuracy: 0.944844
+	Training Total Mean_loss: 0.174383
+		Training Seg Accuracy: 0.938595
+	Training Total Mean_loss: 0.154873
+		Training Seg Accuracy: 0.945410
+	Training Total Mean_loss: 0.166710
+		Training Seg Accuracy: 0.939488
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 25/201 ...
-	Training Total Mean_loss: 0.165256
-		Training Seg Accuracy: 0.942082
-	Training Total Mean_loss: 0.165419
-		Training Seg Accuracy: 0.941145
-	Training Total Mean_loss: 0.165063
-		Training Seg Accuracy: 0.942365
-	Training Total Mean_loss: 0.157582
-		Training Seg Accuracy: 0.944789
-	Training Total Mean_loss: 0.162753
-		Training Seg Accuracy: 0.943045
-	Training Total Mean_loss: 0.206234
-		Training Seg Accuracy: 0.934025
+>>> Training for the epoch 24/180 ...
+	Training Total Mean_loss: 0.172182
+		Training Seg Accuracy: 0.941020
+	Training Total Mean_loss: 0.152603
+		Training Seg Accuracy: 0.944777
+	Training Total Mean_loss: 0.167158
+		Training Seg Accuracy: 0.943160
+	Training Total Mean_loss: 0.156155
+		Training Seg Accuracy: 0.944742
+	Training Total Mean_loss: 0.171962
+		Training Seg Accuracy: 0.939408
+	Training Total Mean_loss: 0.164371
+		Training Seg Accuracy: 0.943006
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 26/201 ...
-	Training Total Mean_loss: 0.166856
-		Training Seg Accuracy: 0.940260
-	Training Total Mean_loss: 0.162665
-		Training Seg Accuracy: 0.941809
-	Training Total Mean_loss: 0.164699
-		Training Seg Accuracy: 0.941749
-	Training Total Mean_loss: 0.146854
-		Training Seg Accuracy: 0.947351
-	Training Total Mean_loss: 0.163507
-		Training Seg Accuracy: 0.941794
-	Training Total Mean_loss: 0.169109
-		Training Seg Accuracy: 0.941041
+>>> Training for the epoch 25/180 ...
+	Training Total Mean_loss: 0.155307
+		Training Seg Accuracy: 0.945077
+	Training Total Mean_loss: 0.158937
+		Training Seg Accuracy: 0.943543
+	Training Total Mean_loss: 0.173833
+		Training Seg Accuracy: 0.939752
+	Training Total Mean_loss: 0.171404
+		Training Seg Accuracy: 0.939289
+	Training Total Mean_loss: 0.148501
+		Training Seg Accuracy: 0.947982
+	Training Total Mean_loss: 0.171233
+		Training Seg Accuracy: 0.938883
 
 <<< Testing on the test dataset ...
-Best validation accuracy: 0.945426711708691
+
+>>> Training for the epoch 26/180 ...
+	Training Total Mean_loss: 0.160843
+		Training Seg Accuracy: 0.942590
+	Training Total Mean_loss: 0.164618
+		Training Seg Accuracy: 0.942010
+	Training Total Mean_loss: 0.166639
+		Training Seg Accuracy: 0.941364
+	Training Total Mean_loss: 0.150435
+		Training Seg Accuracy: 0.947080
+	Training Total Mean_loss: 0.158666
+		Training Seg Accuracy: 0.942842
+	Training Total Mean_loss: 0.167350
+		Training Seg Accuracy: 0.939962
+
+<<< Testing on the test dataset ...
+Best validation accuracy: 0.9457879455304453
 Successfully store the checkpoint model into train_results/trained_models/epoch_26.ckpt
 
->>> Training for the epoch 27/201 ...
-	Training Total Mean_loss: 0.163697
-		Training Seg Accuracy: 0.941146
-	Training Total Mean_loss: 0.166397
-		Training Seg Accuracy: 0.942055
-	Training Total Mean_loss: 0.154026
-		Training Seg Accuracy: 0.944716
-	Training Total Mean_loss: 0.162648
-		Training Seg Accuracy: 0.942035
-	Training Total Mean_loss: 0.197316
-		Training Seg Accuracy: 0.935723
-	Training Total Mean_loss: 0.175878
-		Training Seg Accuracy: 0.938884
+>>> Training for the epoch 27/180 ...
+	Training Total Mean_loss: 0.157530
+		Training Seg Accuracy: 0.945432
+	Training Total Mean_loss: 0.147172
+		Training Seg Accuracy: 0.946300
+	Training Total Mean_loss: 0.147631
+		Training Seg Accuracy: 0.947307
+	Training Total Mean_loss: 0.162291
+		Training Seg Accuracy: 0.943282
+	Training Total Mean_loss: 0.167521
+		Training Seg Accuracy: 0.941463
+	Training Total Mean_loss: 0.160868
+		Training Seg Accuracy: 0.944778
 
 <<< Testing on the test dataset ...
+Best validation accuracy: 0.9483828565081813
+Successfully store the checkpoint model into train_results/trained_models/epoch_27.ckpt
 
->>> Training for the epoch 28/201 ...
-	Training Total Mean_loss: 0.161861
-		Training Seg Accuracy: 0.943796
-	Training Total Mean_loss: 0.145039
-		Training Seg Accuracy: 0.948332
-	Training Total Mean_loss: 0.147139
-		Training Seg Accuracy: 0.948732
-	Training Total Mean_loss: 0.155550
-		Training Seg Accuracy: 0.944551
-	Training Total Mean_loss: 0.167316
-		Training Seg Accuracy: 0.93970
-3
-	Training Total Mean_loss: 0.164266
-		Training Seg Accuracy: 0.940459
-
-<<< Testing on the test dataset ...
-Best validation accuracy: 0.9461177449369635
-Successfully store the checkpoint model into train_results/trained_models/epoch_28.ckpt
-
->>> Training for the epoch 29/201 ...
-	Training Total Mean_loss: 0.154510
-		Training Seg Accuracy: 0.944500
-	Training Total Mean_loss: 0.155929
-		Training Seg Accuracy: 0.943952
-	Training Total Mean_loss: 0.158959
-		Training Seg Accuracy: 0.943990
-	Training Total Mean_loss: 0.154823
-		Training Seg Accuracy: 0.944789
-	Training Total Mean_loss: 0.176032
-		Training Seg Accuracy: 0.939904
-	Training Total Mean_loss: 0.151679
-		Training Seg Accuracy: 0.946625
-
-<<< Testing on the test dataset ...
-Best validation accuracy: 0.947722471834764
-Successfully store the checkpoint model into train_results/trained_models/epoch_29.ckpt
-
->>> Training for the epoch 30/201 ...
-	Training Total Mean_loss: 0.150487
-		Training Seg Accuracy: 0.945240
-	Training Total Mean_loss: 0.148206
-		Training Seg Accuracy: 0.947758
-	Training Total Mean_loss: 0.145396
-		Training Seg Accuracy: 0.947569
-	Training Total Mean_loss: 0.147523
-		Training Seg Accuracy: 0.948498
-	Training Total Mean_loss: 0.152737
-		Training Seg Accuracy: 0.945815
-	Training Total Mean_loss: 0.166533
-		Training Seg Accuracy: 0.941192
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 31/201 ...
-	Training Total Mean_loss: 0.157606
-		Training Seg Accuracy: 0.943767
-	Training Total Mean_loss: 0.158443
-		Training Seg Accuracy: 0.943264
-	Training Total Mean_loss: 0.152011
-		Training Seg Accuracy: 0.944922
-	Training Total Mean_loss: 0.151473
-		Training Seg Accuracy: 0.945404
-	Training Total Mean_loss: 0.168067
-		Training Seg Accuracy: 0.942132
-	Training Total Mean_loss: 0.162770
-		Training Seg Accuracy: 0.942468
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 32/201 ...
-	Training Total Mean_loss: 0.149329
-		Training Seg Accuracy: 0.946527
-	Training Total Mean_loss: 0.152943
-		Training Seg Accuracy: 0.945591
-	Training Total Mean_loss: 0.148598
-		Training Seg Accuracy: 0.946346
-	Training Total Mean_loss: 0.156131
-		Training Seg Accuracy: 0.943938
-	Training Total Mean_loss: 0.168177
-		Training Seg Accuracy: 0.941773
-	Training Total Mean_loss: 0.173386
-		Training Seg Accuracy: 0.939893
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 33/201 ...
-	Training Total Mean_loss: 0.145865
-		Training Seg Accuracy: 0.947437
-	Training Total Mean_loss: 0.151886
-		Training Seg Accuracy: 0.945306
-	Training Total Mean_loss: 0.160456
-		Training Seg Accuracy: 0.944447
-	Training Total Mean_loss: 0.145613
-		Training Seg Accuracy: 0.947852
-	Training Total Mean_loss: 0.146168
-		Training Seg Accuracy: 0.947329
-	Training Total Mean_loss: 0.151230
-		Training Seg Accuracy: 0.947340
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 34/201 ...
-	Training Total Mean_loss: 0.147932
-		Training Seg Accuracy: 0.947142
-	Training Total Mean_loss: 0.158433
-		Training Seg Accuracy: 0.943949
-	Training Total Mean_loss: 0.156751
-		Training Seg Accuracy: 0.944782
-	Training Total Mean_loss: 0.154616
-		Training Seg Accuracy: 0.945554
-	Training Total Mean_loss: 0.149120
-		Training Seg Accuracy: 0.946239
-	Training Total Mean_loss: 0.153463
-		Training Seg Accuracy: 0.944482
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 35/201 ...
-	Training Total Mean_loss: 0.153958
-		Training Seg Accuracy: 0.944992
-	Training Total Mean_loss: 0.152998
-		Training Seg Accuracy: 0.945724
-	Training Total Mean_loss: 0.150921
-		Training Seg Accuracy: 0.946368
-	Training Total Mean_loss: 0.142874
-		Training Seg Accuracy: 0.948448
-	Training Total Mean_loss: 0.149458
-		Training Seg Accuracy: 0.947113
-	Training Total Mean_loss: 0.148305
-		Training Seg Accuracy: 0.946931
-
-<<< Testing on the test dataset ...
-Best validation accuracy: 0.9480761090061696
-Successfully store the checkpoint model into train_results/trained_models/epoch_35.ckpt
-
->>> Training for the epoch 36/201 ...
-	Training Total Mean_loss: 0.148518
-		Training Seg Accuracy: 0.946753
-	Training Total Mean_loss: 0.136901
-		Training Seg Accuracy: 0.949983
-	Training Total Mean_loss: 0.152559
-		Training Seg Accuracy: 0.945638
-	Training Total Mean_loss: 0.153500
-		Training Seg Accuracy: 0.945540
-	Training Total Mean_loss: 0.145688
-		Training Seg Accuracy: 0.948067
-	Training Total Mean_loss: 0.154462
-		Training Seg Accuracy: 0.946228
-
-<<< Testing on the test dataset ...
-Best validation accuracy: 0.9490348586708691
-Successfully store the checkpoint model into train_results/trained_models/epoch_36.ckpt
-
->>> Training for the epoch 37/201 ...
-	Training Total Mean_loss: 0.145454
-		Training Seg Accuracy: 0.948701
-	Training Total Mean_loss: 0.144842
-		Training Seg Accuracy: 0.948408
-	Training Total Mean_loss: 0.141765
-		Training Seg Accuracy: 0.949288
-	Training Total Mean_loss: 0.142636
-		Training Seg Accuracy: 0.948391
-	Training Total Mean_loss: 0.159281
-		Training Seg Accuracy: 0.942571
-	Training Total Mean_loss: 0.156498
-		Training Seg Accuracy: 0.943965
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 38/201 ...
-	Training Total Mean_loss: 0.158838
-		Training Seg Accuracy: 0.944356
-	Training Total Mean_loss: 0.147890
-		Training Seg Accuracy: 0.947285
-	Training Total Mean_loss: 0.143447
-		Training Seg Accuracy: 0.948373
-	Training Total Mean_loss: 0.162330
-		Training Seg Accuracy: 0.943334
-	Training Total Mean_loss: 0.143606
-		Training Seg Accuracy: 0.947712
-	Training Total Mean_loss: 0.156181
-		Training Seg Accuracy: 0.944125
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 39/201 ...
-	Training Total Mean_loss: 0.146903
-		Training Seg Accuracy: 0.947733
-	Training Total Mean_loss: 0.142967
-		Training Seg Accuracy: 0.947580
-	Training Total Mean_loss: 0.145029
-		Training Seg Accuracy: 0.947449
-	Training Total Mean_loss: 0.155810
-		Training Seg Accuracy: 0.945208
-	Training Total Mean_loss: 0.151385
-		Training Seg Accuracy: 0.945737
-	Training Total Mean_loss: 0.147959
-		Training Seg Accuracy: 0.947119
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 40/201 ...
-	Training Total Mean_loss: 0.138202
-		Training Seg Accuracy: 0.950524
-	Training Total Mean_loss: 0.135318
-		Training Seg Accuracy: 0.951590
-	Training Total Mean_loss: 0.144107
-		Training Seg Accuracy: 0.947367
-	Training Total Mean_loss: 0.150338
-		Training Seg Accuracy: 0.947744
-	Training Total Mean_loss: 0.149606
-		Training Seg Accuracy: 0.946777
-	Training Total Mean_loss: 0.143045
-		Training Seg Accuracy: 0.948723
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 41/201 ...
-	Training Total Mean_loss: 0.137488
-		Training Seg Accuracy: 0.950885
-	Training Total Mean_loss: 0.134530
-		Training Seg Accuracy: 0.950764
-	Training Total Mean_loss: 0.134021
-		Training Seg Accuracy: 0.950989
-	Training Total Mean_loss: 0.181006
-		Training Seg Accuracy: 0.938660
-	Training Total Mean_loss: 0.157565
-		Training Seg Accuracy: 0.944026
-	Training Total Mean_loss: 0.148311
-		Training Seg Accuracy: 0.947558
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 42/201 ...
-	Training Total Mean_loss: 0.144801
-		Training Seg Accuracy: 0.948143
-	Training Total Mean_loss: 0.135970
-		Training Seg Accuracy: 0.951119
-	Training Total Mean_loss: 0.144332
-		Training Seg Accuracy: 0.948178
-	Training Total Mean_loss: 0.134737
-		Training Seg Accuracy: 0.950830
-	Training Total Mean_loss: 0.142085
-		Training Seg Accuracy: 0.948719
-	Training Total Mean_loss: 0.140950
-		Training Seg Accuracy: 0.949281
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 43/201 ...
-	Training Total Mean_loss: 0.131264
-		Training Seg Accuracy: 0.952467
-	Training Total Mean_loss: 0.132872
-		Training Seg Accuracy: 0.951497
-	Training Total Mean_loss: 0.141524
-		Training Seg Accuracy: 0.948576
-	Training Total Mean_loss: 0.162011
-		Training Seg Accuracy: 0.942909
-	Training Total Mean_loss: 0.147621
-		Training Seg Accuracy: 0.947267
-	Training Total Mean_loss: 0.139448
-		Training Seg Accuracy: 0.950327
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 44/201 ...
-	Training Total Mean_loss: 0.135016
-		Training Seg Accuracy: 0.951372
-	Training Total Mean_loss: 0.144618
-		Training Seg Accuracy: 0.947935
-	Training Total Mean_loss: 0.144618
-		Training Seg Accuracy: 0.947159
-	Training Total Mean_loss: 0.135354
-		Training Seg Accuracy: 0.951516
-	Training Total Mean_loss: 0.143738
-		Training Seg Accuracy: 0.949170
-	Training Total Mean_loss: 0.144969
-		Training Seg Accuracy: 0.947983
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 45/201 ...
-	Training Total Mean_loss: 0.143144
-		Training Seg Accuracy: 0.949071
-	Training Total Mean_loss: 0.141377
-		Training Seg Accuracy: 0.948432
-	Training Total Mean_loss: 0.143376
-		Training Seg Accuracy: 0.948634
-	Training Total Mean_loss: 0.136847
-		Training Seg Accuracy: 0.950434
-	Training Total Mean_loss: 0.136049
-		Training Seg Accuracy: 0.951167
-	Training Total Mean_loss: 0.146960
-		Training Seg Accuracy: 0.948055
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 46/201 ...
-	Training Total Mean_loss: 0.142495
+>>> Training for the epoch 28/180 ...
+	Training Total Mean_loss: 0.160676
+		Training Seg Accuracy: 0.943562
+	Training Total Mean_loss: 0.140566
 		Training Seg Accuracy: 0.949749
-	Training Total Mean_loss: 0.130424
-		Training Seg Accuracy: 0.953616
-	Training Total Mean_loss: 0.133301
-		Training Seg Accuracy: 0.951684
-	Training Total Mean_loss: 0.139548
-		Training Seg Accuracy: 0.951042
-	Training Total Mean_loss: 0.146022
-		Training Seg Accuracy: 0.947009
-	Training Total Mean_loss: 0.137188
+	Training Total Mean_loss: 0.155360
+		Training Seg Accuracy: 0.945764
+	Training Total Mean_loss: 0.177077
+		Training Seg Accuracy: 0.937447
+	Training Total Mean_loss: 0.156631
+		Training Seg Accuracy: 0.945199
+	Training Total Mean_loss: 0.159902
+		Training Seg Accuracy: 0.942695
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 29/180 ...
+	Training Total Mean_loss: 0.146141
+		Training Seg Accuracy: 0.947141
+	Training Total Mean_loss: 0.151505
+		Training Seg Accuracy: 0.946189
+	Training Total Mean_loss: 0.162754
+		Training Seg Accuracy: 0.942492
+	Training Total Mean_loss: 0.151901
+		Training Seg Accuracy: 0.946165
+	Training Total Mean_loss: 0.146558
+		Training Seg Accuracy: 0.948555
+	Training Total Mean_loss: 0.163652
+		Training Seg Accuracy: 0.943207
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 30/180 ...
+	Training Total Mean_loss: 0.152702
+		Training Seg Accuracy: 0.945153
+	Training Total Mean_loss: 0.155211
+		Training Seg Accuracy: 0.944675
+	Training Total Mean_loss: 0.170345
+		Training Seg Accuracy: 0.940924
+	Training Total Mean_loss: 0.165524
+		Training Seg Accuracy: 0.941672
+	Training Total Mean_loss: 0.150090
+		Training Seg Accuracy: 0.945767
+	Training Total Mean_loss: 0.153514
+		Training Seg Accuracy: 0.945180
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 31/180 ...
+	Training Total Mean_loss: 0.154295
+		Training Seg Accuracy: 0.945185
+	Training Total Mean_loss: 0.149296
+		Training Seg Accuracy: 0.946890
+	Training Total Mean_loss: 0.156374
+		Training Seg Accuracy: 0.945547
+	Training Total Mean_loss: 0.151376
+		Training Seg Accuracy: 0.946763
+	Training Total Mean_loss: 0.147934
+		Training Seg Accuracy: 0.947712
+	Training Total Mean_loss: 0.163339
+		Training Seg Accuracy: 0.943799
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 32/180 ...
+	Training Total Mean_loss: 0.156960
+		Training Seg Accuracy: 0.943564
+	Training Total Mean_loss: 0.136902
+		Training Seg Accuracy: 0.950969
+	Training Total Mean_loss: 0.159803
+		Training Seg Accuracy: 0.944748
+	Training Total Mean_loss: 0.174530
+		Training Seg Accuracy: 0.944931
+	Training Total Mean_loss: 0.156905
+		Training Seg Accuracy: 0.945175
+	Training Total Mean_loss: 0.141576
+		Training Seg Accuracy: 0.949226
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 33/180 ...
+	Training Total Mean_loss: 0.151658
+		Training Seg Accuracy: 0.947287
+	Training Total Mean_loss: 0.146451
+		Training Seg Accuracy: 0.948001
+	Training Total Mean_loss: 0.161433
+		Training Seg Accuracy: 0.942904
+	Training Total Mean_loss: 0.150549
+		Training Seg Accuracy: 0.945046
+	Training Total Mean_loss: 0.146212
+		Training Seg Accuracy: 0.947749
+	Training Total Mean_loss: 0.159873
+		Training Seg Accuracy: 0.943482
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 34/180 ...
+	Training Total Mean_loss: 0.147290
+		Training Seg Accuracy: 0.946633
+	Training Total Mean_loss: 0.156244
+		Training Seg Accuracy: 0.943885
+	Training Total Mean_loss: 0.156185
+		Training Seg Accuracy: 0.944942
+	Training Total Mean_loss: 0.143649
+		Training Seg Accuracy: 0.948441
+	Training Total Mean_loss: 0.143548
+		Training Seg Accuracy: 0.949255
+	Training Total Mean_loss: 0.139839
+		Training Seg Accuracy: 0.950989
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 35/180 ...
+	Training Total Mean_loss: 0.150635
+		Training Seg Accuracy: 0.947010
+	Training Total Mean_loss: 0.152022
+		Training Seg Accuracy: 0.945879
+	Training Total Mean_loss: 0.139273
+		Training Seg Accuracy: 0.950292
+	Training Total Mean_loss: 0.153460
+		Training Seg Accuracy: 0.945720
+	Training Total Mean_loss: 0.149518
+		Training Seg Accuracy: 0.947401
+	Training Total Mean_loss: 0.148896
+		Training Seg Accuracy: 0.945779
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 36/180 ...
+	Training Total Mean_loss: 0.136886
+		Training Seg Accuracy: 0.950824
+	Training Total Mean_loss: 0.156048
+		Training Seg Accuracy: 0.944327
+	Training Total Mean_loss: 0.158714
+		Training Seg Accuracy: 0.944044
+	Training Total Mean_loss: 0.147649
+		Training Seg Accuracy: 0.947667
+	Training Total Mean_loss: 0.147187
+		Training Seg Accuracy: 0.947375
+	Training Total Mean_loss: 0.136478
+		Training Seg Accuracy: 0.951410
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 37/180 ...
+	Training Total Mean_loss: 0.147451
+		Training Seg Accuracy: 0.946816
+	Training Total Mean_loss: 0.139333
+		Training Seg Accuracy: 0.951111
+	Training Total Mean_loss: 0.131954
+		Training Seg Accuracy: 0.953059
+	Training Total Mean_loss: 0.133469
+		Training Seg Accuracy: 0.952442
+	Training Total Mean_loss: 0.147420
+		Training Seg Accuracy: 0.948969
+	Training Total Mean_loss: 0.153470
+		Training Seg Accuracy: 0.947338
+
+<<< Testing on the test dataset ...
+Best validation accuracy: 0.9500719324201985
+Successfully store the checkpoint model into train_results/trained_models/epoch_37.ckpt
+
+>>> Training for the epoch 38/180 ...
+	Training Total Mean_loss: 0.149243
+		Training Seg Accuracy: 0.946905
+	Training Total Mean_loss: 0.135481
+		Training Seg Accuracy: 0.950735
+	Training Total Mean_loss: 0.151024
+		Training Seg Accuracy: 0.947027
+	Training Total Mean_loss: 0.136940
+		Training Seg Accuracy: 0.950471
+	Training Total Mean_loss: 0.146543
+		Training Seg Accuracy: 0.947192
+	Training Total Mean_loss: 0.145503
+		Training Seg Accuracy: 0.947826
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 39/180 ...
+	Training Total Mean_loss: 0.133830
+		Training Seg Accuracy: 0.951860
+	Training Total Mean_loss: 0.144318
+		Training Seg Accuracy: 0.947656
+	Training Total Mean_loss: 0.149762
+		Training Seg Accuracy: 0.946362
+	Training Total Mean_loss: 0.152260
+		Training Seg Accuracy: 0.946484
+	Training Total Mean_loss: 0.144982
+		Training Seg Accuracy: 0.948184
+	Training Total Mean_loss: 0.152260
+		Training Seg Accuracy: 0.944088
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 40/180 ...
+	Training Total Mean_loss: 0.146582
+		Training Seg Accuracy: 0.949727
+	Training Total Mean_loss: 0.159379
+		Training Seg Accuracy: 0.944580
+	Training Total Mean_loss: 0.138538
+		Training Seg Accuracy: 0.949735
+	Training Total Mean_loss: 0.138405
+		Training Seg Accuracy: 0.949606
+	Training Total Mean_loss: 0.142045
+		Training Seg Accuracy: 0.950402
+	Training Total Mean_loss: 0.138944
+		Training Seg Accuracy: 0.951055
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 41/180 ...
+	Training Total Mean_loss: 0.141604
+		Training Seg Accuracy: 0.949350
+	Training Total Mean_loss: 0.140023
+		Training Seg Accuracy: 0.949657
+	Training Total Mean_loss: 0.143430
+		Training Seg Accuracy: 0.948429
+	Training Total Mean_loss: 0.143010
+		Training Seg Accuracy: 0.948174
+	Training Total Mean_loss: 0.141451
+		Training Seg Accuracy: 0.950498
+	Training Total Mean_loss: 0.144208
+		Training Seg Accuracy: 0.947413
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 42/180 ...
+	Training Total Mean_loss: 0.133508
+		Training Seg Accuracy: 0.951523
+	Training Total Mean_loss: 0.141572
+		Training Seg Accuracy: 0.950447
+	Training Total Mean_loss: 0.133659
+		Training Seg Accuracy: 0.950981
+	Training Total Mean_loss: 0.139734
+		Training Seg Accuracy: 0.950415
+	Training Total Mean_loss: 0.151084
+		Training Seg Accuracy: 0.945802
+	Training Total Mean_loss: 0.138607
+		Training Seg Accuracy: 0.950698
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 43/180 ...
+	Training Total Mean_loss: 0.133540
+		Training Seg Accuracy: 0.951931
+	Training Total Mean_loss: 0.140367
+		Training Seg Accuracy: 0.949760
+	Training Total Mean_loss: 0.137344
+		Training Seg Accuracy: 0.949795
+	Training Total Mean_loss: 0.126341
+		Training Seg Accuracy: 0.953196
+	Training Total Mean_loss: 0.142170
+		Training Seg Accuracy: 0.949245
+	Training Total Mean_loss: 0.133858
+		Training Seg Accuracy: 0.951519
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 44/180 ...
+	Training Total Mean_loss: 0.144798
+		Training Seg Accuracy: 0.947509
+	Training Total Mean_loss: 0.135027
+		Training Seg Accuracy: 0.950852
+	Training Total Mean_loss: 0.139632
+		Training Seg Accuracy: 0.949450
+	Training Total Mean_loss: 0.140739
+		Training Seg Accuracy: 0.949392
+	Training Total Mean_loss: 0.144761
+		Training Seg Accuracy: 0.948416
+	Training Total Mean_loss: 0.145172
+		Training Seg Accuracy: 0.948699
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 45/180 ...
+	Training Total Mean_loss: 0.128746
+		Training Seg Accuracy: 0.953555
+	Training Total Mean_loss: 0.139984
+		Training Seg Accuracy: 0.949454
+	Training Total Mean_loss: 0.137631
+		Training Seg Accuracy: 0.950637
+	Training Total Mean_loss: 0.141631
+		Training Seg Accuracy: 0.950061
+	Training Total Mean_loss: 0.139704
+		Training Seg Accuracy: 0.950772
+	Training Total Mean_loss: 0.134578
+		Training Seg Accuracy: 0.951736
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 46/180 ...
+	Training Total Mean_loss: 0.138421
+		Training Seg Accuracy: 0.949512
+	Training Total Mean_loss: 0.133195
+		Training Seg Accuracy: 0.952839
+	Training Total Mean_loss: 0.132197
+		Training Seg Accuracy: 0.951901
+	Training Total Mean_loss: 0.141746
+		Training Seg Accuracy: 0.949090
+	Training Total Mean_loss: 0.147115
+		Training Seg Accuracy: 0.947676
+	Training Total Mean_loss: 0.138217
+		Training Seg Accuracy: 0.949747
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 47/180 ...
+	Training Total Mean_loss: 0.135953
 		Training Seg Accuracy: 0.951036
-
-<<< Testing on the test dataset ...
-Best validation accuracy: 0.9505651907859443
-Successfully store the checkpoint model into train_results/trained_models/epoch_46.ckpt
-
->>> Training for the epoch 47/201 ...
-	Training Total Mean_loss: 0.131851
-		Training Seg Accuracy: 0.952783
-	Training Total Mean_loss: 0.128611
-		Training Seg Accuracy: 0.953313
-	Training Total Mean_loss: 0.141288
-		Training Seg Accuracy: 0.948605
-	Training Total Mean_loss: 0.138233
-		Training Seg Accuracy: 0.950486
-	Training Total Mean_loss: 0.143255
-		Training Seg Accuracy: 0.948191
-	Training Total Mean_loss: 0.147424
-		Training Seg Accuracy: 0.947182
+	Training Total Mean_loss: 0.136185
+		Training Seg Accuracy: 0.950425
+	Training Total Mean_loss: 0.138789
+		Training Seg Accuracy: 0.950445
+	Training Total Mean_loss: 0.129144
+		Training Seg Accuracy: 0.953168
+	Training Total Mean_loss: 0.138553
+		Training Seg Accuracy: 0.950475
+	Training Total Mean_loss: 0.131843
+		Training Seg Accuracy: 0.952850
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 48/201 ...
-	Training Total Mean_loss: 0.149274
-		Training Seg Accuracy: 0.946770
-	Training Total Mean_loss: 0.148357
-		Training Seg Accuracy: 0.947111
-	Training Total Mean_loss: 0.131884
-		Training Seg Accuracy: 0.952211
-	Training Total Mean_loss: 0.139387
-		Training Seg Accuracy: 0.950496
-	Training Total Mean_loss: 0.130562
-		Training Seg Accuracy: 0.952881
-	Training Total Mean_loss: 0.139227
-		Training Seg Accuracy: 0.949833
+>>> Training for the epoch 48/180 ...
+	Training Total Mean_loss: 0.131679
+		Training Seg Accuracy: 0.951864
+	Training Total Mean_loss: 0.131517
+		Training Seg Accuracy: 0.951855
+	Training Total Mean_loss: 0.135321
+		Training Seg Accuracy: 0.950979
+	Training Total Mean_loss: 0.134483
+		Training Seg Accuracy: 0.950740
+	Training Total Mean_loss: 0.135355
+		Training Seg Accuracy: 0.951520
+	Training Total Mean_loss: 0.138756
+		Training Seg Accuracy: 0.950879
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 49/201 ...
-	Training Total Mean_loss: 0.128177
-		Training Seg Accuracy: 0.953344
-	Training Total Mean_loss: 0.136660
-		Training Seg Accuracy: 0.951391
-	Training Total Mean_loss: 0.134465
-		Training Seg Accuracy: 0.951095
-	Training Total Mean_loss: 0.134696
-		Training Seg Accuracy: 0.950223
-	Training Total Mean_loss: 0.137995
-		Training Seg Accuracy: 0.950381
-	Training Total Mean_loss: 0.138292
-		Training Seg Accuracy: 0.949699
+>>> Training for the epoch 49/180 ...
+	Training Total Mean_loss: 0.138799
+		Training Seg Accuracy: 0.950367
+	Training Total Mean_loss: 0.131591
+		Training Seg Accuracy: 0.951800
+	Training Total Mean_loss: 0.133042
+		Training Seg Accuracy: 0.952652
+	Training Total Mean_loss: 0.127386
+		Training Seg Accuracy: 0.953981
+	Training Total Mean_loss: 0.134195
+		Training Seg Accuracy: 0.951462
+	Training Total Mean_loss: 0.141561
+		Training Seg Accuracy: 0.950566
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 50/201 ...
-	Training Total Mean_loss: 0.141462
-		Training Seg Accuracy: 0.949661
-	Training Total Mean_loss: 0.132128
-		Training Seg Accuracy: 0.952737
-	Training Total Mean_loss: 0.146062
-		Training Seg Accuracy: 0.948260
-	Training Total Mean_loss: 0.126876
-		Training Seg Accuracy: 0.954249
-	Training Total Mean_loss: 0.135713
-		Training Seg Accuracy: 0.951303
-	Training Total Mean_loss: 0.129578
-		Training Seg Accuracy: 0.952928
+>>> Training for the epoch 50/180 ...
+	Training Total Mean_loss: 0.143530
+		Training Seg Accuracy: 0.949453
+	Training Total Mean_loss: 0.134438
+		Training Seg Accuracy: 0.951097
+	Training Total Mean_loss: 0.140816
+		Training Seg Accuracy: 0.949501
+	Training Total Mean_loss: 0.136092
+		Training Seg Accuracy: 0.951143
+	Training Total Mean_loss: 0.141828
+		Training Seg Accuracy: 0.948925
+	Training Total Mean_loss: 0.129587
+		Training Seg Accuracy: 0.951982
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 51/201 ...
-	Training Total Mean_loss: 0.141504
-		Training Seg Accuracy: 0.949246
-	Training Total Mean_loss: 0.138592
-		Training Seg Accuracy: 0.949975
-	Training Total Mean_loss: 0.132237
-		Training Seg Accuracy: 0.952167
-	Training Total Mean_loss: 0.128050
-		Training Seg Accuracy: 0.954086
-	Training Total Mean_loss: 0.138456
-		Training Seg Accuracy: 0.950323
-	Training Total Mean_loss: 0.127761
-		Training Seg Accuracy: 0.954714
+>>> Training for the epoch 51/180 ...
+	Training Total Mean_loss: 0.131431
+		Training Seg Accuracy: 0.952941
+	Training Total Mean_loss: 0.131557
+		Training Seg Accuracy: 0.953325
+	Training Total Mean_loss: 0.130523
+		Training Seg Accuracy: 0.952327
+	Training Total Mean_loss: 0.130148
+		Training Seg Accuracy: 0.952364
+	Training Total Mean_loss: 0.127058
+		Training Seg Accuracy: 0.954473
+	Training Total Mean_loss: 0.135612
+		Training Seg Accuracy: 0.950892
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 52/201 ...
-	Training Total Mean_loss: 0.128458
-		Training Seg Accuracy: 0.953158
-	Training Total Mean_loss: 0.126958
-		Training Seg Accuracy: 0.954070
-	Training Total Mean_loss: 0.129317
-		Training Seg Accuracy: 0.953419
-	Training Total Mean_loss: 0.135210
-		Training Seg Accuracy: 0.951368
-	Training Total Mean_loss: 0.135083
-		Training Seg Accuracy: 0.949912
-	Training Total Mean_loss: 0.178680
-		Training Seg Accuracy: 0.943030
+>>> Training for the epoch 52/180 ...
+	Training Total Mean_loss: 0.128332
+		Training Seg Accuracy: 0.953152
+	Training Total Mean_loss: 0.132625
+		Training Seg Accuracy: 0.952636
+	Training Total Mean_loss: 0.130655
+		Training Seg Accuracy: 0.952000
+	Training Total Mean_loss: 0.129892
+		Training Seg Accuracy: 0.953303
+	Training Total Mean_loss: 0.126981
+		Training Seg Accuracy: 0.953543
+	Training Total Mean_loss: 0.141529
+		Training Seg Accuracy: 0.949967
+
+<<< Testing on the test dataset ...
+Best validation accuracy: 0.950497868746647
+Successfully store the checkpoint model into train_results/trained_models/epoch_52.ckpt
+
+>>> Training for the epoch 53/180 ...
+	Training Total Mean_loss: 0.131284
+		Training Seg Accuracy: 0.953015
+	Training Total Mean_loss: 0.129625
+		Training Seg Accuracy: 0.954317
+	Training Total Mean_loss: 0.125783
+		Training Seg Accuracy: 0.953113
+	Training Total Mean_loss: 0.128374
+		Training Seg Accuracy: 0.952810
+	Training Total Mean_loss: 0.127391
+		Training Seg Accuracy: 0.954767
+	Training Total Mean_loss: 0.138370
+		Training Seg Accuracy: 0.950727
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 53/201 ...
-	Training Total Mean_loss: 0.138598
-		Training Seg Accuracy: 0.950700
-	Training Total Mean_loss: 0.135343
-		Training Seg Accuracy: 0.950899
-	Training Total Mean_loss: 0.132486
-		Training Seg Accuracy: 0.951824
-	Training Total Mean_loss: 0.135770
-		Training Seg Accuracy: 0.950521
-	Training Total Mean_loss: 0.132383
-		Training Seg Accuracy: 0.951707
-	Training Total Mean_loss: 0.131716
-		Training Seg Accuracy: 0.951822
+>>> Training for the epoch 54/180 ...
+	Training Total Mean_loss: 0.122960
+		Training Seg Accuracy: 0.955530
+	Training Total Mean_loss: 0.126111
+		Training Seg Accuracy: 0.954332
+	Training Total Mean_loss: 0.151037
+		Training Seg Accuracy: 0.946014
+	Training Total Mean_loss: 0.132120
+		Training Seg Accuracy: 0.951963
+	Training Total Mean_loss: 0.135550
+		Training Seg Accuracy: 0.950285
+	Training Total Mean_loss: 0.145323
+		Training Seg Accuracy: 0.947487
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 54/201 ...
-	Training Total Mean_loss: 0.130041
-		Training Seg Accuracy: 0.953236
-	Training Total Mean_loss: 0.128295
-		Training Seg Accuracy: 0.952792
-	Training Total Mean_loss: 0.127258
-		Training Seg Accuracy: 0.953388
-	Training Total Mean_loss: 0.132299
-		Training Seg Accuracy: 0.952172
-	Training Total Mean_loss: 0.130933
-		Training Seg Accuracy: 0.952047
-	Training Total Mean_loss: 0.141848
-		Training Seg Accuracy: 0.950449
+>>> Training for the epoch 55/180 ...
+	Training Total Mean_loss: 0.125330
+		Training Seg Accuracy: 0.955056
+	Training Total Mean_loss: 0.129119
+		Training Seg Accuracy: 0.953928
+	Training Total Mean_loss: 0.121393
+		Training Seg Accuracy: 0.955668
+	Training Total Mean_loss: 0.125949
+		Training Seg Accuracy: 0.953979
+	Training Total Mean_loss: 0.124355
+		Training Seg Accuracy: 0.954768
+	Training Total Mean_loss: 0.118321
+		Training Seg Accuracy: 0.956742
 
 <<< Testing on the test dataset ...
-
->>> Training for the epoch 55/201 ...
-	Training Total Mean_loss: 0.127904
-		Training Seg Accuracy: 0.953803
-	Training Total Mean_loss: 0.132799
-		Training Seg Accuracy: 0.951535
-	Training Total Mean_loss: 0.127067
-		Training Seg Accuracy: 0.953533
-	Training Total Mean_loss: 0.132057
-		Training Seg Accuracy: 0.952244
-	Training Total Mean_loss: 0.132922
-		Training Seg Accuracy: 0.951802
-	Training Total Mean_loss: 0.121221
-		Training Seg Accuracy: 0.955818
-
-<<< Testing on the test dataset ...
-Best validation accuracy: 0.9517722723310086
+Best validation accuracy: 0.9511553719320011
 Successfully store the checkpoint model into train_results/trained_models/epoch_55.ckpt
 
->>> Training for the epoch 56/201 ...
-	Training Total Mean_loss: 0.129492
-		Training Seg Accuracy: 0.952456
-	Training Total Mean_loss: 0.119571
-		Training Seg Accuracy: 0.956447
-	Training Total Mean_loss: 0.122972
-		Training Seg Accuracy: 0.954550
-	Training Total Mean_loss: 0.122973
-		Training Seg Accuracy: 0.954336
-	Training Total Mean_loss: 0.128702
-		Training Seg Accuracy: 0.953763
-	Training Total Mean_loss: 0.148216
-		Training Seg Accuracy: 0.952058
+>>> Training for the epoch 56/180 ...
+	Training Total Mean_loss: 0.113433
+		Training Seg Accuracy: 0.958317
+	Training Total Mean_loss: 0.118358
+		Training Seg Accuracy: 0.956831
+	Training Total Mean_loss: 0.120472
+		Training Seg Accuracy: 0.956446
+	Training Total Mean_loss: 0.119753
+		Training Seg Accuracy: 0.955926
+	Training Total Mean_loss: 0.119581
+		Training Seg Accuracy: 0.957072
+	Training Total Mean_loss: 0.119912
+		Training Seg Accuracy: 0.956490
+
+<<< Testing on the test dataset ...
+Best validation accuracy: 0.9516363184851127
+Successfully store the checkpoint model into train_results/trained_models/epoch_56.ckpt
+
+>>> Training for the epoch 57/180 ...
+	Training Total Mean_loss: 0.113736
+		Training Seg Accuracy: 0.958587
+	Training Total Mean_loss: 0.115935
+		Training Seg Accuracy: 0.957886
+	Training Total Mean_loss: 0.115039
+		Training Seg Accuracy: 0.957963
+	Training Total Mean_loss: 0.115531
+		Training Seg Accuracy: 0.957809
+	Training Total Mean_loss: 0.116288
+		Training Seg Accuracy: 0.957171
+	Training Total Mean_loss: 0.116085
+		Training Seg Accuracy: 0.957861
+
+<<< Testing on the test dataset ...
+Best validation accuracy: 0.9524923823933744
+Successfully store the checkpoint model into train_results/trained_models/epoch_57.ckpt
+
+>>> Training for the epoch 58/180 ...
+	Training Total Mean_loss: 0.112735
+		Training Seg Accuracy: 0.958487
+	Training Total Mean_loss: 0.134805
+		Training Seg Accuracy: 0.953062
+	Training Total Mean_loss: 0.113507
+		Training Seg Accuracy: 0.958244
+	Training Total Mean_loss: 0.124083
+		Training Seg Accuracy: 0.955130
+	Training Total Mean_loss: 0.113860
+		Training Seg Accuracy: 0.958291
+	Training Total Mean_loss: 0.116792
+		Training Seg Accuracy: 0.957067
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 57/201 ...
-	Training Total Mean_loss: 0.132380
-		Training Seg Accuracy: 0.951684
-	Training Total Mean_loss: 0.115903
-		Training Seg Accuracy: 0.957176
-	Training Total Mean_loss: 0.119670
-		Training Seg Accuracy: 0.956682
-	Training Total Mean_loss: 0.115250
-		Training Seg Accuracy: 0.957574
-	Training Total Mean_loss: 0.119744
-		Training Seg Accuracy: 0.956672
-	Training Total Mean_loss: 0.124124
-		Training Seg Accuracy: 0.954659
+>>> Training for the epoch 59/180 ...
+	Training Total Mean_loss: 0.109456
+		Training Seg Accuracy: 0.959968
+	Training Total Mean_loss: 0.111081
+		Training Seg Accuracy: 0.958849
+	Training Total Mean_loss: 0.120492
+		Training Seg Accuracy: 0.956405
+	Training Total Mean_loss: 0.118777
+		Training Seg Accuracy: 0.956250
+	Training Total Mean_loss: 0.111597
+		Training Seg Accuracy: 0.958811
+	Training Total Mean_loss: 0.116506
+		Training Seg Accuracy: 0.957864
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 58/201 ...
-	Training Total Mean_loss: 0.126408
-		Training Seg Accuracy: 0.954067
-	Training Total Mean_loss: 0.113877
-		Training Seg Accuracy: 0.958187
-	Training Total Mean_loss: 0.120404
-		Training Seg Accuracy: 0.955761
-	Training Total Mean_loss: 0.116503
-		Training Seg Accuracy: 0.956881
-	Training Total Mean_loss: 0.120942
-		Training Seg Accuracy: 0.956145
-	Training Total Mean_loss: 0.120636
-		Training Seg Accuracy: 0.955385
+>>> Training for the epoch 60/180 ...
+	Training Total Mean_loss: 0.115971
+		Training Seg Accuracy: 0.957622
+	Training Total Mean_loss: 0.113716
+		Training Seg Accuracy: 0.959219
+	Training Total Mean_loss: 0.119231
+		Training Seg Accuracy: 0.956583
+	Training Total Mean_loss: 0.115530
+		Training Seg Accuracy: 0.957118
+	Training Total Mean_loss: 0.111470
+		Training Seg Accuracy: 0.958600
+	Training Total Mean_loss: 0.115850
+		Training Seg Accuracy: 0.958033
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 59/201 ...
-	Training Total Mean_loss: 0.114619
-		Training Seg Accuracy: 0.957884
-	Training Total Mean_loss: 0.120967
-		Training Seg Accuracy: 0.956180
-	Training Total Mean_loss: 0.112606
-		Training Seg Accuracy: 0.958430
-	Training Total Mean_loss: 0.115506
-		Training Seg Accuracy: 0.957663
-	Training Total Mean_loss: 0.116532
-		Training Seg Accuracy: 0.957225
-	Training Total Mean_loss: 0.118383
-		Training Seg Accuracy: 0.957335
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 60/201 ...
-	Training Total Mean_loss: 0.113894
-		Training Seg Accuracy: 0.958078
-	Training Total Mean_loss: 0.116840
-		Training Seg Accuracy: 0.957338
-	Training Total Mean_loss: 0.120529
-		Training Seg Accuracy: 0.955810
-	Training Total Mean_loss: 0.120417
-		Training Seg Accuracy: 0.956266
-	Training Total Mean_loss: 0.117756
-		Training Seg Accuracy: 0.956393
-	Training Total Mean_loss: 0.119052
-		Training Seg Accuracy: 0.956771
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 61/201 ...
-	Training Total Mean_loss: 0.112737
-		Training Seg Accuracy: 0.958830
-	Training Total Mean_loss: 0.118561
-		Training Seg Accuracy: 0.956786
-	Training Total Mean_loss: 0.113252
-		Training Seg Accuracy: 0.958840
-	Training Total Mean_loss: 0.116992
-		Training Seg Accuracy: 0.957623
-	Training Total Mean_loss: 0.120333
-		Training Seg Accuracy: 0.956460
-	Training Total Mean_loss: 0.116501
-		Training Seg Accuracy: 0.957050
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 62/201 ...
-	Training Total Mean_loss: 0.114653
-		Training Seg Accuracy: 0.957779
-	Training Total Mean_loss: 0.119712
-		Training Seg Accuracy: 0.956087
-	Training Total Mean_loss: 0.119422
-		Training Seg Accuracy: 0.956534
-	Training Total Mean_loss: 0.113757
-		Training Seg Accuracy: 0.958437
-	Training Total Mean_loss: 0.120678
-		Training Seg Accuracy: 0.955285
-	Training Total Mean_loss: 0.113814
-		Training Seg Accuracy: 0.957860
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 63/201 ...
-	Training Total Mean_loss: 0.119012
-		Training Seg Accuracy: 0.956238
-	Training Total Mean_loss: 0.113125
-		Training Seg Accuracy: 0.958674
-	Training Total Mean_loss: 0.119449
-		Training Seg Accuracy: 0.956269
-	Training Total Mean_loss: 0.115570
-		Training Seg Accuracy: 0.957751
-	Training Total Mean_loss: 0.112998
-		Training Seg Accuracy: 0.958650
-	Training Total Mean_loss: 0.117418
-		Training Seg Accuracy: 0.956776
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 64/201 ...
-	Training Total Mean_loss: 0.120301
-		Training Seg Accuracy: 0.955952
-	Training Total Mean_loss: 0.114616
-		Training Seg Accuracy: 0.958112
-	Training Total Mean_loss: 0.113948
-		Training Seg Accuracy: 0.957642
-	Training Total Mean_loss: 0.109382
-		Training Seg Accuracy: 0.959021
-	Training Total Mean_loss: 0.114932
-		Training Seg Accuracy: 0.957761
-	Training Total Mean_loss: 0.117205
-		Training Seg Accuracy: 0.956329
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 65/201 ...
-	Training Total Mean_loss: 0.113891
-		Training Seg Accuracy: 0.957992
-	Training Total Mean_loss: 0.111718
-		Training Seg Accuracy: 0.958655
-	Training Total Mean_loss: 0.111236
-		Training Seg Accuracy: 0.959113
-	Training Total Mean_loss: 0.117858
-		Training Seg Accuracy: 0.956442
-	Training Total Mean_loss: 0.116476
-		Training Seg Accuracy: 0.957235
-	Training Total Mean_loss: 0.108268
-		Training Seg Accuracy: 0.959795
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 66/201 ...
-	Training Total Mean_loss: 0.112932
-		Training Seg Accuracy: 0.958250
-	Training Total Mean_loss: 0.106958
-		Training Seg Accuracy: 0.961030
-	Training Total Mean_loss: 0.110545
-		Training Seg Accuracy: 0.958765
-	Training Total Mean_loss: 0.120968
-		Training Seg Accuracy: 0.955661
-	Training Total Mean_loss: 0.118671
-		Training Seg Accuracy: 0.956365
-	Training Total Mean_loss: 0.111809
-		Training Seg Accuracy: 0.958477
-
-<<< Testing on the test dataset ...
-Best validation accuracy: 0.9520706373222908
-Successfully store the checkpoint model into train_results/trained_models/epoch_66.ckpt
-
->>> Training for the epoch 67/201 ...
-	Training Total Mean_loss: 0.110696
-		Training Seg Accuracy: 0.959146
-	Training Total Mean_loss: 0.111736
-		Training Seg Accuracy: 0.958608
-	Training Total Mean_loss: 0.110544
-		Training Seg Accuracy: 0.959089
-	Training Total Mean_loss: 0.112483
-		Training Seg Accuracy: 0.958644
-	Training Total Mean_loss: 0.118355
-		Training Seg Accuracy: 0.956386
-	Training Total Mean_loss: 0.113314
-		Training Seg Accuracy: 0.958877
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 68/201 ...
-	Training Total Mean_loss: 0.111883
-		Training Seg Accuracy: 0.959041
-	Training Total Mean_loss: 0.113888
-		Training Seg Accuracy: 0.958619
-	Training Total Mean_loss: 0.117520
-		Training Seg Accuracy: 0.957408
-	Training Total Mean_loss: 0.109331
-		Training Seg Accuracy: 0.959570
-	Training Total Mean_loss: 0.118244
-		Training Seg Accuracy: 0.956291
-	Training Total Mean_loss: 0.112366
-		Training Seg Accuracy: 0.958820
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 69/201 ...
-	Training Total Mean_loss: 0.112707
-		Training Seg Accuracy: 0.958169
-	Training Total Mean_loss: 0.110080
-		Training Seg Accuracy: 0.958873
-	Training Total Mean_loss: 0.109691
-		Training Seg Accuracy: 0.959420
-	Training Total Mean_loss: 0.114415
-		Training Seg Accuracy: 0.958140
-	Training Total Mean_loss: 0.118361
-		Training Seg Accuracy: 0.956482
-	Training Total Mean_loss: 0.111665
-		Training Seg Accuracy: 0.959068
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 70/201 ...
-	Training Total Mean_loss: 0.113873
-		Training Seg Accuracy: 0.957616
-	Training Total Mean_loss: 0.108251
-		Training Seg Accuracy: 0.960321
+>>> Training for the epoch 61/180 ...
+	Training Total Mean_loss: 0.110380
+		Training Seg Accuracy: 0.958851
+	Training Total Mean_loss: 0.114940
+		Training Seg Accuracy: 0.957843
 	Training Total Mean_loss: 0.112830
-		Training Seg Accuracy: 0.958543
-	Training Total Mean_loss: 0.109843
-		Training Seg Accuracy: 0.959809
-	Training Total Mean_loss: 0.113257
-		Training Seg Accuracy: 0.957760
-	Training Total Mean_loss: 0.111976
-		Training Seg Accuracy: 0.959548
+		Training Seg Accuracy: 0.958680
+	Training Total Mean_loss: 0.110604
+		Training Seg Accuracy: 0.959289
+	Training Total Mean_loss: 0.113098
+		Training Seg Accuracy: 0.958021
+	Training Total Mean_loss: 0.113227
+		Training Seg Accuracy: 0.958704
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 71/201 ...
-	Training Total Mean_loss: 0.110253
-		Training Seg Accuracy: 0.959107
-	Training Total Mean_loss: 0.107289
-		Training Seg Accuracy: 0.959989
-	Training Total Mean_loss: 0.106526
+>>> Training for the epoch 62/180 ...
+	Training Total Mean_loss: 0.112735
+		Training Seg Accuracy: 0.958292
+	Training Total Mean_loss: 0.115036
+		Training Seg Accuracy: 0.956911
+	Training Total Mean_loss: 0.108244
+		Training Seg Accuracy: 0.959918
+	Training Total Mean_loss: 0.116274
+		Training Seg Accuracy: 0.957520
+	Training Total Mean_loss: 0.118032
+		Training Seg Accuracy: 0.956582
+	Training Total Mean_loss: 0.116199
+		Training Seg Accuracy: 0.957665
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 63/180 ...
+	Training Total Mean_loss: 0.108358
+		Training Seg Accuracy: 0.959554
+	Training Total Mean_loss: 0.111562
+		Training Seg Accuracy: 0.958951
+	Training Total Mean_loss: 0.112218
+		Training Seg Accuracy: 0.958867
+	Training Total Mean_loss: 0.110505
+		Training Seg Accuracy: 0.959176
+	Training Total Mean_loss: 0.118254
+		Training Seg Accuracy: 0.955852
+	Training Total Mean_loss: 0.109065
+		Training Seg Accuracy: 0.959866
+
+<<< Testing on the test dataset ...
+Best validation accuracy: 0.9527001114873928
+Successfully store the checkpoint model into train_results/trained_models/epoch_63.ckpt
+
+>>> Training for the epoch 64/180 ...
+	Training Total Mean_loss: 0.112646
+		Training Seg Accuracy: 0.958420
+	Training Total Mean_loss: 0.113043
+		Training Seg Accuracy: 0.958752
+	Training Total Mean_loss: 0.110093
+		Training Seg Accuracy: 0.959688
+	Training Total Mean_loss: 0.110363
+		Training Seg Accuracy: 0.959351
+	Training Total Mean_loss: 0.118127
+		Training Seg Accuracy: 0.956574
+	Training Total Mean_loss: 0.112679
+		Training Seg Accuracy: 0.958401
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 65/180 ...
+	Training Total Mean_loss: 0.112467
+		Training Seg Accuracy: 0.958881
+	Training Total Mean_loss: 0.111860
+		Training Seg Accuracy: 0.958593
+	Training Total Mean_loss: 0.110811
+		Training Seg Accuracy: 0.959012
+	Training Total Mean_loss: 0.116708
+		Training Seg Accuracy: 0.957183
+	Training Total Mean_loss: 0.109080
+		Training Seg Accuracy: 0.960043
+	Training Total Mean_loss: 0.114408
+		Training Seg Accuracy: 0.957698
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 66/180 ...
+	Training Total Mean_loss: 0.111925
+		Training Seg Accuracy: 0.958420
+	Training Total Mean_loss: 0.113878
+		Training Seg Accuracy: 0.958505
+	Training Total Mean_loss: 0.106365
+		Training Seg Accuracy: 0.960557
+	Training Total Mean_loss: 0.107241
+		Training Seg Accuracy: 0.960719
+	Training Total Mean_loss: 0.112540
+		Training Seg Accuracy: 0.958237
+	Training Total Mean_loss: 0.105290
+		Training Seg Accuracy: 0.961287
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 67/180 ...
+	Training Total Mean_loss: 0.117103
+		Training Seg Accuracy: 0.958086
+	Training Total Mean_loss: 0.104364
+		Training Seg Accuracy: 0.961146
+	Training Total Mean_loss: 0.108164
+		Training Seg Accuracy: 0.960244
+	Training Total Mean_loss: 0.111444
+		Training Seg Accuracy: 0.958525
+	Training Total Mean_loss: 0.101422
+		Training Seg Accuracy: 0.962489
+	Training Total Mean_loss: 0.115001
+		Training Seg Accuracy: 0.958128
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 68/180 ...
+	Training Total Mean_loss: 0.107385
+		Training Seg Accuracy: 0.959306
+	Training Total Mean_loss: 0.107226
+		Training Seg Accuracy: 0.960588
+	Training Total Mean_loss: 0.112245
+		Training Seg Accuracy: 0.958405
+	Training Total Mean_loss: 0.107315
+		Training Seg Accuracy: 0.960538
+	Training Total Mean_loss: 0.105693
+		Training Seg Accuracy: 0.960744
+	Training Total Mean_loss: 0.108188
+		Training Seg Accuracy: 0.959888
+
+<<< Testing on the test dataset ...
+Best validation accuracy: 0.9527174004157726
+Successfully store the checkpoint model into train_results/trained_models/epoch_68.ckpt
+
+>>> Training for the epoch 69/180 ...
+	Training Total Mean_loss: 0.111855
+		Training Seg Accuracy: 0.958083
+	Training Total Mean_loss: 0.114228
+		Training Seg Accuracy: 0.957859
+	Training Total Mean_loss: 0.106349
+		Training Seg Accuracy: 0.961081
+	Training Total Mean_loss: 0.111371
+		Training Seg Accuracy: 0.958782
+	Training Total Mean_loss: 0.107638
+		Training Seg Accuracy: 0.960406
+	Training Total Mean_loss: 0.116237
+		Training Seg Accuracy: 0.957927
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 70/180 ...
+	Training Total Mean_loss: 0.104500
+		Training Seg Accuracy: 0.961294
+	Training Total Mean_loss: 0.123941
+		Training Seg Accuracy: 0.957328
+	Training Total Mean_loss: 0.104808
+		Training Seg Accuracy: 0.961606
+	Training Total Mean_loss: 0.106553
+		Training Seg Accuracy: 0.960569
+	Training Total Mean_loss: 0.103024
+		Training Seg Accuracy: 0.961615
+	Training Total Mean_loss: 0.110616
+		Training Seg Accuracy: 0.958875
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 71/180 ...
+	Training Total Mean_loss: 0.104945
+		Training Seg Accuracy: 0.961149
+	Training Total Mean_loss: 0.104917
+		Training Seg Accuracy: 0.960881
+	Training Total Mean_loss: 0.103117
+		Training Seg Accuracy: 0.961200
+	Training Total Mean_loss: 0.102419
+		Training Seg Accuracy: 0.962020
+	Training Total Mean_loss: 0.108463
+		Training Seg Accuracy: 0.960124
+	Training Total Mean_loss: 0.112390
+		Training Seg Accuracy: 0.958527
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 72/180 ...
+	Training Total Mean_loss: 0.103168
+		Training Seg Accuracy: 0.962008
+	Training Total Mean_loss: 0.106944
 		Training Seg Accuracy: 0.960645
-	Training Total Mean_loss: 0.112387
-		Training Seg Accuracy: 0.958274
-	Training Total Mean_loss: 0.111437
-		Training Seg Accuracy: 0.958761
-	Training Total Mean_loss: 0.112664
-		Training Seg Accuracy: 0.958409
+	Training Total Mean_loss: 0.102123
+		Training Seg Accuracy: 0.961748
+	Training Total Mean_loss: 0.107062
+		Training Seg Accuracy: 0.960263
+	Training Total Mean_loss: 0.112055
+		Training Seg Accuracy: 0.958946
+	Training Total Mean_loss: 0.108638
+		Training Seg Accuracy: 0.959748
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 72/201 ...
-	Training Total Mean_loss: 0.109767
-		Training Seg Accuracy: 0.959271
-	Training Total Mean_loss: 0.110504
-		Training Seg Accuracy: 0.959141
-	Training Total Mean_loss: 0.111974
-		Training Seg Accuracy: 0.958211
-	Training Total Mean_loss: 0.107114
-		Training Seg Accuracy: 0.960068
-	Training Total Mean_loss: 0.108604
-		Training Seg Accuracy: 0.959710
-	Training Total Mean_loss: 0.110377
-		Training Seg Accuracy: 0.959157
+>>> Training for the epoch 73/180 ...
+	Training Total Mean_loss: 0.106165
+		Training Seg Accuracy: 0.961179
+	Training Total Mean_loss: 0.107121
+		Training Seg Accuracy: 0.960141
+	Training Total Mean_loss: 0.107335
+		Training Seg Accuracy: 0.960297
+	Training Total Mean_loss: 0.104612
+		Training Seg Accuracy: 0.961052
+	Training Total Mean_loss: 0.108900
+		Training Seg Accuracy: 0.960047
+	Training Total Mean_loss: 0.109227
+		Training Seg Accuracy: 0.959921
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 73/201 ...
-	Training Total Mean_loss: 0.114431
-		Training Seg Accuracy: 0.958111
-	Training Total Mean_loss: 0.114703
-		Training Seg Accuracy: 0.958066
-	Training Total Mean_loss: 0.108617
-		Training Seg Accuracy: 0.960460
-	Training Total Mean_loss: 0.111999
-		Training Seg Accuracy: 0.958763
-	Training Total Mean_loss: 0.110015
-		Training Seg Accuracy: 0.959696
-	Training Total Mean_loss: 0.110721
-		Training Seg Accuracy: 0.959414
+>>> Training for the epoch 74/180 ...
+	Training Total Mean_loss: 0.106603
+		Training Seg Accuracy: 0.960499
+	Training Total Mean_loss: 0.108709
+		Training Seg Accuracy: 0.959929
+	Training Total Mean_loss: 0.137093
+		Training Seg Accuracy: 0.955348
+	Training Total Mean_loss: 0.113481
+		Training Seg Accuracy: 0.959080
+	Training Total Mean_loss: 0.109417
+		Training Seg Accuracy: 0.960217
+	Training Total Mean_loss: 0.109630
+		Training Seg Accuracy: 0.959220
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 74/201 ...
-	Training Total Mean_loss: 0.102311
-		Training Seg Accuracy: 0.961948
-	Training Total Mean_loss: 0.110196
-		Training Seg Accuracy: 0.959113
-	Training Total Mean_loss: 0.120909
-		Training Seg Accuracy: 0.956545
-	Training Total Mean_loss: 0.108279
-		Training Seg Accuracy: 0.959876
-	Training Total Mean_loss: 0.107999
-		Training Seg Accuracy: 0.960131
-	Training Total Mean_loss: 0.113572
-		Training Seg Accuracy: 0.957491
+>>> Training for the epoch 75/180 ...
+	Training Total Mean_loss: 0.099465
+		Training Seg Accuracy: 0.963781
+	Training Total Mean_loss: 0.100655
+		Training Seg Accuracy: 0.962734
+	Training Total Mean_loss: 0.106422
+		Training Seg Accuracy: 0.960741
+	Training Total Mean_loss: 0.104103
+		Training Seg Accuracy: 0.961515
+	Training Total Mean_loss: 0.110222
+		Training Seg Accuracy: 0.959272
+	Training Total Mean_loss: 0.111350
+		Training Seg Accuracy: 0.958913
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 75/201 ...
-	Training Total Mean_loss: 0.106845
-		Training Seg Accuracy: 0.960716
-	Training Total Mean_loss: 0.108622
-		Training Seg Accuracy: 0.959807
-	Training Total Mean_loss: 0.103772
-		Training Seg Accuracy: 0.961373
-	Training Total Mean_loss: 0.108665
-		Training Seg Accuracy: 0.959185
-	Training Total Mean_loss: 0.117109
-		Training Seg Accuracy: 0.957303
-	Training Total Mean_loss: 0.112881
-		Training Seg Accuracy: 0.958318
-
-<<< Testing on the test dataset ...
-Best validation accuracy: 0.9522579340464056
-Successfully store the checkpoint model into train_results/trained_models/epoch_75.ckpt
-
->>> Training for the epoch 76/201 ...
-	Training Total Mean_loss: 0.106834
-		Training Seg Accuracy: 0.960384
-	Training Total Mean_loss: 0.112407
-		Training Seg Accuracy: 0.958556
-	Training Total Mean_loss: 0.111482
-		Training Seg Accuracy: 0.958280
-	Training Total Mean_loss: 0.107728
-		Training Seg Accuracy: 0.960086
-	Training Total Mean_loss: 0.106298
-		Training Seg Accuracy: 0.960484
-	Training Total Mean_loss: 0.106746
-		Training Seg Accuracy: 0.960380
+>>> Training for the epoch 76/180 ...
+	Training Total Mean_loss: 0.100037
+		Training Seg Accuracy: 0.962802
+	Training Total Mean_loss: 0.103118
+		Training Seg Accuracy: 0.962077
+	Training Total Mean_loss: 0.107247
+		Training Seg Accuracy: 0.960231
+	Training Total Mean_loss: 0.104412
+		Training Seg Accuracy: 0.960760
+	Training Total Mean_loss: 0.106101
+		Training Seg Accuracy: 0.960714
+	Training Total Mean_loss: 0.107885
+		Training Seg Accuracy: 0.960085
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 77/201 ...
-	Training Total Mean_loss: 0.107168
-		Training Seg Accuracy: 0.960287
-	Training Total Mean_loss: 0.111546
-		Training Seg Accuracy: 0.959146
-	Training Total Mean_loss: 0.107903
-		Training Seg Accuracy: 0.959642
-	Training Total Mean_loss: 0.110555
-		Training Seg Accuracy: 0.958787
-	Training Total Mean_loss: 0.110812
-		Training Seg Accuracy: 0.958377
-	Training Total Mean_loss: 0.106903
-		Training Seg Accuracy: 0.960334
+>>> Training for the epoch 77/180 ...
+	Training Total Mean_loss: 0.105471
+		Training Seg Accuracy: 0.960473
+	Training Total Mean_loss: 0.103149
+		Training Seg Accuracy: 0.961674
+	Training Total Mean_loss: 0.108551
+		Training Seg Accuracy: 0.960229
+	Training Total Mean_loss: 0.108331
+		Training Seg Accuracy: 0.959734
+	Training Total Mean_loss: 0.107060
+		Training Seg Accuracy: 0.960591
+	Training Total Mean_loss: 0.103056
+		Training Seg Accuracy: 0.962124
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 78/201 ...
-	Training Total Mean_loss: 0.108196
-		Training Seg Accuracy: 0.960355
-	Training Total Mean_loss: 0.103505
-		Training Seg Accuracy: 0.961817
-	Training Total Mean_loss: 0.101140
-		Training Seg Accuracy: 0.962615
-	Training Total Mean_loss: 0.105512
-		Training Seg Accuracy: 0.960348
-	Training Total Mean_loss: 0.124078
-		Training Seg Accuracy: 0.956904
-	Training Total Mean_loss: 0.112048
-		Training Seg Accuracy: 0.958843
+>>> Training for the epoch 78/180 ...
+	Training Total Mean_loss: 0.102302
+		Training Seg Accuracy: 0.962710
+	Training Total Mean_loss: 0.105912
+		Training Seg Accuracy: 0.960978
+	Training Total Mean_loss: 0.100775
+		Training Seg Accuracy: 0.962692
+	Training Total Mean_loss: 0.106209
+		Training Seg Accuracy: 0.960591
+	Training Total Mean_loss: 0.108886
+		Training Seg Accuracy: 0.959857
+	Training Total Mean_loss: 0.101322
+		Training Seg Accuracy: 0.962170
 
 <<< Testing on the test dataset ...
-Best validation accuracy: 0.9528350175194474
+Best validation accuracy: 0.9531967752481223
 Successfully store the checkpoint model into train_results/trained_models/epoch_78.ckpt
 
->>> Training for the epoch 79/201 ...
-	Training Total Mean_loss: 0.120808
-		Training Seg Accuracy: 0.958067
-	Training Total Mean_loss: 0.110565
-		Training Seg Accuracy: 0.959233
-	Training Total Mean_loss: 0.111694
-		Training Seg Accuracy: 0.958466
-	Training Total Mean_loss: 0.107134
-		Training Seg Accuracy: 0.960372
-	Training Total Mean_loss: 0.110264
-		Training Seg Accuracy: 0.958768
-	Training Total Mean_loss: 0.108813
-		Training Seg Accuracy: 0.960017
+>>> Training for the epoch 79/180 ...
+	Training Total Mean_loss: 0.105825
+		Training Seg Accuracy: 0.960859
+	Training Total Mean_loss: 0.101062
+		Training Seg Accuracy: 0.962652
+	Training Total Mean_loss: 0.107647
+		Training Seg Accuracy: 0.960158
+	Training Total Mean_loss: 0.104951
+		Training Seg Accuracy: 0.961001
+	Training Total Mean_loss: 0.106965
+		Training Seg Accuracy: 0.960407
+	Training Total Mean_loss: 0.100815
+		Training Seg Accuracy: 0.962597
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 80/201 ...
-	Training Total Mean_loss: 0.109718
-		Training Seg Accuracy: 0.959182
-	Training Total Mean_loss: 0.106444
-		Training Seg Accuracy: 0.960921
-	Training Total Mean_loss: 0.105489
-		Training Seg Accuracy: 0.961003
-	Training Total Mean_loss: 0.105143
-		Training Seg Accuracy: 0.961066
-	Training Total Mean_loss: 0.107540
-		Training Seg Accuracy: 0.960205
-	Training Total Mean_loss: 0.109990
-		Training Seg Accuracy: 0.959704
+>>> Training for the epoch 80/180 ...
+	Training Total Mean_loss: 0.101665
+		Training Seg Accuracy: 0.962081
+	Training Total Mean_loss: 0.099916
+		Training Seg Accuracy: 0.962624
+	Training Total Mean_loss: 0.106268
+		Training Seg Accuracy: 0.960522
+	Training Total Mean_loss: 0.108744
+		Training Seg Accuracy: 0.959507
+	Training Total Mean_loss: 0.103152
+		Training Seg Accuracy: 0.961502
+	Training Total Mean_loss: 0.104107
+		Training Seg Accuracy: 0.961345
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 81/201 ...
-	Training Total Mean_loss: 0.105704
-		Training Seg Accuracy: 0.960454
-	Training Total Mean_loss: 0.109982
-		Training Seg Accuracy: 0.959285
-	Training Total Mean_loss: 0.101169
-		Training Seg Accuracy: 0.962595
-	Training Total Mean_loss: 0.106275
-		Training Seg Accuracy: 0.960193
-	Training Total Mean_loss: 0.108960
-		Training Seg Accuracy: 0.959787
-	Training Total Mean_loss: 0.108527
-		Training Seg Accuracy: 0.959569
+>>> Training for the epoch 81/180 ...
+	Training Total Mean_loss: 0.103225
+		Training Seg Accuracy: 0.961642
+	Training Total Mean_loss: 0.106125
+		Training Seg Accuracy: 0.960289
+	Training Total Mean_loss: 0.106107
+		Training Seg Accuracy: 0.960859
+	Training Total Mean_loss: 0.103985
+		Training Seg Accuracy: 0.961293
+	Training Total Mean_loss: 0.104681
+		Training Seg Accuracy: 0.961081
+	Training Total Mean_loss: 0.108006
+		Training Seg Accuracy: 0.960133
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 82/201 ...
-	Training Total Mean_loss: 0.106254
-		Training Seg Accuracy: 0.960197
-	Training Total Mean_loss: 0.105384
-		Training Seg Accuracy: 0.960242
-	Training Total Mean_loss: 0.107365
-		Training Seg Accuracy: 0.960366
-	Training Total Mean_loss: 0.102785
-		Training Seg Accuracy: 0.961889
-	Training Total Mean_loss: 0.106465
-		Training Seg Accuracy: 0.960121
-	Training Total Mean_loss: 0.104162
-		Training Seg Accuracy: 0.961871
+>>> Training for the epoch 82/180 ...
+	Training Total Mean_loss: 0.106593
+		Training Seg Accuracy: 0.960832
+	Training Total Mean_loss: 0.101071
+		Training Seg Accuracy: 0.962611
+	Training Total Mean_loss: 0.099984
+		Training Seg Accuracy: 0.962439
+	Training Total Mean_loss: 0.106454
+		Training Seg Accuracy: 0.960565
+	Training Total Mean_loss: 0.101958
+		Training Seg Accuracy: 0.962563
+	Training Total Mean_loss: 0.109017
+		Training Seg Accuracy: 0.959373
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 83/201 ...
-	Training Total Mean_loss: 0.106472
-		Training Seg Accuracy: 0.960300
-	Training Total Mean_loss: 0.110105
-		Training Seg Accuracy: 0.958892
-	Training Total Mean_loss: 0.104129
-		Training Seg Accuracy: 0.961257
-	Training Total Mean_loss: 0.104139
-		Training Seg Accuracy: 0.961131
-	Training Total Mean_loss: 0.105748
-		Training Seg Accuracy: 0.960506
-	Training Total Mean_loss: 0.106293
-		Training Seg Accuracy: 0.960660
+>>> Training for the epoch 83/180 ...
+	Training Total Mean_loss: 0.101352
+		Training Seg Accuracy: 0.962567
+	Training Total Mean_loss: 0.104256
+		Training Seg Accuracy: 0.961179
+	Training Total Mean_loss: 0.106403
+		Training Seg Accuracy: 0.960580
+	Training Total Mean_loss: 0.108570
+		Training Seg Accuracy: 0.959692
+	Training Total Mean_loss: 0.099291
+		Training Seg Accuracy: 0.962786
+	Training Total Mean_loss: 0.098781
+		Training Seg Accuracy: 0.963551
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 84/201 ...
-	Training Total Mean_loss: 0.105730
-		Training Seg Accuracy: 0.961211
-	Training Total Mean_loss: 0.113425
-		Training Seg Accuracy: 0.957968
-	Training Total Mean_loss: 0.105488
-		Training Seg Accuracy: 0.960294
-	Training Total Mean_loss: 0.102537
-		Training Seg Accuracy: 0.961580
-	Training Total Mean_loss: 0.105130
-		Training Seg Accuracy: 0.960869
-	Training Total Mean_loss: 0.105458
-		Training Seg Accuracy: 0.960729
+>>> Training for the epoch 84/180 ...
+	Training Total Mean_loss: 0.102948
+		Training Seg Accuracy: 0.961700
+	Training Total Mean_loss: 0.100159
+		Training Seg Accuracy: 0.962994
+	Training Total Mean_loss: 0.105971
+		Training Seg Accuracy: 0.960558
+	Training Total Mean_loss: 0.096015
+		Training Seg Accuracy: 0.964003
+	Training Total Mean_loss: 0.102523
+		Training Seg Accuracy: 0.961550
+	Training Total Mean_loss: 0.102482
+		Training Seg Accuracy: 0.961632
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 85/201 ...
-	Training Total Mean_loss: 0.109173
-		Training Seg Accuracy: 0.960098
-	Training Total Mean_loss: 0.101160
-		Training Seg Accuracy: 0.962401
-	Training Total Mean_loss: 0.107906
-		Training Seg Accuracy: 0.959989
-	Training Total Mean_loss: 0.113720
-		Training Seg Accuracy: 0.957706
-	Training Total Mean_loss: 0.108994
-		Training Seg Accuracy: 0.959705
-	Training Total Mean_loss: 0.106836
-		Training Seg Accuracy: 0.960434
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 86/201 ...
-	Training Total Mean_loss: 0.109195
-		Training Seg Accuracy: 0.959410
-	Training Total Mean_loss: 0.103235
-		Training Seg Accuracy: 0.961283
-	Training Total Mean_loss: 0.106606
-		Training Seg Accuracy: 0.960121
-	Training Total Mean_loss: 0.105305
-		Training Seg Accuracy: 0.960941
-	Training Total Mean_loss: 0.103298
-		Training Seg Accuracy: 0.961341
-	Training Total Mean_loss: 0.103031
+>>> Training for the epoch 85/180 ...
+	Training Total Mean_loss: 0.100886
+		Training Seg Accuracy: 0.961710
+	Training Total Mean_loss: 0.108370
+		Training Seg Accuracy: 0.959867
+	Training Total Mean_loss: 0.106359
+		Training Seg Accuracy: 0.960558
+	Training Total Mean_loss: 0.102707
 		Training Seg Accuracy: 0.961735
+	Training Total Mean_loss: 0.101947
+		Training Seg Accuracy: 0.962152
+	Training Total Mean_loss: 0.104936
+		Training Seg Accuracy: 0.961157
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 87/201 ...
-	Training Total Mean_loss: 0.105923
-		Training Seg Accuracy: 0.960435
-	Training Total Mean_loss: 0.100755
-		Training Seg Accuracy: 0.962256
-	Training Total Mean_loss: 0.110502
-		Training Seg Accuracy: 0.958714
-	Training Total Mean_loss: 0.104229
-		Training Seg Accuracy: 0.961254
-	Training Total Mean_loss: 0.105122
-		Training Seg Accuracy: 0.961040
-	Training Total Mean_loss: 0.109508
-		Training Seg Accuracy: 0.959030
+>>> Training for the epoch 86/180 ...
+	Training Total Mean_loss: 0.105435
+		Training Seg Accuracy: 0.960626
+	Training Total Mean_loss: 0.099801
+		Training Seg Accuracy: 0.962660
+	Training Total Mean_loss: 0.109605
+		Training Seg Accuracy: 0.959572
+	Training Total Mean_loss: 0.104021
+		Training Seg Accuracy: 0.961364
+	Training Total Mean_loss: 0.102357
+		Training Seg Accuracy: 0.962123
+	Training Total Mean_loss: 0.102138
+		Training Seg Accuracy: 0.962499
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 88/201 ...
-	Training Total Mean_loss: 0.101508
-		Training Seg Accuracy: 0.962099
-	Training Total Mean_loss: 0.101918
-		Training Seg Accuracy: 0.962119
-	Training Total Mean_loss: 0.107485
-		Training Seg Accuracy: 0.959835
-	Training Total Mean_loss: 0.103024
-		Training Seg Accuracy: 0.961133
-	Training Total Mean_loss: 0.106499
-		Training Seg Accuracy: 0.960105
-	Training Total Mean_loss: 0.106763
-		Training Seg Accuracy: 0.960509
+>>> Training for the epoch 87/180 ...
+	Training Total Mean_loss: 0.100118
+		Training Seg Accuracy: 0.962651
+	Training Total Mean_loss: 0.103844
+		Training Seg Accuracy: 0.961444
+	Training Total Mean_loss: 0.099572
+		Training Seg Accuracy: 0.963105
+	Training Total Mean_loss: 0.100941
+		Training Seg Accuracy: 0.962391
+	Training Total Mean_loss: 0.099310
+		Training Seg Accuracy: 0.962734
+	Training Total Mean_loss: 0.102640
+		Training Seg Accuracy: 0.962065
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 89/201 ...
-	Training Total Mean_loss: 0.105634
-		Training Seg Accuracy: 0.960548
-	Training Total Mean_loss: 0.106028
-		Training Seg Accuracy: 0.960288
-	Training Total Mean_loss: 0.102869
-		Training Seg Accuracy: 0.961893
-	Training Total Mean_loss: 0.102899
-		Training Seg Accuracy: 0.961767
-	Training Total Mean_loss: 0.108474
-		Training Seg Accuracy: 0.959943
-	Training Total Mean_loss: 0.109100
-		Training Seg Accuracy: 0.959439
+>>> Training for the epoch 88/180 ...
+	Training Total Mean_loss: 0.103290
+		Training Seg Accuracy: 0.961469
+	Training Total Mean_loss: 0.101390
+		Training Seg Accuracy: 0.962616
+	Training Total Mean_loss: 0.101776
+		Training Seg Accuracy: 0.961946
+	Training Total Mean_loss: 0.103689
+		Training Seg Accuracy: 0.961443
+	Training Total Mean_loss: 0.102315
+		Training Seg Accuracy: 0.961685
+	Training Total Mean_loss: 0.103378
+		Training Seg Accuracy: 0.961349
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 90/201 ...
-	Training Total Mean_loss: 0.102692
-		Training Seg Accuracy: 0.961596
-	Training Total Mean_loss: 0.106853
-		Training Seg Accuracy: 0.960045
-	Training Total Mean_loss: 0.103367
-		Training Seg Accuracy: 0.961366
-	Training Total Mean_loss: 0.102987
-		Training Seg Accuracy: 0.961754
-	Training Total Mean_loss: 0.104802
-		Training Seg Accuracy: 0.960371
-	Training Total Mean_loss: 0.109466
-		Training Seg Accuracy: 0.959747
+>>> Training for the epoch 89/180 ...
+	Training Total Mean_loss: 0.101667
+		Training Seg Accuracy: 0.962286
+	Training Total Mean_loss: 0.103240
+		Training Seg Accuracy: 0.960927
+	Training Total Mean_loss: 0.104855
+		Training Seg Accuracy: 0.960902
+	Training Total Mean_loss: 0.101681
+		Training Seg Accuracy: 0.962213
+	Training Total Mean_loss: 0.100930
+		Training Seg Accuracy: 0.962292
+	Training Total Mean_loss: 0.101239
+		Training Seg Accuracy: 0.962748
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 91/201 ...
-	Training Total Mean_loss: 0.103087
-		Training Seg Accuracy: 0.961543
-	Training Total Mean_loss: 0.105632
-		Training Seg Accuracy: 0.960713
-	Training Total Mean_loss: 0.106712
-		Training Seg Accuracy: 0.959914
-	Training Total Mean_loss: 0.102358
-		Training Seg Accuracy: 0.962162
-	Training Total Mean_loss: 0.102878
-		Training Seg Accuracy: 0.961461
-	Training Total Mean_loss: 0.102147
-		Training Seg Accuracy: 0.961611
+>>> Training for the epoch 90/180 ...
+	Training Total Mean_loss: 0.104185
+		Training Seg Accuracy: 0.961136
+	Training Total Mean_loss: 0.103616
+		Training Seg Accuracy: 0.961066
+	Training Total Mean_loss: 0.099362
+		Training Seg Accuracy: 0.963183
+	Training Total Mean_loss: 0.104335
+		Training Seg Accuracy: 0.961652
+	Training Total Mean_loss: 0.096422
+		Training Seg Accuracy: 0.964184
+	Training Total Mean_loss: 0.099264
+		Training Seg Accuracy: 0.962748
 
 <<< Testing on the test dataset ...
-Best validation accuracy: 0.9531862971097103
-Successfully store the checkpoint model into train_results/trained_models/epoch_91.ckpt
+Best validation accuracy: 0.9533733318803648
+Successfully store the checkpoint model into train_results/trained_models/epoch_90.ckpt
 
->>> Training for the epoch 92/201 ...
-	Training Total Mean_loss: 0.109992
-		Training Seg Accuracy: 0.959254
-	Training Total Mean_loss: 0.103672
+>>> Training for the epoch 91/180 ...
+	Training Total Mean_loss: 0.094457
+		Training Seg Accuracy: 0.964327
+	Training Total Mean_loss: 0.104380
 		Training Seg Accuracy: 0.961202
-	Training Total Mean_loss: 0.098646
-		Training Seg Accuracy: 0.963458
-	Training Total Mean_loss: 0.107280
-		Training Seg Accuracy: 0.960489
-	Training Total Mean_loss: 0.106075
-		Training Seg Accuracy: 0.960024
-	Training Total Mean_loss: 0.105668
-		Training Seg Accuracy: 0.960620
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 93/201 ...
-	Training Total Mean_loss: 0.103029
-		Training Seg Accuracy: 0.961360
-	Training Total Mean_loss: 0.100065
-		Training Seg Accuracy: 0.962493
-	Training Total Mean_loss: 0.106940
-		Training Seg Accuracy: 0.960074
-	Training Total Mean_loss: 0.106570
-		Training Seg Accuracy: 0.961812
-	Training Total Mean_loss: 0.102788
-		Training Seg Accuracy: 0.961891
-	Training Total Mean_loss: 0.105964
-		Training Seg Accuracy: 0.960714
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 94/201 ...
-	Training Total Mean_loss: 0.101358
-		Training Seg Accuracy: 0.961828
-	Training Total Mean_loss: 0.105153
-		Training Seg Accuracy: 0.961017
-	Training Total Mean_loss: 0.102956
-		Training Seg Accuracy: 0.961611
-	Training Total Mean_loss: 0.101344
-		Training Seg Accuracy: 0.962537
-	Training Total Mean_loss: 0.103478
-		Training Seg Accuracy: 0.961427
-	Training Total Mean_loss: 0.108820
-		Training Seg Accuracy: 0.959106
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 95/201 ...
-	Training Total Mean_loss: 0.104349
-		Training Seg Accuracy: 0.960778
-	Training Total Mean_loss: 0.100524
-		Training Seg Accuracy: 0.962743
-	Training Total Mean_loss: 0.098200
-		Training Seg Accuracy: 0.963272
-	Training Total Mean_loss: 0.102015
-		Training Seg Accuracy: 0.961611
-	Training Total Mean_loss: 0.102884
-		Training Seg Accuracy: 0.961383
-	Training Total Mean_loss: 0.107561
-		Training Seg Accuracy: 0.959835
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 96/201 ...
-	Training Total Mean_loss: 0.102634
-		Training Seg Accuracy: 0.961147
-	Training Total Mean_loss: 0.103874
-		Training Seg Accuracy: 0.960816
-	Training Total Mean_loss: 0.101183
-		Training Seg Accuracy: 0.961782
-	Training Total Mean_loss: 0.108603
-		Training Seg Accuracy: 0.959842
-	Training Total Mean_loss: 0.102773
-		Training Seg Accuracy: 0.961955
-	Training Total Mean_loss: 0.105500
-		Training Seg Accuracy: 0.960399
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 97/201 ...
-	Training Total Mean_loss: 0.101757
-		Training Seg Accuracy: 0.961773
-	Training Total Mean_loss: 0.101949
-		Training Seg Accuracy: 0.961750
-	Training Total Mean_loss: 0.102377
-		Training Seg Accuracy: 0.961964
-	Training Total Mean_loss: 0.107826
-		Training Seg Accuracy: 0.960275
-	Training Total Mean_loss: 0.099726
-		Training Seg Accuracy: 0.963077
-	Training Total Mean_loss: 0.101462
-		Training Seg Accuracy: 0.962669
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 98/201 ...
-	Training Total Mean_loss: 0.102705
-		Training Seg Accuracy: 0.961615
-	Training Total Mean_loss: 0.101032
-		Training Seg Accuracy: 0.962268
-	Training Total Mean_loss: 0.100756
-		Training Seg Accuracy: 0.962311
-	Training Total Mean_loss: 0.104043
-		Training Seg Accuracy: 0.961017
-	Training Total Mean_loss: 0.102762
-		Training Seg Accuracy: 0.961681
-	Training Total Mean_loss: 0.103628
-		Training Seg Accuracy: 0.960948
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 99/201 ...
-	Training Total Mean_loss: 0.099962
-		Training Seg Accuracy: 0.962872
-	Training Total Mean_loss: 0.098501
-		Training Seg Accuracy: 0.962943
-	Training Total Mean_loss: 0.097212
-		Training Seg Accuracy: 0.963763
-	Training Total Mean_loss: 0.102040
-		Training Seg Accuracy: 0.961478
-	Training Total Mean_loss: 0.100854
-		Training Seg Accuracy: 0.962673
-	Training Total Mean_loss: 0.106347
-		Training Seg Accuracy: 0.960741
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 100/201 ...
-	Training Total Mean_loss: 0.103341
-		Training Seg Accuracy: 0.961457
-	Training Total Mean_loss: 0.112022
-		Training Seg Accuracy: 0.959167
-	Training Total Mean_loss: 0.107778
-		Training Seg Accuracy: 0.959784
-	Training Total Mean_loss: 0.101708
-		Training Seg Accuracy: 0.962139
-	Training Total Mean_loss: 0.104277
-		Training Seg Accuracy: 0.960579
-	Training Total Mean_loss: 0.100015
-		Training Seg Accuracy: 0.962639
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 101/201 ...
-	Training Total Mean_loss: 0.103693
-		Training Seg Accuracy: 0.961965
-	Training Total Mean_loss: 0.101369
-		Training Seg Accuracy: 0.961928
-	Training Total Mean_loss: 0.101218
-		Training Seg Accuracy: 0.962358
-	Training Total Mean_loss: 0.099536
-		Training Seg Accuracy: 0.962732
-	Training Total Mean_loss: 0.097831
-		Training Seg Accuracy: 0.963131
-	Training Total Mean_loss: 0.097737
-		Training Seg Accuracy: 0.963390
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 102/201 ...
-	Training Total Mean_loss: 0.102331
-		Training Seg Accuracy: 0.961636
-	Training Total Mean_loss: 0.101555
-		Training Seg Accuracy: 0.961759
-	Training Total Mean_loss: 0.102375
-		Training Seg Accuracy: 0.961608
-	Training Total Mean_loss: 0.100150
-		Training Seg Accuracy: 0.962409
-	Training Total Mean_loss: 0.094284
-		Training Seg Accuracy: 0.964899
-	Training Total Mean_loss: 0.095834
-		Training Seg Accuracy: 0.963952
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 103/201 ...
-	Training Total Mean_loss: 0.100547
-		Training Seg Accuracy: 0.962671
-	Training Total Mean_loss: 0.099823
-		Training Seg Accuracy: 0.962730
-	Training Total Mean_loss: 0.103343
+	Training Total Mean_loss: 0.097667
+		Training Seg Accuracy: 0.963939
+	Training Total Mean_loss: 0.103264
+		Training Seg Accuracy: 0.961907
+	Training Total Mean_loss: 0.106515
 		Training Seg Accuracy: 0.960772
-	Training Total Mean_loss: 0.103945
-		Training Seg Accuracy: 0.960966
-	Training Total Mean_loss: 0.095158
-		Training Seg Accuracy: 0.964285
-	Training Total Mean_loss: 0.098196
-		Training Seg Accuracy: 0.963953
+	Training Total Mean_loss: 0.101667
+		Training Seg Accuracy: 0.961888
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 104/201 ...
-	Training Total Mean_loss: 0.097752
-		Training Seg Accuracy: 0.962977
-	Training Total Mean_loss: 0.100840
-		Training Seg Accuracy: 0.962128
-	Training Total Mean_loss: 0.101811
-		Training Seg Accuracy: 0.962344
-	Training Total Mean_loss: 0.102414
-		Training Seg Accuracy: 0.961756
-	Training Total Mean_loss: 0.107050
-		Training Seg Accuracy: 0.959957
-	Training Total Mean_loss: 0.102459
-		Training Seg Accuracy: 0.961765
+>>> Training for the epoch 92/180 ...
+	Training Total Mean_loss: 0.100629
+		Training Seg Accuracy: 0.962027
+	Training Total Mean_loss: 0.103735
+		Training Seg Accuracy: 0.961271
+	Training Total Mean_loss: 0.102286
+		Training Seg Accuracy: 0.961755
+	Training Total Mean_loss: 0.105899
+		Training Seg Accuracy: 0.960083
+	Training Total Mean_loss: 0.100228
+		Training Seg Accuracy: 0.962944
+	Training Total Mean_loss: 0.103546
+		Training Seg Accuracy: 0.961314
 
 <<< Testing on the test dataset ...
+Best validation accuracy: 0.9535189780042919
+Successfully store the checkpoint model into train_results/trained_models/epoch_92.ckpt
 
->>> Training for the epoch 105/201 ...
-	Training Total Mean_loss: 0.104050
-		Training Seg Accuracy: 0.960444
-	Training Total Mean_loss: 0.101061
-		Training Seg Accuracy: 0.962186
-	Training Total Mean_loss: 0.104920
-		Training Seg Accuracy: 0.960796
-	Training Total Mean_loss: 0.096928
-		Training Seg Accuracy: 0.963483
-	Training Total Mean_loss: 0.098733
-		Training Seg Accuracy: 0.963156
-	Training Total Mean_loss: 0.102028
-		Training Seg Accuracy: 0.962021
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 106/201 ...
-	Training Total Mean_loss: 0.097080
-		Training Seg Accuracy: 0.963649
-	Training Total Mean_loss: 0.102122
-		Training Seg Accuracy: 0.961658
-	Training Total Mean_loss: 0.101612
-		Training Seg Accuracy: 0.961663
-	Training Total Mean_loss: 0.101746
-		Training Seg Accuracy: 0.961942
-	Training Total Mean_loss: 0.100092
-		Training Seg Accuracy: 0.962458
-	Training Total Mean_loss: 0.104116
-		Training Seg Accuracy: 0.961300
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 107/201 ...
-	Training Total Mean_loss: 0.101363
-		Training Seg Accuracy: 0.961666
-	Training Total Mean_loss: 0.100821
-		Training Seg Accuracy: 0.961997
-	Training Total Mean_loss: 0.095728
-		Training Seg Accuracy: 0.964375
-	Training Total Mean_loss: 0.106444
-		Training Seg Accuracy: 0.960541
-	Training Total Mean_loss: 0.100966
-		Training Seg Accuracy: 0.961966
-	Training Total Mean_loss: 0.101775
-		Training Seg Accuracy: 0.961798
-
-<<< Testing on the test dataset ...
-Best validation accuracy: 0.9533366583959227
-Successfully store the checkpoint model into train_results/trained_models/epoch_107.ckpt
-
->>> Training for the epoch 108/201 ...
-	Training Total Mean_loss: 0.094840
-		Training Seg Accuracy: 0.963956
-	Training Total Mean_loss: 0.127383
-		Training Seg Accuracy: 0.958802
-	Training Total Mean_loss: 0.103172
-		Training Seg Accuracy: 0.961462
-	Training Total Mean_loss: 0.096547
-		Training Seg Accuracy: 0.964222
-	Training Total Mean_loss: 0.101782
-		Training Seg Accuracy: 0.961422
-	Training Total Mean_loss: 0.101350
-		Training Seg Accuracy: 0.962000
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 109/201 ...
-	Training Total Mean_loss: 0.095834
-		Training Seg Accuracy: 0.963796
-	Training Total Mean_loss: 0.096972
-		Training Seg Accuracy: 0.963548
-	Training Total Mean_loss: 0.096249
-		Training Seg Accuracy: 0.963579
-	Training Total Mean_loss: 0.096261
-		Training Seg Accuracy: 0.963934
-	Training Total Mean_loss: 0.099637
-		Training Seg Accuracy: 0.962406
-	Training Total Mean_loss: 0.105596
-		Training Seg Accuracy: 0.960647
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 110/201 ...
-	Training Total Mean_loss: 0.097071
-		Training Seg Accuracy: 0.963533
-	Training Total Mean_loss: 0.096788
-		Training Seg Accuracy: 0.963308
-	Training Total Mean_loss: 0.100293
-		Training Seg Accuracy: 0.962280
-	Training Total Mean_loss: 0.097472
-		Training Seg Accuracy: 0.963603
-	Training Total Mean_loss: 0.098828
-		Training Seg Accuracy: 0.963523
-	Training Total Mean_loss: 0.102649
-		Training Seg Accuracy: 0.961603
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 111/201 ...
-	Training Total Mean_loss: 0.100067
-		Training Seg Accuracy: 0.962229
-	Training Total Mean_loss: 0.100423
-		Training Seg Accuracy: 0.962646
-	Training Total Mean_loss: 0.100055
-		Training Seg Accuracy: 0.962461
-	Training Total Mean_loss: 0.095152
-		Training Seg Accuracy: 0.964487
-	Training Total Mean_loss: 0.095055
-		Training Seg Accuracy: 0.964313
-	Training Total Mean_loss: 0.096908
-		Training Seg Accuracy: 0.962963
-
-<<< Testing on the test dataset ...
-Best validation accuracy: 0.9534836142871513
-Successfully store the checkpoint model into train_results/trained_models/epoch_111.ckpt
-
->>> Training for the epoch 112/201 ...
-	Training Total Mean_loss: 0.095945
-		Training Seg Accuracy: 0.963899
-	Training Total Mean_loss: 0.093901
-		Training Seg Accuracy: 0.964776
-	Training Total Mean_loss: 0.094927
-		Training Seg Accuracy: 0.964271
-	Training Total Mean_loss: 0.096371
-		Training Seg Accuracy: 0.963804
-	Training Total Mean_loss: 0.095763
-		Training Seg Accuracy: 0.963916
-	Training Total Mean_loss: 0.094401
-		Training Seg Accuracy: 0.964475
-
-<<< Testing on the test dataset ...
-Best validation accuracy: 0.9540714378520655
-Successfully store the checkpoint model into train_results/trained_models/epoch_112.ckpt
-
->>> Training for the epoch 113/201 ...
-	Training Total Mean_loss: 0.088902
-		Training Seg Accuracy: 0.966853
-	Training Total Mean_loss: 0.091235
-		Training Seg Accuracy: 0.965146
-	Training Total Mean_loss: 0.094466
-		Training Seg Accuracy: 0.964382
-	Training Total Mean_loss: 0.094202
-		Training Seg Accuracy: 0.964496
-	Training Total Mean_loss: 0.095178
-		Training Seg Accuracy: 0.964123
-	Training Total Mean_loss: 0.099166
-		Training Seg Accuracy: 0.962320
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 114/201 ...
-	Training Total Mean_loss: 0.095622
-		Training Seg Accuracy: 0.964026
-	Training Total Mean_loss: 0.096144
-		Training Seg Accuracy: 0.963400
-	Training Total Mean_loss: 0.103815
-		Training Seg Accuracy: 0.963133
-	Training Total Mean_loss: 0.094076
-		Training Seg Accuracy: 0.964485
-	Training Total Mean_loss: 0.095603
-		Training Seg Accuracy: 0.963815
-	Training Total Mean_loss: 0.099177
-		Training Seg Accuracy: 0.962761
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 115/201 ...
-	Training Total Mean_loss: 0.095609
-		Training Seg Accuracy: 0.963525
-	Training Total Mean_loss: 0.096110
-		Training Seg Accuracy: 0.963645
-	Training Total Mean_loss: 0.094246
-		Training Seg Accuracy: 0.964248
-	Training Total Mean_loss: 0.091350
-		Training Seg Accuracy: 0.965558
-	Training Total Mean_loss: 0.094653
-		Training Seg Accuracy: 0.964303
-	Training Total Mean_loss: 0.090931
-		Training Seg Accuracy: 0.965564
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 116/201 ...
-	Training Total Mean_loss: 0.092174
-		Training Seg Accuracy: 0.965265
-	Training Total Mean_loss: 0.089438
-		Training Seg Accuracy: 0.966553
-	Training Total Mean_loss: 0.093338
-		Training Seg Accuracy: 0.964460
-	Training Total Mean_loss: 0.091692
-		Training Seg Accuracy: 0.965469
-	Training Total Mean_loss: 0.094637
-		Training Seg Accuracy: 0.964400
-	Training Total Mean_loss: 0.098153
-		Training Seg Accuracy: 0.962877
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 117/201 ...
-	Training Total Mean_loss: 0.093693
-		Training Seg Accuracy: 0.964883
-	Training Total Mean_loss: 0.096118
-		Training Seg Accuracy: 0.963625
-	Training Total Mean_loss: 0.094084
-		Training Seg Accuracy: 0.964635
-	Training Total Mean_loss: 0.091506
-		Training Seg Accuracy: 0.965304
-	Training Total Mean_loss: 0.092747
-		Training Seg Accuracy: 0.964932
-	Training Total Mean_loss: 0.092531
-		Training Seg Accuracy: 0.965316
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 118/201 ...
-	Training Total Mean_loss: 0.092140
-		Training Seg Accuracy: 0.965096
-	Training Total Mean_loss: 0.089821
-		Training Seg Accuracy: 0.966335
-	Training Total Mean_loss: 0.094008
-		Training Seg Accuracy: 0.964406
-	Training Total Mean_loss: 0.093783
-		Training Seg Accuracy: 0.964768
-	Training Total Mean_loss: 0.092819
-		Training Seg Accuracy: 0.964883
-	Training Total Mean_loss: 0.092802
-		Training Seg Accuracy: 0.965037
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 119/201 ...
-	Training Total Mean_loss: 0.100244
-		Training Seg Accuracy: 0.963026
-	Training Total Mean_loss: 0.090234
-		Training Seg Accuracy: 0.965732
-	Training Total Mean_loss: 0.088229
-		Training Seg Accuracy: 0.966749
-	Training Total Mean_loss: 0.089472
-		Training Seg Accuracy: 0.966010
-	Training Total Mean_loss: 0.092026
-		Training Seg Accuracy: 0.965637
-	Training Total Mean_loss: 0.091911
-		Training Seg Accuracy: 0.965504
-
-<<< Testing on the test dataset ...
-
->>> Training for the epoch 120/201 ...
-	Training Total Mean_loss: 0.090499
-		Training Seg Accuracy: 0.966050
-	Training Total Mean_loss: 0.089037
-		Training Seg Accuracy: 0.966215
-	Training Total Mean_loss: 0.090037
-		Training Seg Accuracy: 0.965843
-	Training Total Mean_loss: 0.112004
+>>> Training for the epoch 93/180 ...
+	Training Total Mean_loss: 0.098607
+		Training Seg Accuracy: 0.963257
+	Training Total Mean_loss: 0.094818
+		Training Seg Accuracy: 0.964647
+	Training Total Mean_loss: 0.102570
+		Training Seg Accuracy: 0.961724
+	Training Total Mean_loss: 0.100768
 		Training Seg Accuracy: 0.962441
-	Training Total Mean_loss: 0.092465
-		Training Seg Accuracy: 0.964623
-	Training Total Mean_loss: 0.089445
-		Training Seg Accuracy: 0.966341
+	Training Total Mean_loss: 0.094651
+		Training Seg Accuracy: 0.964752
+	Training Total Mean_loss: 0.100040
+		Training Seg Accuracy: 0.962634
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 121/201 ...
-	Training Total Mean_loss: 0.091966
-		Training Seg Accuracy: 0.965314
-	Training Total Mean_loss: 0.089582
-		Training Seg Accuracy: 0.966412
-	Training Total Mean_loss: 0.092032
-		Training Seg Accuracy: 0.965640
-	Training Total Mean_loss: 0.093027
-		Training Seg Accuracy: 0.964756
-	Training Total Mean_loss: 0.089085
-		Training Seg Accuracy: 0.966661
-	Training Total Mean_loss: 0.097759
-		Training Seg Accuracy: 0.963009
+>>> Training for the epoch 94/180 ...
+	Training Total Mean_loss: 0.097795
+		Training Seg Accuracy: 0.963338
+	Training Total Mean_loss: 0.098157
+		Training Seg Accuracy: 0.963212
+	Training Total Mean_loss: 0.093415
+		Training Seg Accuracy: 0.965032
+	Training Total Mean_loss: 0.104394
+		Training Seg Accuracy: 0.960501
+	Training Total Mean_loss: 0.100982
+		Training Seg Accuracy: 0.962691
+	Training Total Mean_loss: 0.101204
+		Training Seg Accuracy: 0.962550
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 122/201 ...
-	Training Total Mean_loss: 0.088362
-		Training Seg Accuracy: 0.966400
-	Training Total Mean_loss: 0.090754
-		Training Seg Accuracy: 0.965930
-	Training Total Mean_loss: 0.092172
-		Training Seg Accuracy: 0.965248
-	Training Total Mean_loss: 0.093877
-		Training Seg Accuracy: 0.964294
-	Training Total Mean_loss: 0.091452
-		Training Seg Accuracy: 0.965757
-	Training Total Mean_loss: 0.092672
-		Training Seg Accuracy: 0.965097
+>>> Training for the epoch 95/180 ...
+	Training Total Mean_loss: 0.096899
+		Training Seg Accuracy: 0.964003
+	Training Total Mean_loss: 0.098639
+		Training Seg Accuracy: 0.963097
+	Training Total Mean_loss: 0.097842
+		Training Seg Accuracy: 0.963367
+	Training Total Mean_loss: 0.098726
+		Training Seg Accuracy: 0.962653
+	Training Total Mean_loss: 0.096755
+		Training Seg Accuracy: 0.964296
+	Training Total Mean_loss: 0.103507
+		Training Seg Accuracy: 0.961182
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 123/201 ...
-	Training Total Mean_loss: 0.091108
-		Training Seg Accuracy: 0.965530
-	Training Total Mean_loss: 0.091591
-		Training Seg Accuracy: 0.965147
-	Training Total Mean_loss: 0.090855
-		Training Seg Accuracy: 0.965704
-	Training Total Mean_loss: 0.090520
-		Training Seg Accuracy: 0.965686
-	Training Total Mean_loss: 0.093010
-		Training Seg Accuracy: 0.964989
-	Training Total Mean_loss: 0.090739
-		Training Seg Accuracy: 0.966012
+>>> Training for the epoch 96/180 ...
+	Training Total Mean_loss: 0.097503
+		Training Seg Accuracy: 0.963754
+	Training Total Mean_loss: 0.099349
+		Training Seg Accuracy: 0.962476
+	Training Total Mean_loss: 0.096871
+		Training Seg Accuracy: 0.963964
+	Training Total Mean_loss: 0.096924
+		Training Seg Accuracy: 0.963740
+	Training Total Mean_loss: 0.101212
+		Training Seg Accuracy: 0.962608
+	Training Total Mean_loss: 0.098315
+		Training Seg Accuracy: 0.963284
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 124/201 ...
-	Training Total Mean_loss: 0.092054
-		Training Seg Accuracy: 0.965115
-	Training Total Mean_loss: 0.092856
-		Training Seg Accuracy: 0.964618
-	Training Total Mean_loss: 0.094010
-		Training Seg Accuracy: 0.964899
-	Training Total Mean_loss: 0.090326
-		Training Seg Accuracy: 0.966057
-	Training Total Mean_loss: 0.090237
-		Training Seg Accuracy: 0.965615
-	Training Total Mean_loss: 0.090270
-		Training Seg Accuracy: 0.965750
+>>> Training for the epoch 97/180 ...
+	Training Total Mean_loss: 0.101453
+		Training Seg Accuracy: 0.962303
+	Training Total Mean_loss: 0.101779
+		Training Seg Accuracy: 0.961892
+	Training Total Mean_loss: 0.097991
+		Training Seg Accuracy: 0.962888
+	Training Total Mean_loss: 0.102376
+		Training Seg Accuracy: 0.962047
+	Training Total Mean_loss: 0.105974
+		Training Seg Accuracy: 0.961368
+	Training Total Mean_loss: 0.100558
+		Training Seg Accuracy: 0.962296
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 125/201 ...
-	Training Total Mean_loss: 0.091473
-		Training Seg Accuracy: 0.965373
-	Training Total Mean_loss: 0.089724
-		Training Seg Accuracy: 0.965965
-	Training Total Mean_loss: 0.089817
-		Training Seg Accuracy: 0.965894
-	Training Total Mean_loss: 0.092357
-		Training Seg Accuracy: 0.964922
-	Training Total Mean_loss: 0.094095
-		Training Seg Accuracy: 0.964392
-	Training Total Mean_loss: 0.094251
-		Training Seg Accuracy: 0.964621
+>>> Training for the epoch 98/180 ...
+	Training Total Mean_loss: 0.099150
+		Training Seg Accuracy: 0.963152
+	Training Total Mean_loss: 0.095859
+		Training Seg Accuracy: 0.963856
+	Training Total Mean_loss: 0.095058
+		Training Seg Accuracy: 0.964367
+	Training Total Mean_loss: 0.101539
+		Training Seg Accuracy: 0.962459
+	Training Total Mean_loss: 0.102995
+		Training Seg Accuracy: 0.961186
+	Training Total Mean_loss: 0.096236
+		Training Seg Accuracy: 0.963997
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 126/201 ...
-	Training Total Mean_loss: 0.091900
-		Training Seg Accuracy: 0.965159
-	Training Total Mean_loss: 0.089911
-		Training Seg Accuracy: 0.966404
-	Training Total Mean_loss: 0.092701
-		Training Seg Accuracy: 0.964862
-	Training Total Mean_loss: 0.091968
-		Training Seg Accuracy: 0.965207
-	Training Total Mean_loss: 0.090065
-		Training Seg Accuracy: 0.965631
-	Training Total Mean_loss: 0.089654
-		Training Seg Accuracy: 0.966038
+>>> Training for the epoch 99/180 ...
+	Training Total Mean_loss: 0.096225
+		Training Seg Accuracy: 0.963807
+	Training Total Mean_loss: 0.099606
+		Training Seg Accuracy: 0.962469
+	Training Total Mean_loss: 0.098526
+		Training Seg Accuracy: 0.962785
+	Training Total Mean_loss: 0.094346
+		Training Seg Accuracy: 0.964736
+	Training Total Mean_loss: 0.097429
+		Training Seg Accuracy: 0.963566
+	Training Total Mean_loss: 0.100035
+		Training Seg Accuracy: 0.962503
+
+<<< Testing on the test dataset ...
+Best validation accuracy: 0.9538676380599517
+Successfully store the checkpoint model into train_results/trained_models/epoch_99.ckpt
+
+>>> Training for the epoch 100/180 ...
+	Training Total Mean_loss: 0.096999
+		Training Seg Accuracy: 0.963640
+	Training Total Mean_loss: 0.094718
+		Training Seg Accuracy: 0.964220
+	Training Total Mean_loss: 0.100930
+		Training Seg Accuracy: 0.961828
+	Training Total Mean_loss: 0.100168
+		Training Seg Accuracy: 0.962516
+	Training Total Mean_loss: 0.102683
+		Training Seg Accuracy: 0.962092
+	Training Total Mean_loss: 0.096235
+		Training Seg Accuracy: 0.963830
+
+<<< Testing on the test dataset ...
+Best validation accuracy: 0.9539250058677575
+Successfully store the checkpoint model into train_results/trained_models/epoch_100.ckpt
+
+>>> Training for the epoch 101/180 ...
+	Training Total Mean_loss: 0.094629
+		Training Seg Accuracy: 0.964119
+	Training Total Mean_loss: 0.095583
+		Training Seg Accuracy: 0.963885
+	Training Total Mean_loss: 0.105378
+		Training Seg Accuracy: 0.960672
+	Training Total Mean_loss: 0.100296
+		Training Seg Accuracy: 0.962632
+	Training Total Mean_loss: 0.095552
+		Training Seg Accuracy: 0.964308
+	Training Total Mean_loss: 0.097363
+		Training Seg Accuracy: 0.963392
+
+<<< Testing on the test dataset ...
+Best validation accuracy: 0.954045766412956
+Successfully store the checkpoint model into train_results/trained_models/epoch_101.ckpt
+
+>>> Training for the epoch 102/180 ...
+	Training Total Mean_loss: 0.117537
+		Training Seg Accuracy: 0.960038
+	Training Total Mean_loss: 0.099906
+		Training Seg Accuracy: 0.962612
+	Training Total Mean_loss: 0.100796
+		Training Seg Accuracy: 0.962424
+	Training Total Mean_loss: 0.099146
+		Training Seg Accuracy: 0.962902
+	Training Total Mean_loss: 0.096790
+		Training Seg Accuracy: 0.963932
+	Training Total Mean_loss: 0.096890
+		Training Seg Accuracy: 0.963689
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 127/201 ...
-	Training Total Mean_loss: 0.087628
-		Training Seg Accuracy: 0.966916
-	Training Total Mean_loss: 0.088089
-		Training Seg Accuracy: 0.966859
-	Training Total Mean_loss: 0.091864
-		Training Seg Accuracy: 0.965314
-	Training Total Mean_loss: 0.089244
-		Training Seg Accuracy: 0.966119
-	Training Total Mean_loss: 0.092363
-		Training Seg Accuracy: 0.965429
-	Training Total Mean_loss: 0.094212
-		Training Seg Accuracy: 0.964473
+>>> Training for the epoch 103/180 ...
+	Training Total Mean_loss: 0.097234
+		Training Seg Accuracy: 0.963341
+	Training Total Mean_loss: 0.096268
+		Training Seg Accuracy: 0.963766
+	Training Total Mean_loss: 0.098172
+		Training Seg Accuracy: 0.963032
+	Training Total Mean_loss: 0.101043
+		Training Seg Accuracy: 0.962714
+	Training Total Mean_loss: 0.099202
+		Training Seg Accuracy: 0.963067
+	Training Total Mean_loss: 0.091575
+		Training Seg Accuracy: 0.965810
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 128/201 ...
-	Training Total Mean_loss: 0.091816
-		Training Seg Accuracy: 0.965051
-	Training Total Mean_loss: 0.090137
-		Training Seg Accuracy: 0.966135
-	Training Total Mean_loss: 0.130661
-		Training Seg Accuracy: 0.961839
-	Training Total Mean_loss: 0.092969
-		Training Seg Accuracy: 0.965110
-	Training Total Mean_loss: 0.093214
-		Training Seg Accuracy: 0.964728
-	Training Total Mean_loss: 0.090506
-		Training Seg Accuracy: 0.965564
+>>> Training for the epoch 104/180 ...
+	Training Total Mean_loss: 0.094356
+		Training Seg Accuracy: 0.964768
+	Training Total Mean_loss: 0.096663
+		Training Seg Accuracy: 0.963869
+	Training Total Mean_loss: 0.098052
+		Training Seg Accuracy: 0.962920
+	Training Total Mean_loss: 0.099162
+		Training Seg Accuracy: 0.962717
+	Training Total Mean_loss: 0.101721
+		Training Seg Accuracy: 0.961844
+	Training Total Mean_loss: 0.093071
+		Training Seg Accuracy: 0.965089
+
+<<< Testing on the test dataset ...
+Best validation accuracy: 0.9540973712446352
+Successfully store the checkpoint model into train_results/trained_models/epoch_104.ckpt
+
+>>> Training for the epoch 105/180 ...
+	Training Total Mean_loss: 0.095313
+		Training Seg Accuracy: 0.964182
+	Training Total Mean_loss: 0.098767
+		Training Seg Accuracy: 0.962821
+	Training Total Mean_loss: 0.095899
+		Training Seg Accuracy: 0.964085
+	Training Total Mean_loss: 0.096463
+		Training Seg Accuracy: 0.963980
+	Training Total Mean_loss: 0.099426
+		Training Seg Accuracy: 0.962526
+	Training Total Mean_loss: 0.097315
+		Training Seg Accuracy: 0.963199
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 129/201 ...
-	Training Total Mean_loss: 0.091661
-		Training Seg Accuracy: 0.965132
-	Training Total Mean_loss: 0.092877
-		Training Seg Accuracy: 0.964615
-	Training Total Mean_loss: 0.090851
-		Training Seg Accuracy: 0.965740
-	Training Total Mean_loss: 0.092480
-		Training Seg Accuracy: 0.964991
-	Training Total Mean_loss: 0.091136
-		Training Seg Accuracy: 0.965637
-	Training Total Mean_loss: 0.092539
-		Training Seg Accuracy: 0.965184
+>>> Training for the epoch 106/180 ...
+	Training Total Mean_loss: 0.097414
+		Training Seg Accuracy: 0.963581
+	Training Total Mean_loss: 0.098289
+		Training Seg Accuracy: 0.963037
+	Training Total Mean_loss: 0.098164
+		Training Seg Accuracy: 0.963836
+	Training Total Mean_loss: 0.093545
+		Training Seg Accuracy: 0.965111
+	Training Total Mean_loss: 0.098850
+		Training Seg Accuracy: 0.962443
+	Training Total Mean_loss: 0.097913
+		Training Seg Accuracy: 0.963329
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 130/201 ...
-	Training Total Mean_loss: 0.094005
-		Training Seg Accuracy: 0.964147
-	Training Total Mean_loss: 0.090469
-		Training Seg Accuracy: 0.965563
-	Training Total Mean_loss: 0.091707
-		Training Seg Accuracy: 0.965382
-	Training Total Mean_loss: 0.090024
-		Training Seg Accuracy: 0.965781
-	Training Total Mean_loss: 0.090057
+>>> Training for the epoch 107/180 ...
+	Training Total Mean_loss: 0.095609
+		Training Seg Accuracy: 0.964104
+	Training Total Mean_loss: 0.101477
+		Training Seg Accuracy: 0.962082
+	Training Total Mean_loss: 0.096761
+		Training Seg Accuracy: 0.963720
+	Training Total Mean_loss: 0.093541
+		Training Seg Accuracy: 0.964512
+	Training Total Mean_loss: 0.100878
+		Training Seg Accuracy: 0.962008
+	Training Total Mean_loss: 0.092633
+		Training Seg Accuracy: 0.965189
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 108/180 ...
+	Training Total Mean_loss: 0.096051
+		Training Seg Accuracy: 0.964400
+	Training Total Mean_loss: 0.096646
+		Training Seg Accuracy: 0.963985
+	Training Total Mean_loss: 0.097888
+		Training Seg Accuracy: 0.963415
+	Training Total Mean_loss: 0.096381
+		Training Seg Accuracy: 0.963932
+	Training Total Mean_loss: 0.097099
+		Training Seg Accuracy: 0.963514
+	Training Total Mean_loss: 0.103845
+		Training Seg Accuracy: 0.962327
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 109/180 ...
+	Training Total Mean_loss: 0.094272
+		Training Seg Accuracy: 0.964900
+	Training Total Mean_loss: 0.097769
+		Training Seg Accuracy: 0.963495
+	Training Total Mean_loss: 0.100715
+		Training Seg Accuracy: 0.962287
+	Training Total Mean_loss: 0.094651
+		Training Seg Accuracy: 0.964622
+	Training Total Mean_loss: 0.095715
+		Training Seg Accuracy: 0.963428
+	Training Total Mean_loss: 0.095357
+		Training Seg Accuracy: 0.964641
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 110/180 ...
+	Training Total Mean_loss: 0.092544
+		Training Seg Accuracy: 0.965374
+	Training Total Mean_loss: 0.097112
+		Training Seg Accuracy: 0.963421
+	Training Total Mean_loss: 0.096494
+		Training Seg Accuracy: 0.963317
+	Training Total Mean_loss: 0.096932
+		Training Seg Accuracy: 0.963694
+	Training Total Mean_loss: 0.094789
+		Training Seg Accuracy: 0.964150
+	Training Total Mean_loss: 0.096209
+		Training Seg Accuracy: 0.963839
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 111/180 ...
+	Training Total Mean_loss: 0.094028
+		Training Seg Accuracy: 0.964655
+	Training Total Mean_loss: 0.095666
+		Training Seg Accuracy: 0.963741
+	Training Total Mean_loss: 0.098634
+		Training Seg Accuracy: 0.963277
+	Training Total Mean_loss: 0.096314
+		Training Seg Accuracy: 0.963837
+	Training Total Mean_loss: 0.093915
+		Training Seg Accuracy: 0.964617
+	Training Total Mean_loss: 0.092028
+		Training Seg Accuracy: 0.965175
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 112/180 ...
+	Training Total Mean_loss: 0.093333
+		Training Seg Accuracy: 0.964602
+	Training Total Mean_loss: 0.103111
+		Training Seg Accuracy: 0.964717
+	Training Total Mean_loss: 0.091020
+		Training Seg Accuracy: 0.965949
+	Training Total Mean_loss: 0.088850
+		Training Seg Accuracy: 0.966844
+	Training Total Mean_loss: 0.098469
+		Training Seg Accuracy: 0.962952
+	Training Total Mean_loss: 0.089791
+		Training Seg Accuracy: 0.966028
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 113/180 ...
+	Training Total Mean_loss: 0.089554
+		Training Seg Accuracy: 0.966165
+	Training Total Mean_loss: 0.092982
+		Training Seg Accuracy: 0.964387
+	Training Total Mean_loss: 0.087869
+		Training Seg Accuracy: 0.967119
+	Training Total Mean_loss: 0.092107
+		Training Seg Accuracy: 0.964736
+	Training Total Mean_loss: 0.088589
+		Training Seg Accuracy: 0.966603
+	Training Total Mean_loss: 0.095937
+		Training Seg Accuracy: 0.965546
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 114/180 ...
+	Training Total Mean_loss: 0.090695
+		Training Seg Accuracy: 0.966111
+	Training Total Mean_loss: 0.091510
+		Training Seg Accuracy: 0.965462
+	Training Total Mean_loss: 0.086300
+		Training Seg Accuracy: 0.967580
+	Training Total Mean_loss: 0.087168
+		Training Seg Accuracy: 0.967051
+	Training Total Mean_loss: 0.090003
+		Training Seg Accuracy: 0.966268
+	Training Total Mean_loss: 0.090307
+		Training Seg Accuracy: 0.965759
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 115/180 ...
+	Training Total Mean_loss: 0.087548
+		Training Seg Accuracy: 0.967102
+	Training Total Mean_loss: 0.090107
 		Training Seg Accuracy: 0.966002
-	Training Total Mean_loss: 0.090555
-		Training Seg Accuracy: 0.965805
+	Training Total Mean_loss: 0.089268
+		Training Seg Accuracy: 0.966626
+	Training Total Mean_loss: 0.088889
+		Training Seg Accuracy: 0.966664
+	Training Total Mean_loss: 0.088823
+		Training Seg Accuracy: 0.966416
+	Training Total Mean_loss: 0.091408
+		Training Seg Accuracy: 0.965130
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 131/201 ...
-	Training Total Mean_loss: 0.090428
-		Training Seg Accuracy: 0.965410
-	Training Total Mean_loss: 0.088452
-		Training Seg Accuracy: 0.966558
-	Training Total Mean_loss: 0.086918
-		Training Seg Accuracy: 0.966984
-	Training Total Mean_loss: 0.089341
-		Training Seg Accuracy: 0.966022
-	Training Total Mean_loss: 0.086240
-		Training Seg Accuracy: 0.967122
-	Training Total Mean_loss: 0.091388
-		Training Seg Accuracy: 0.965430
+>>> Training for the epoch 116/180 ...
+	Training Total Mean_loss: 0.088702
+		Training Seg Accuracy: 0.966524
+	Training Total Mean_loss: 0.088564
+		Training Seg Accuracy: 0.966366
+	Training Total Mean_loss: 0.083757
+		Training Seg Accuracy: 0.968178
+	Training Total Mean_loss: 0.087044
+		Training Seg Accuracy: 0.967214
+	Training Total Mean_loss: 0.089585
+		Training Seg Accuracy: 0.966059
+	Training Total Mean_loss: 0.090116
+		Training Seg Accuracy: 0.965993
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 132/201 ...
-	Training Total Mean_loss: 0.090574
-		Training Seg Accuracy: 0.965765
-	Training Total Mean_loss: 0.086521
-		Training Seg Accuracy: 0.967202
-	Training Total Mean_loss: 0.092474
-		Training Seg Accuracy: 0.965466
-	Training Total Mean_loss: 0.090281
-		Training Seg Accuracy: 0.965608
-	Training Total Mean_loss: 0.089990
-		Training Seg Accuracy: 0.965869
-	Training Total Mean_loss: 0.092099
-		Training Seg Accuracy: 0.965129
+>>> Training for the epoch 117/180 ...
+	Training Total Mean_loss: 0.089919
+		Training Seg Accuracy: 0.966140
+	Training Total Mean_loss: 0.094941
+		Training Seg Accuracy: 0.964171
+	Training Total Mean_loss: 0.089797
+		Training Seg Accuracy: 0.965789
+	Training Total Mean_loss: 0.088729
+		Training Seg Accuracy: 0.966653
+	Training Total Mean_loss: 0.089725
+		Training Seg Accuracy: 0.965842
+	Training Total Mean_loss: 0.088128
+		Training Seg Accuracy: 0.966746
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 133/201 ...
-	Training Total Mean_loss: 0.089012
-		Training Seg Accuracy: 0.966619
-	Training Total Mean_loss: 0.093073
-		Training Seg Accuracy: 0.964796
-	Training Total Mean_loss: 0.091464
-		Training Seg Accuracy: 0.965623
-	Training Total Mean_loss: 0.089476
-		Training Seg Accuracy: 0.966163
-	Training Total Mean_loss: 0.094402
-		Training Seg Accuracy: 0.964235
-	Training Total Mean_loss: 0.088306
+>>> Training for the epoch 118/180 ...
+	Training Total Mean_loss: 0.090919
+		Training Seg Accuracy: 0.965756
+	Training Total Mean_loss: 0.089101
+		Training Seg Accuracy: 0.966399
+	Training Total Mean_loss: 0.088556
+		Training Seg Accuracy: 0.966675
+	Training Total Mean_loss: 0.090376
+		Training Seg Accuracy: 0.965990
+	Training Total Mean_loss: 0.088129
+		Training Seg Accuracy: 0.966828
+	Training Total Mean_loss: 0.089109
+		Training Seg Accuracy: 0.966555
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 119/180 ...
+	Training Total Mean_loss: 0.092411
+		Training Seg Accuracy: 0.964961
+	Training Total Mean_loss: 0.091612
+		Training Seg Accuracy: 0.965660
+	Training Total Mean_loss: 0.089551
+		Training Seg Accuracy: 0.966005
+	Training Total Mean_loss: 0.088169
+		Training Seg Accuracy: 0.966459
+	Training Total Mean_loss: 0.088893
+		Training Seg Accuracy: 0.966564
+	Training Total Mean_loss: 0.095870
+		Training Seg Accuracy: 0.964447
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 120/180 ...
+	Training Total Mean_loss: 0.089969
+		Training Seg Accuracy: 0.965933
+	Training Total Mean_loss: 0.089034
+		Training Seg Accuracy: 0.965985
+	Training Total Mean_loss: 0.088347
+		Training Seg Accuracy: 0.966659
+	Training Total Mean_loss: 0.089380
+		Training Seg Accuracy: 0.966158
+	Training Total Mean_loss: 0.089898
+		Training Seg Accuracy: 0.966084
+	Training Total Mean_loss: 0.088998
 		Training Seg Accuracy: 0.966612
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 134/201 ...
-	Training Total Mean_loss: 0.092008
-		Training Seg Accuracy: 0.965135
-	Training Total Mean_loss: 0.090143
-		Training Seg Accuracy: 0.966011
-	Training Total Mean_loss: 0.093247
-		Training Seg Accuracy: 0.964759
-	Training Total Mean_loss: 0.088202
-		Training Seg Accuracy: 0.966515
-	Training Total Mean_loss: 0.090593
-		Training Seg Accuracy: 0.965745
-	Training Total Mean_loss: 0.091958
-		Training Seg Accuracy: 0.965254
+>>> Training for the epoch 121/180 ...
+	Training Total Mean_loss: 0.089939
+		Training Seg Accuracy: 0.966230
+	Training Total Mean_loss: 0.089464
+		Training Seg Accuracy: 0.965709
+	Training Total Mean_loss: 0.087159
+		Training Seg Accuracy: 0.966920
+	Training Total Mean_loss: 0.090100
+		Training Seg Accuracy: 0.965847
+	Training Total Mean_loss: 0.085801
+		Training Seg Accuracy: 0.967248
+	Training Total Mean_loss: 0.085751
+		Training Seg Accuracy: 0.967230
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 135/201 ...
-	Training Total Mean_loss: 0.086529
-		Training Seg Accuracy: 0.967463
-	Training Total Mean_loss: 0.087280
-		Training Seg Accuracy: 0.966977
-	Training Total Mean_loss: 0.093292
-		Training Seg Accuracy: 0.964428
-	Training Total Mean_loss: 0.090247
-		Training Seg Accuracy: 0.965899
-	Training Total Mean_loss: 0.090844
-		Training Seg Accuracy: 0.965775
-	Training Total Mean_loss: 0.091255
-		Training Seg Accuracy: 0.965630
+>>> Training for the epoch 122/180 ...
+	Training Total Mean_loss: 0.082215
+		Training Seg Accuracy: 0.968812
+	Training Total Mean_loss: 0.089255
+		Training Seg Accuracy: 0.965949
+	Training Total Mean_loss: 0.102027
+		Training Seg Accuracy: 0.962965
+	Training Total Mean_loss: 0.089675
+		Training Seg Accuracy: 0.966325
+	Training Total Mean_loss: 0.088939
+		Training Seg Accuracy: 0.966304
+	Training Total Mean_loss: 0.089553
+		Training Seg Accuracy: 0.966168
 
 <<< Testing on the test dataset ...
 
->>> Training for the epoch 136/201 ...
-	Training Total Mean_loss: 0.090470
-		Training Seg Accuracy: 0.965831
-	Training Total Mean_loss: 0.092547
-		Training Seg Accuracy: 0.964910
-	Training Total Mean_loss: 0.105556
-		Training Seg Accuracy: 0.963478
-	Training Total Mean_loss: 0.090541
-		Training Seg Accuracy: 0.965785
-	Training Total Mean_loss: 0.089271
-		Training Seg Accuracy: 0.966064
-	Training Total Mean_loss: 0.093240
-		Training Seg Accuracy: 0.964533
+>>> Training for the epoch 123/180 ...
+	Training Total Mean_loss: 0.091201
+		Training Seg Accuracy: 0.965747
+	Training Total Mean_loss: 0.084115
+		Training Seg Accuracy: 0.967954
+	Training Total Mean_loss: 0.087885
+		Training Seg Accuracy: 0.966611
+	Training Total Mean_loss: 0.085827
+		Training Seg Accuracy: 0.967354
+	Training Total Mean_loss: 0.088061
+		Training Seg Accuracy: 0.966508
+	Training Total Mean_loss: 0.090304
+		Training Seg Accuracy: 0.966025
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 124/180 ...
+	Training Total Mean_loss: 0.090398
+		Training Seg Accuracy: 0.965772
+	Training Total Mean_loss: 0.086686
+		Training Seg Accuracy: 0.967283
+	Training Total Mean_loss: 0.088817
+		Training Seg Accuracy: 0.966389
+	Training Total Mean_loss: 0.085193
+		Training Seg Accuracy: 0.967669
+	Training Total Mean_loss: 0.088097
+		Training Seg Accuracy: 0.966407
+	Training Total Mean_loss: 0.090504
+		Training Seg Accuracy: 0.965636
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 125/180 ...
+	Training Total Mean_loss: 0.084005
+		Training Seg Accuracy: 0.968173
+	Training Total Mean_loss: 0.089920
+		Training Seg Accuracy: 0.966182
+	Training Total Mean_loss: 0.088330
+		Training Seg Accuracy: 0.966860
+	Training Total Mean_loss: 0.085375
+		Training Seg Accuracy: 0.967981
+	Training Total Mean_loss: 0.085044
+		Training Seg Accuracy: 0.967921
+	Training Total Mean_loss: 0.092760
+		Training Seg Accuracy: 0.964929
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 126/180 ...
+	Training Total Mean_loss: 0.089753
+		Training Seg Accuracy: 0.965853
+	Training Total Mean_loss: 0.085254
+		Training Seg Accuracy: 0.967924
+	Training Total Mean_loss: 0.087436
+		Training Seg Accuracy: 0.966541
+	Training Total Mean_loss: 0.088577
+		Training Seg Accuracy: 0.966496
+	Training Total Mean_loss: 0.086677
+		Training Seg Accuracy: 0.967234
+	Training Total Mean_loss: 0.090491
+		Training Seg Accuracy: 0.965437
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 127/180 ...
+	Training Total Mean_loss: 0.083653
+		Training Seg Accuracy: 0.968589
+	Training Total Mean_loss: 0.088155
+		Training Seg Accuracy: 0.966448
+	Training Total Mean_loss: 0.087146
+		Training Seg Accuracy: 0.966900
+	Training Total Mean_loss: 0.089728
+		Training Seg Accuracy: 0.966201
+	Training Total Mean_loss: 0.087953
+		Training Seg Accuracy: 0.966928
+	Training Total Mean_loss: 0.086049
+		Training Seg Accuracy: 0.967257
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 128/180 ...
+	Training Total Mean_loss: 0.083931
+		Training Seg Accuracy: 0.967930
+	Training Total Mean_loss: 0.086401
+		Training Seg Accuracy: 0.967240
+	Training Total Mean_loss: 0.087605
+		Training Seg Accuracy: 0.967083
+	Training Total Mean_loss: 0.087705
+		Training Seg Accuracy: 0.966492
+	Training Total Mean_loss: 0.087247
+		Training Seg Accuracy: 0.966985
+	Training Total Mean_loss: 0.092540
+		Training Seg Accuracy: 0.965483
+
+<<< Testing on the test dataset ...
+Best validation accuracy: 0.9543737321452521
+Successfully store the checkpoint model into train_results/trained_models/epoch_128.ckpt
+
+>>> Training for the epoch 129/180 ...
+	Training Total Mean_loss: 0.089057
+		Training Seg Accuracy: 0.966310
+	Training Total Mean_loss: 0.087218
+		Training Seg Accuracy: 0.967153
+	Training Total Mean_loss: 0.089518
+		Training Seg Accuracy: 0.966321
+	Training Total Mean_loss: 0.086806
+		Training Seg Accuracy: 0.967034
+	Training Total Mean_loss: 0.085914
+		Training Seg Accuracy: 0.967355
+	Training Total Mean_loss: 0.087481
+		Training Seg Accuracy: 0.967010
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 130/180 ...
+	Training Total Mean_loss: 0.085892
+		Training Seg Accuracy: 0.967493
+	Training Total Mean_loss: 0.086941
+		Training Seg Accuracy: 0.967033
+	Training Total Mean_loss: 0.087101
+		Training Seg Accuracy: 0.966799
+	Training Total Mean_loss: 0.088376
+		Training Seg Accuracy: 0.966192
+	Training Total Mean_loss: 0.089033
+		Training Seg Accuracy: 0.966008
+	Training Total Mean_loss: 0.084301
+		Training Seg Accuracy: 0.967917
+
+<<< Testing on the test dataset ...
+Best validation accuracy: 0.9552143407993562
+Successfully store the checkpoint model into train_results/trained_models/epoch_130.ckpt
+
+>>> Training for the epoch 131/180 ...
+	Training Total Mean_loss: 0.086887
+		Training Seg Accuracy: 0.966723
+	Training Total Mean_loss: 0.090265
+		Training Seg Accuracy: 0.966031
+	Training Total Mean_loss: 0.084836
+		Training Seg Accuracy: 0.967849
+	Training Total Mean_loss: 0.088986
+		Training Seg Accuracy: 0.965851
+	Training Total Mean_loss: 0.086482
+		Training Seg Accuracy: 0.967548
+	Training Total Mean_loss: 0.086639
+		Training Seg Accuracy: 0.967494
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 132/180 ...
+	Training Total Mean_loss: 0.088959
+		Training Seg Accuracy: 0.966689
+	Training Total Mean_loss: 0.081807
+		Training Seg Accuracy: 0.969254
+	Training Total Mean_loss: 0.084837
+		Training Seg Accuracy: 0.968060
+	Training Total Mean_loss: 0.088726
+		Training Seg Accuracy: 0.966662
+	Training Total Mean_loss: 0.087676
+		Training Seg Accuracy: 0.966470
+	Training Total Mean_loss: 0.089125
+		Training Seg Accuracy: 0.966204
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 133/180 ...
+	Training Total Mean_loss: 0.087899
+		Training Seg Accuracy: 0.966564
+	Training Total Mean_loss: 0.085343
+		Training Seg Accuracy: 0.967757
+	Training Total Mean_loss: 0.086493
+		Training Seg Accuracy: 0.967132
+	Training Total Mean_loss: 0.087502
+		Training Seg Accuracy: 0.966813
+	Training Total Mean_loss: 0.083405
+		Training Seg Accuracy: 0.968822
+	Training Total Mean_loss: 0.089279
+		Training Seg Accuracy: 0.965888
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 134/180 ...
+	Training Total Mean_loss: 0.083741
+		Training Seg Accuracy: 0.968099
+	Training Total Mean_loss: 0.085862
+		Training Seg Accuracy: 0.967445
+	Training Total Mean_loss: 0.085081
+		Training Seg Accuracy: 0.967906
+	Training Total Mean_loss: 0.085893
+		Training Seg Accuracy: 0.967556
+	Training Total Mean_loss: 0.085977
+		Training Seg Accuracy: 0.967580
+	Training Total Mean_loss: 0.086241
+		Training Seg Accuracy: 0.966706
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 135/180 ...
+	Training Total Mean_loss: 0.087558
+		Training Seg Accuracy: 0.966794
+	Training Total Mean_loss: 0.085772
+		Training Seg Accuracy: 0.967403
+	Training Total Mean_loss: 0.086064
+		Training Seg Accuracy: 0.967409
+	Training Total Mean_loss: 0.087843
+		Training Seg Accuracy: 0.966684
+	Training Total Mean_loss: 0.085441
+		Training Seg Accuracy: 0.967692
+	Training Total Mean_loss: 0.087449
+		Training Seg Accuracy: 0.966350
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 136/180 ...
+	Training Total Mean_loss: 0.083076
+		Training Seg Accuracy: 0.968502
+	Training Total Mean_loss: 0.084683
+		Training Seg Accuracy: 0.967745
+	Training Total Mean_loss: 0.087355
+		Training Seg Accuracy: 0.966877
+	Training Total Mean_loss: 0.086676
+		Training Seg Accuracy: 0.967120
+	Training Total Mean_loss: 0.088901
+		Training Seg Accuracy: 0.966637
+	Training Total Mean_loss: 0.087690
+		Training Seg Accuracy: 0.966508
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 137/180 ...
+	Training Total Mean_loss: 0.085777
+		Training Seg Accuracy: 0.967535
+	Training Total Mean_loss: 0.083859
+		Training Seg Accuracy: 0.968052
+	Training Total Mean_loss: 0.083664
+		Training Seg Accuracy: 0.968908
+	Training Total Mean_loss: 0.094234
+		Training Seg Accuracy: 0.964687
+	Training Total Mean_loss: 0.086218
+		Training Seg Accuracy: 0.966758
+	Training Total Mean_loss: 0.087716
+		Training Seg Accuracy: 0.966214
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 138/180 ...
+	Training Total Mean_loss: 0.083628
+		Training Seg Accuracy: 0.967881
+	Training Total Mean_loss: 0.086634
+		Training Seg Accuracy: 0.967022
+	Training Total Mean_loss: 0.086329
+		Training Seg Accuracy: 0.967124
+	Training Total Mean_loss: 0.086437
+		Training Seg Accuracy: 0.967393
+	Training Total Mean_loss: 0.087033
+		Training Seg Accuracy: 0.966720
+	Training Total Mean_loss: 0.085246
+		Training Seg Accuracy: 0.967635
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 139/180 ...
+	Training Total Mean_loss: 0.086219
+		Training Seg Accuracy: 0.967257
+	Training Total Mean_loss: 0.087348
+		Training Seg Accuracy: 0.967032
+	Training Total Mean_loss: 0.083892
+		Training Seg Accuracy: 0.967898
+	Training Total Mean_loss: 0.088545
+		Training Seg Accuracy: 0.966405
+	Training Total Mean_loss: 0.085701
+		Training Seg Accuracy: 0.967644
+	Training Total Mean_loss: 0.086658
+		Training Seg Accuracy: 0.967098
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 140/180 ...
+	Training Total Mean_loss: 0.085265
+		Training Seg Accuracy: 0.967408
+	Training Total Mean_loss: 0.149972
+		Training Seg Accuracy: 0.961302
+	Training Total Mean_loss: 0.086485
+		Training Seg Accuracy: 0.966805
+	Training Total Mean_loss: 0.087143
+		Training Seg Accuracy: 0.967081
+	Training Total Mean_loss: 0.082665
+		Training Seg Accuracy: 0.968983
+	Training Total Mean_loss: 0.088291
+		Training Seg Accuracy: 0.966731
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 141/180 ...
+	Training Total Mean_loss: 0.088338
+		Training Seg Accuracy: 0.966248
+	Training Total Mean_loss: 0.085006
+		Training Seg Accuracy: 0.967907
+	Training Total Mean_loss: 0.084397
+		Training Seg Accuracy: 0.968245
+	Training Total Mean_loss: 0.086452
+		Training Seg Accuracy: 0.967101
+	Training Total Mean_loss: 0.084209
+		Training Seg Accuracy: 0.968025
+	Training Total Mean_loss: 0.087689
+		Training Seg Accuracy: 0.966499
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 142/180 ...
+	Training Total Mean_loss: 0.081211
+		Training Seg Accuracy: 0.969024
+	Training Total Mean_loss: 0.086532
+		Training Seg Accuracy: 0.967306
+	Training Total Mean_loss: 0.084252
+		Training Seg Accuracy: 0.968117
+	Training Total Mean_loss: 0.086252
+		Training Seg Accuracy: 0.967618
+	Training Total Mean_loss: 0.083761
+		Training Seg Accuracy: 0.968053
+	Training Total Mean_loss: 0.085738
+		Training Seg Accuracy: 0.967047
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 143/180 ...
+	Training Total Mean_loss: 0.084541
+		Training Seg Accuracy: 0.967935
+	Training Total Mean_loss: 0.089011
+		Training Seg Accuracy: 0.966755
+	Training Total Mean_loss: 0.086268
+		Training Seg Accuracy: 0.967511
+	Training Total Mean_loss: 0.086322
+		Training Seg Accuracy: 0.967203
+	Training Total Mean_loss: 0.084083
+		Training Seg Accuracy: 0.968104
+	Training Total Mean_loss: 0.084686
+		Training Seg Accuracy: 0.967799
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 144/180 ...
+	Training Total Mean_loss: 0.086818
+		Training Seg Accuracy: 0.967000
+	Training Total Mean_loss: 0.083652
+		Training Seg Accuracy: 0.968015
+	Training Total Mean_loss: 0.083537
+		Training Seg Accuracy: 0.967729
+	Training Total Mean_loss: 0.084677
+		Training Seg Accuracy: 0.967872
+	Training Total Mean_loss: 0.086849
+		Training Seg Accuracy: 0.967193
+	Training Total Mean_loss: 0.083349
+		Training Seg Accuracy: 0.968198
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 145/180 ...
+	Training Total Mean_loss: 0.085391
+		Training Seg Accuracy: 0.966898
+	Training Total Mean_loss: 0.080009
+		Training Seg Accuracy: 0.969511
+	Training Total Mean_loss: 0.081652
+		Training Seg Accuracy: 0.969083
+	Training Total Mean_loss: 0.083652
+		Training Seg Accuracy: 0.968127
+	Training Total Mean_loss: 0.086035
+		Training Seg Accuracy: 0.967317
+	Training Total Mean_loss: 0.088048
+		Training Seg Accuracy: 0.966475
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 146/180 ...
+	Training Total Mean_loss: 0.085900
+		Training Seg Accuracy: 0.967202
+	Training Total Mean_loss: 0.084068
+		Training Seg Accuracy: 0.968167
+	Training Total Mean_loss: 0.081439
+		Training Seg Accuracy: 0.969040
+	Training Total Mean_loss: 0.084920
+		Training Seg Accuracy: 0.967718
+	Training Total Mean_loss: 0.087345
+		Training Seg Accuracy: 0.966686
+	Training Total Mean_loss: 0.084291
+		Training Seg Accuracy: 0.968184
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 147/180 ...
+	Training Total Mean_loss: 0.086018
+		Training Seg Accuracy: 0.967231
+	Training Total Mean_loss: 0.083967
+		Training Seg Accuracy: 0.968259
+	Training Total Mean_loss: 0.086172
+		Training Seg Accuracy: 0.967132
+	Training Total Mean_loss: 0.087322
+		Training Seg Accuracy: 0.966417
+	Training Total Mean_loss: 0.081447
+		Training Seg Accuracy: 0.969255
+	Training Total Mean_loss: 0.084509
+		Training Seg Accuracy: 0.967839
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 148/180 ...
+	Training Total Mean_loss: 0.088115
+		Training Seg Accuracy: 0.966333
+	Training Total Mean_loss: 0.084550
+		Training Seg Accuracy: 0.967896
+	Training Total Mean_loss: 0.089148
+		Training Seg Accuracy: 0.966333
+	Training Total Mean_loss: 0.085189
+		Training Seg Accuracy: 0.967757
+	Training Total Mean_loss: 0.086407
+		Training Seg Accuracy: 0.966918
+	Training Total Mean_loss: 0.083532
+		Training Seg Accuracy: 0.968307
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 149/180 ...
+	Training Total Mean_loss: 0.086473
+		Training Seg Accuracy: 0.967150
+	Training Total Mean_loss: 0.084295
+		Training Seg Accuracy: 0.967993
+	Training Total Mean_loss: 0.084919
+		Training Seg Accuracy: 0.967744
+	Training Total Mean_loss: 0.084344
+		Training Seg Accuracy: 0.967944
+	Training Total Mean_loss: 0.085086
+		Training Seg Accuracy: 0.967981
+	Training Total Mean_loss: 0.083189
+		Training Seg Accuracy: 0.968349
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 150/180 ...
+	Training Total Mean_loss: 0.083333
+		Training Seg Accuracy: 0.968256
+	Training Total Mean_loss: 0.084702
+		Training Seg Accuracy: 0.968019
+	Training Total Mean_loss: 0.087228
+		Training Seg Accuracy: 0.966918
+	Training Total Mean_loss: 0.088593
+		Training Seg Accuracy: 0.965843
+	Training Total Mean_loss: 0.087152
+		Training Seg Accuracy: 0.966571
+	Training Total Mean_loss: 0.087106
+		Training Seg Accuracy: 0.966961
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 151/180 ...
+	Training Total Mean_loss: 0.087448
+		Training Seg Accuracy: 0.966955
+	Training Total Mean_loss: 0.081079
+		Training Seg Accuracy: 0.968867
+	Training Total Mean_loss: 0.084893
+		Training Seg Accuracy: 0.967948
+	Training Total Mean_loss: 0.084823
+		Training Seg Accuracy: 0.967729
+	Training Total Mean_loss: 0.088257
+		Training Seg Accuracy: 0.966424
+	Training Total Mean_loss: 0.085360
+		Training Seg Accuracy: 0.967285
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 152/180 ...
+	Training Total Mean_loss: 0.085204
+		Training Seg Accuracy: 0.967681
+	Training Total Mean_loss: 0.083979
+		Training Seg Accuracy: 0.967651
+	Training Total Mean_loss: 0.082771
+		Training Seg Accuracy: 0.968485
+	Training Total Mean_loss: 0.082839
+		Training Seg Accuracy: 0.968333
+	Training Total Mean_loss: 0.085828
+		Training Seg Accuracy: 0.967351
+	Training Total Mean_loss: 0.081610
+		Training Seg Accuracy: 0.969110
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 153/180 ...
+	Training Total Mean_loss: 0.082378
+		Training Seg Accuracy: 0.968471
+	Training Total Mean_loss: 0.083027
+		Training Seg Accuracy: 0.968310
+	Training Total Mean_loss: 0.083111
+		Training Seg Accuracy: 0.968603
+	Training Total Mean_loss: 0.086321
+		Training Seg Accuracy: 0.967516
+	Training Total Mean_loss: 0.082241
+		Training Seg Accuracy: 0.968605
+	Training Total Mean_loss: 0.083012
+		Training Seg Accuracy: 0.968671
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 154/180 ...
+	Training Total Mean_loss: 0.085807
+		Training Seg Accuracy: 0.966863
+	Training Total Mean_loss: 0.089279
+		Training Seg Accuracy: 0.965607
+	Training Total Mean_loss: 0.083104
+		Training Seg Accuracy: 0.968630
+	Training Total Mean_loss: 0.086392
+		Training Seg Accuracy: 0.967336
+	Training Total Mean_loss: 0.083721
+		Training Seg Accuracy: 0.967865
+	Training Total Mean_loss: 0.081954
+		Training Seg Accuracy: 0.968778
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 155/180 ...
+	Training Total Mean_loss: 0.084860
+		Training Seg Accuracy: 0.967346
+	Training Total Mean_loss: 0.087699
+		Training Seg Accuracy: 0.966786
+	Training Total Mean_loss: 0.083003
+		Training Seg Accuracy: 0.968229
+	Training Total Mean_loss: 0.085720
+		Training Seg Accuracy: 0.967072
+	Training Total Mean_loss: 0.085421
+		Training Seg Accuracy: 0.967084
+	Training Total Mean_loss: 0.082942
+		Training Seg Accuracy: 0.968578
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 156/180 ...
+	Training Total Mean_loss: 0.086908
+		Training Seg Accuracy: 0.966739
+	Training Total Mean_loss: 0.085053
+		Training Seg Accuracy: 0.967783
+	Training Total Mean_loss: 0.084515
+		Training Seg Accuracy: 0.967928
+	Training Total Mean_loss: 0.086440
+		Training Seg Accuracy: 0.966535
+	Training Total Mean_loss: 0.082733
+		Training Seg Accuracy: 0.968574
+	Training Total Mean_loss: 0.084190
+		Training Seg Accuracy: 0.968002
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 157/180 ...
+	Training Total Mean_loss: 0.085134
+		Training Seg Accuracy: 0.967257
+	Training Total Mean_loss: 0.084185
+		Training Seg Accuracy: 0.968191
+	Training Total Mean_loss: 0.085659
+		Training Seg Accuracy: 0.967430
+	Training Total Mean_loss: 0.078847
+		Training Seg Accuracy: 0.969937
+	Training Total Mean_loss: 0.087653
+		Training Seg Accuracy: 0.966662
+	Training Total Mean_loss: 0.082844
+		Training Seg Accuracy: 0.968471
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 158/180 ...
+	Training Total Mean_loss: 0.082318
+		Training Seg Accuracy: 0.968784
+	Training Total Mean_loss: 0.085638
+		Training Seg Accuracy: 0.967154
+	Training Total Mean_loss: 0.085922
+		Training Seg Accuracy: 0.967205
+	Training Total Mean_loss: 0.082478
+		Training Seg Accuracy: 0.968767
+	Training Total Mean_loss: 0.082555
+		Training Seg Accuracy: 0.968766
+	Training Total Mean_loss: 0.083508
+		Training Seg Accuracy: 0.967916
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 159/180 ...
+	Training Total Mean_loss: 0.080656
+		Training Seg Accuracy: 0.969649
+	Training Total Mean_loss: 0.085996
+		Training Seg Accuracy: 0.968068
+	Training Total Mean_loss: 0.087337
+		Training Seg Accuracy: 0.966881
+	Training Total Mean_loss: 0.087229
+		Training Seg Accuracy: 0.966385
+	Training Total Mean_loss: 0.084789
+		Training Seg Accuracy: 0.967506
+	Training Total Mean_loss: 0.084046
+		Training Seg Accuracy: 0.968174
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 160/180 ...
+	Training Total Mean_loss: 0.082314
+		Training Seg Accuracy: 0.968437
+	Training Total Mean_loss: 0.082843
+		Training Seg Accuracy: 0.968706
+	Training Total Mean_loss: 0.082831
+		Training Seg Accuracy: 0.968408
+	Training Total Mean_loss: 0.085256
+		Training Seg Accuracy: 0.967432
+	Training Total Mean_loss: 0.080438
+		Training Seg Accuracy: 0.969490
+	Training Total Mean_loss: 0.085779
+		Training Seg Accuracy: 0.967425
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 161/180 ...
+	Training Total Mean_loss: 0.081508
+		Training Seg Accuracy: 0.968570
+	Training Total Mean_loss: 0.081391
+		Training Seg Accuracy: 0.969213
+	Training Total Mean_loss: 0.082534
+		Training Seg Accuracy: 0.968461
+	Training Total Mean_loss: 0.085864
+		Training Seg Accuracy: 0.967403
+	Training Total Mean_loss: 0.084300
+		Training Seg Accuracy: 0.967731
+	Training Total Mean_loss: 0.083082
+		Training Seg Accuracy: 0.968610
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 162/180 ...
+	Training Total Mean_loss: 0.081383
+		Training Seg Accuracy: 0.969044
+	Training Total Mean_loss: 0.079870
+		Training Seg Accuracy: 0.969447
+	Training Total Mean_loss: 0.082584
+		Training Seg Accuracy: 0.968725
+	Training Total Mean_loss: 0.084328
+		Training Seg Accuracy: 0.967619
+	Training Total Mean_loss: 0.083332
+		Training Seg Accuracy: 0.967942
+	Training Total Mean_loss: 0.081896
+		Training Seg Accuracy: 0.968585
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 163/180 ...
+	Training Total Mean_loss: 0.083728
+		Training Seg Accuracy: 0.968003
+	Training Total Mean_loss: 0.084807
+		Training Seg Accuracy: 0.967680
+	Training Total Mean_loss: 0.082219
+		Training Seg Accuracy: 0.968699
+	Training Total Mean_loss: 0.084295
+		Training Seg Accuracy: 0.967651
+	Training Total Mean_loss: 0.083327
+		Training Seg Accuracy: 0.968374
+	Training Total Mean_loss: 0.082124
+		Training Seg Accuracy: 0.968800
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 164/180 ...
+	Training Total Mean_loss: 0.080840
+		Training Seg Accuracy: 0.969304
+	Training Total Mean_loss: 0.082133
+		Training Seg Accuracy: 0.968461
+	Training Total Mean_loss: 0.083101
+		Training Seg Accuracy: 0.968108
+	Training Total Mean_loss: 0.082899
+		Training Seg Accuracy: 0.968310
+	Training Total Mean_loss: 0.082525
+		Training Seg Accuracy: 0.968543
+	Training Total Mean_loss: 0.081801
+		Training Seg Accuracy: 0.969000
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 165/180 ...
+	Training Total Mean_loss: 0.084631
+		Training Seg Accuracy: 0.967735
+	Training Total Mean_loss: 0.082557
+		Training Seg Accuracy: 0.968830
+	Training Total Mean_loss: 0.081951
+		Training Seg Accuracy: 0.968729
+	Training Total Mean_loss: 0.082829
+		Training Seg Accuracy: 0.968112
+	Training Total Mean_loss: 0.083688
+		Training Seg Accuracy: 0.967647
+	Training Total Mean_loss: 0.086994
+		Training Seg Accuracy: 0.966957
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 166/180 ...
+	Training Total Mean_loss: 0.084228
+		Training Seg Accuracy: 0.967741
+	Training Total Mean_loss: 0.080917
+		Training Seg Accuracy: 0.969102
+	Training Total Mean_loss: 0.083655
+		Training Seg Accuracy: 0.968210
+	Training Total Mean_loss: 0.082740
+		Training Seg Accuracy: 0.968703
+	Training Total Mean_loss: 0.083988
+		Training Seg Accuracy: 0.968269
+	Training Total Mean_loss: 0.080546
+		Training Seg Accuracy: 0.969431
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 167/180 ...
+	Training Total Mean_loss: 0.082673
+		Training Seg Accuracy: 0.968422
+	Training Total Mean_loss: 0.080644
+		Training Seg Accuracy: 0.969060
+	Training Total Mean_loss: 0.084521
+		Training Seg Accuracy: 0.967804
+	Training Total Mean_loss: 0.080507
+		Training Seg Accuracy: 0.968809
+	Training Total Mean_loss: 0.079718
+		Training Seg Accuracy: 0.969503
+	Training Total Mean_loss: 0.083152
+		Training Seg Accuracy: 0.968194
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 168/180 ...
+	Training Total Mean_loss: 0.080433
+		Training Seg Accuracy: 0.969015
+	Training Total Mean_loss: 0.081457
+		Training Seg Accuracy: 0.968906
+	Training Total Mean_loss: 0.079572
+		Training Seg Accuracy: 0.969596
+	Training Total Mean_loss: 0.080342
+		Training Seg Accuracy: 0.969671
+	Training Total Mean_loss: 0.082009
+		Training Seg Accuracy: 0.968583
+	Training Total Mean_loss: 0.080775
+		Training Seg Accuracy: 0.968993
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 169/180 ...
+	Training Total Mean_loss: 0.082036
+		Training Seg Accuracy: 0.968373
+	Training Total Mean_loss: 0.080593
+		Training Seg Accuracy: 0.968968
+	Training Total Mean_loss: 0.080900
+		Training Seg Accuracy: 0.969213
+	Training Total Mean_loss: 0.082487
+		Training Seg Accuracy: 0.968185
+	Training Total Mean_loss: 0.081339
+		Training Seg Accuracy: 0.969084
+	Training Total Mean_loss: 0.080808
+		Training Seg Accuracy: 0.968958
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 170/180 ...
+	Training Total Mean_loss: 0.081632
+		Training Seg Accuracy: 0.968678
+	Training Total Mean_loss: 0.077807
+		Training Seg Accuracy: 0.970398
+	Training Total Mean_loss: 0.077195
+		Training Seg Accuracy: 0.970348
+	Training Total Mean_loss: 0.082349
+		Training Seg Accuracy: 0.968183
+	Training Total Mean_loss: 0.080843
+		Training Seg Accuracy: 0.969331
+	Training Total Mean_loss: 0.082946
+		Training Seg Accuracy: 0.968115
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 171/180 ...
+	Training Total Mean_loss: 0.082602
+		Training Seg Accuracy: 0.968508
+	Training Total Mean_loss: 0.079207
+		Training Seg Accuracy: 0.969595
+	Training Total Mean_loss: 0.079420
+		Training Seg Accuracy: 0.969638
+	Training Total Mean_loss: 0.081358
+		Training Seg Accuracy: 0.968663
+	Training Total Mean_loss: 0.080352
+		Training Seg Accuracy: 0.969128
+	Training Total Mean_loss: 0.081336
+		Training Seg Accuracy: 0.968819
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 172/180 ...
+	Training Total Mean_loss: 0.085462
+		Training Seg Accuracy: 0.967990
+	Training Total Mean_loss: 0.078377
+		Training Seg Accuracy: 0.969798
+	Training Total Mean_loss: 0.080810
+		Training Seg Accuracy: 0.969203
+	Training Total Mean_loss: 0.081259
+		Training Seg Accuracy: 0.969270
+	Training Total Mean_loss: 0.076972
+		Training Seg Accuracy: 0.970504
+	Training Total Mean_loss: 0.080131
+		Training Seg Accuracy: 0.969008
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 173/180 ...
+	Training Total Mean_loss: 0.077587
+		Training Seg Accuracy: 0.970585
+	Training Total Mean_loss: 0.078336
+		Training Seg Accuracy: 0.970187
+	Training Total Mean_loss: 0.079542
+		Training Seg Accuracy: 0.969919
+	Training Total Mean_loss: 0.087240
+		Training Seg Accuracy: 0.967783
+	Training Total Mean_loss: 0.081543
+		Training Seg Accuracy: 0.968501
+	Training Total Mean_loss: 0.081871
+		Training Seg Accuracy: 0.968595
+
+<<< Testing on the test dataset ...
+Best validation accuracy: 0.9552677793052575
+Successfully store the checkpoint model into train_results/trained_models/epoch_173.ckpt
+
+>>> Training for the epoch 174/180 ...
+	Training Total Mean_loss: 0.080232
+		Training Seg Accuracy: 0.969285
+	Training Total Mean_loss: 0.080041
+		Training Seg Accuracy: 0.969703
+	Training Total Mean_loss: 0.083934
+		Training Seg Accuracy: 0.967866
+	Training Total Mean_loss: 0.079443
+		Training Seg Accuracy: 0.969312
+	Training Total Mean_loss: 0.078269
+		Training Seg Accuracy: 0.970091
+	Training Total Mean_loss: 0.079694
+		Training Seg Accuracy: 0.969665
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 175/180 ...
+	Training Total Mean_loss: 0.081229
+		Training Seg Accuracy: 0.969207
+	Training Total Mean_loss: 0.080216
+		Training Seg Accuracy: 0.969334
+	Training Total Mean_loss: 0.079891
+		Training Seg Accuracy: 0.969490
+	Training Total Mean_loss: 0.081029
+		Training Seg Accuracy: 0.968891
+	Training Total Mean_loss: 0.080555
+		Training Seg Accuracy: 0.969159
+	Training Total Mean_loss: 0.080401
+		Training Seg Accuracy: 0.969563
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 176/180 ...
+	Training Total Mean_loss: 0.079992
+		Training Seg Accuracy: 0.969283
+	Training Total Mean_loss: 0.081058
+		Training Seg Accuracy: 0.969261
+	Training Total Mean_loss: 0.080631
+		Training Seg Accuracy: 0.969548
+	Training Total Mean_loss: 0.077603
+		Training Seg Accuracy: 0.970432
+	Training Total Mean_loss: 0.080944
+		Training Seg Accuracy: 0.968929
+	Training Total Mean_loss: 0.080013
+		Training Seg Accuracy: 0.969687
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 177/180 ...
+	Training Total Mean_loss: 0.080689
+		Training Seg Accuracy: 0.969328
+	Training Total Mean_loss: 0.079261
+		Training Seg Accuracy: 0.969607
+	Training Total Mean_loss: 0.076931
+		Training Seg Accuracy: 0.970763
+	Training Total Mean_loss: 0.081250
+		Training Seg Accuracy: 0.968818
+	Training Total Mean_loss: 0.079517
+		Training Seg Accuracy: 0.969356
+	Training Total Mean_loss: 0.079615
+		Training Seg Accuracy: 0.969676
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 178/180 ...
+	Training Total Mean_loss: 0.080733
+		Training Seg Accuracy: 0.969110
+	Training Total Mean_loss: 0.081371
+		Training Seg Accuracy: 0.968654
+	Training Total Mean_loss: 0.077961
+		Training Seg Accuracy: 0.970206
+	Training Total Mean_loss: 0.082198
+		Training Seg Accuracy: 0.968419
+	Training Total Mean_loss: 0.077239
+		Training Seg Accuracy: 0.970543
+	Training Total Mean_loss: 0.081004
+		Training Seg Accuracy: 0.968853
+
+<<< Testing on the test dataset ...
+
+>>> Training for the epoch 179/180 ...
+	Training Total Mean_loss: 0.079439
+		Training Seg Accuracy: 0.969708
+	Training Total Mean_loss: 0.081300
+		Training Seg Accuracy: 0.968742
+	Training Total Mean_loss: 0.079351
+		Training Seg Accuracy: 0.969543
+	Training Total Mean_loss: 0.079906
+		Training Seg Accuracy: 0.969277
+	Training Total Mean_loss: 0.079327
+		Training Seg Accuracy: 0.969583
+	Training Total Mean_loss: 0.083149
+		Training Seg Accuracy: 0.968184
 
 <<< Testing on the test dataset ...
