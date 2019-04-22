@@ -1,0 +1,47 @@
+Namespace(batch_size=16, dump_dir='dump', gpu=1, log_dir='log', model_cnn='ldgcnn', model_fc='ldgcnn_classifier', num_feature=3072, num_point=1024)
+Model restored.
+----0----
+----1----
+eval mean loss: 1.469021
+eval accuracy: 0.931818
+eval avg class acc: 0.903755
+  airplane:	1.000
+   bathtub:	0.940
+       bed:	0.990
+     bench:	0.750
+ bookshelf:	0.970
+    bottle:	0.970
+      bowl:	1.000
+       car:	1.000
+     chair:	0.980
+      cone:	0.900
+       cup:	0.800
+   curtain:	0.950
+      desk:	0.907
+      door:	0.950
+   dresser:	0.837
+flower_pot:	0.150
+ glass_box:	0.960
+    guitar:	1.000
+  keyboard:	1.000
+      lamp:	0.950
+    laptop:	1.000
+    mantel:	0.949
+   monitor:	1.000
+night_stand:	0.849
+    person:	1.000
+     piano:	0.969
+     plant:	0.870
+     radio:	0.800
+range_hood:	0.950
+      sink:	0.850
+      sofa:	1.000
+    stairs:	0.950
+     stool:	0.850
+     table:	0.870
+      tent:	0.950
+    toilet:	1.000
+  tv_stand:	0.910
+      vase:	0.828
+  wardrobe:	0.750
+      xbox:	0.800
