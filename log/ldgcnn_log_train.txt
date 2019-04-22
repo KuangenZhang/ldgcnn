@@ -1,0 +1,386 @@
+Namespace(batch_size=16, decay_rate=0.7, decay_step=200000, gpu=0, learning_rate=0.001, log_dir='log', max_epoch=250, max_epoch_classifier=100, model='ldgcnn', model_classifier='ldgcnn_classifier', momentum=0.9, num_feature_classifier=3072, num_point=1024, optimizer='adam', optimizer_classifier='momentum')
+**** EPOCH 000 ****
+Best accuracy,: 0.841721
+Class accuracy,: 0.752672
+**** EPOCH 001 ****
+Best accuracy,: 0.891234
+Class accuracy,: 0.826842
+**** EPOCH 002 ****
+Best accuracy,: 0.898133
+Class accuracy,: 0.841190
+**** EPOCH 003 ****
+Best accuracy,: 0.907873
+Class accuracy,: 0.856690
+**** EPOCH 004 ****
+Best accuracy,: 0.908279
+Class accuracy,: 0.860414
+**** EPOCH 005 ****
+Best accuracy,: 0.911526
+Class accuracy,: 0.868666
+**** EPOCH 006 ****
+Best accuracy,: 0.912338
+Class accuracy,: 0.874521
+**** EPOCH 007 ****
+**** EPOCH 008 ****
+Best accuracy,: 0.915990
+Class accuracy,: 0.874350
+**** EPOCH 009 ****
+**** EPOCH 010 ****
+Best accuracy,: 0.916802
+Class accuracy,: 0.883089
+**** EPOCH 011 ****
+Best accuracy,: 0.918425
+Class accuracy,: 0.884888
+**** EPOCH 012 ****
+Best accuracy,: 0.919643
+Class accuracy,: 0.888220
+**** EPOCH 013 ****
+**** EPOCH 014 ****
+Best accuracy,: 0.924919
+Class accuracy,: 0.894211
+**** EPOCH 015 ****
+**** EPOCH 016 ****
+**** EPOCH 017 ****
+Best accuracy,: 0.925325
+Class accuracy,: 0.895507
+**** EPOCH 018 ****
+**** EPOCH 019 ****
+**** EPOCH 020 ****
+**** EPOCH 021 ****
+**** EPOCH 022 ****
+**** EPOCH 023 ****
+**** EPOCH 024 ****
+**** EPOCH 025 ****
+Best accuracy,: 0.926542
+Class accuracy,: 0.890548
+**** EPOCH 026 ****
+**** EPOCH 027 ****
+**** EPOCH 028 ****
+Best accuracy,: 0.927760
+Class accuracy,: 0.901331
+**** EPOCH 029 ****
+**** EPOCH 030 ****
+**** EPOCH 031 ****
+**** EPOCH 032 ****
+**** EPOCH 033 ****
+**** EPOCH 034 ****
+Best accuracy,: 0.928977
+Class accuracy,: 0.900094
+**** EPOCH 035 ****
+**** EPOCH 036 ****
+**** EPOCH 037 ****
+**** EPOCH 038 ****
+**** EPOCH 039 ****
+**** EPOCH 040 ****
+**** EPOCH 041 ****
+**** EPOCH 042 ****
+**** EPOCH 043 ****
+Best accuracy,: 0.929789
+Class accuracy,: 0.905629
+**** EPOCH 044 ****
+**** EPOCH 045 ****
+**** EPOCH 046 ****
+**** EPOCH 047 ****
+**** EPOCH 048 ****
+**** EPOCH 049 ****
+**** EPOCH 050 ****
+**** EPOCH 051 ****
+**** EPOCH 052 ****
+**** EPOCH 053 ****
+**** EPOCH 054 ****
+**** EPOCH 055 ****
+**** EPOCH 056 ****
+**** EPOCH 057 ****
+**** EPOCH 058 ****
+**** EPOCH 059 ****
+**** EPOCH 060 ****
+**** EPOCH 061 ****
+Best accuracy,: 0.930195
+Class accuracy,: 0.905800
+**** EPOCH 062 ****
+**** EPOCH 063 ****
+**** EPOCH 064 ****
+**** EPOCH 065 ****
+**** EPOCH 066 ****
+**** EPOCH 067 ****
+**** EPOCH 068 ****
+**** EPOCH 069 ****
+**** EPOCH 070 ****
+**** EPOCH 071 ****
+**** EPOCH 072 ****
+**** EPOCH 073 ****
+**** EPOCH 074 ****
+**** EPOCH 075 ****
+**** EPOCH 076 ****
+**** EPOCH 077 ****
+**** EPOCH 078 ****
+**** EPOCH 079 ****
+**** EPOCH 080 ****
+**** EPOCH 081 ****
+**** EPOCH 082 ****
+**** EPOCH 083 ****
+**** EPOCH 084 ****
+**** EPOCH 085 ****
+**** EPOCH 086 ****
+**** EPOCH 087 ****
+**** EPOCH 088 ****
+**** EPOCH 089 ****
+**** EPOCH 090 ****
+**** EPOCH 091 ****
+**** EPOCH 092 ****
+**** EPOCH 093 ****
+**** EPOCH 094 ****
+**** EPOCH 095 ****
+**** EPOCH 096 ****
+**** EPOCH 097 ****
+**** EPOCH 098 ****
+**** EPOCH 099 ****
+**** EPOCH 000 ****
+Best accuracy,: 0.851867
+Class accuracy,: 0.773858
+**** EPOCH 001 ****
+Best accuracy,: 0.881494
+Class accuracy,: 0.820494
+**** EPOCH 002 ****
+Best accuracy,: 0.894886
+Class accuracy,: 0.839952
+**** EPOCH 003 ****
+Best accuracy,: 0.903409
+Class accuracy,: 0.855522
+**** EPOCH 004 ****
+Best accuracy,: 0.906656
+Class accuracy,: 0.859468
+**** EPOCH 005 ****
+Best accuracy,: 0.911932
+Class accuracy,: 0.870647
+**** EPOCH 006 ****
+**** EPOCH 007 ****
+Best accuracy,: 0.913149
+Class accuracy,: 0.871605
+**** EPOCH 008 ****
+Best accuracy,: 0.917614
+Class accuracy,: 0.873646
+**** EPOCH 009 ****
+**** EPOCH 010 ****
+**** EPOCH 011 ****
+**** EPOCH 012 ****
+Best accuracy,: 0.919237
+Class accuracy,: 0.881934
+**** EPOCH 013 ****
+**** EPOCH 014 ****
+**** EPOCH 015 ****
+Best accuracy,: 0.925325
+Class accuracy,: 0.890717
+**** EPOCH 016 ****
+**** EPOCH 017 ****
+**** EPOCH 018 ****
+Best accuracy,: 0.926542
+Class accuracy,: 0.898798
+**** EPOCH 019 ****
+**** EPOCH 020 ****
+**** EPOCH 021 ****
+**** EPOCH 022 ****
+**** EPOCH 023 ****
+**** EPOCH 024 ****
+**** EPOCH 025 ****
+**** EPOCH 026 ****
+**** EPOCH 027 ****
+**** EPOCH 028 ****
+**** EPOCH 029 ****
+**** EPOCH 030 ****
+**** EPOCH 031 ****
+**** EPOCH 032 ****
+**** EPOCH 033 ****
+**** EPOCH 034 ****
+**** EPOCH 035 ****
+**** EPOCH 036 ****
+**** EPOCH 037 ****
+**** EPOCH 038 ****
+**** EPOCH 039 ****
+**** EPOCH 040 ****
+**** EPOCH 041 ****
+**** EPOCH 042 ****
+**** EPOCH 043 ****
+**** EPOCH 044 ****
+**** EPOCH 045 ****
+**** EPOCH 046 ****
+**** EPOCH 047 ****
+**** EPOCH 048 ****
+**** EPOCH 049 ****
+**** EPOCH 050 ****
+**** EPOCH 051 ****
+**** EPOCH 052 ****
+**** EPOCH 053 ****
+**** EPOCH 054 ****
+**** EPOCH 055 ****
+**** EPOCH 056 ****
+**** EPOCH 057 ****
+**** EPOCH 058 ****
+**** EPOCH 059 ****
+**** EPOCH 060 ****
+**** EPOCH 061 ****
+**** EPOCH 062 ****
+**** EPOCH 063 ****
+**** EPOCH 064 ****
+**** EPOCH 065 ****
+**** EPOCH 066 ****
+**** EPOCH 067 ****
+**** EPOCH 068 ****
+**** EPOCH 069 ****
+**** EPOCH 070 ****
+**** EPOCH 071 ****
+**** EPOCH 072 ****
+**** EPOCH 073 ****
+**** EPOCH 074 ****
+**** EPOCH 075 ****
+**** EPOCH 076 ****
+**** EPOCH 077 ****
+**** EPOCH 078 ****
+**** EPOCH 079 ****
+**** EPOCH 080 ****
+**** EPOCH 081 ****
+**** EPOCH 082 ****
+**** EPOCH 083 ****
+**** EPOCH 084 ****
+**** EPOCH 085 ****
+**** EPOCH 086 ****
+**** EPOCH 087 ****
+**** EPOCH 088 ****
+**** EPOCH 089 ****
+**** EPOCH 090 ****
+**** EPOCH 091 ****
+**** EPOCH 092 ****
+**** EPOCH 093 ****
+**** EPOCH 094 ****
+**** EPOCH 095 ****
+**** EPOCH 096 ****
+**** EPOCH 097 ****
+**** EPOCH 098 ****
+**** EPOCH 099 ****
+**** EPOCH 000 ****
+Best accuracy,: 0.857955
+Class accuracy,: 0.775526
+**** EPOCH 001 ****
+Best accuracy,: 0.885146
+Class accuracy,: 0.822696
+**** EPOCH 002 ****
+Best accuracy,: 0.899351
+Class accuracy,: 0.842682
+**** EPOCH 003 ****
+Best accuracy,: 0.905438
+Class accuracy,: 0.854345
+**** EPOCH 004 ****
+Best accuracy,: 0.911932
+Class accuracy,: 0.869921
+**** EPOCH 005 ****
+**** EPOCH 006 ****
+**** EPOCH 007 ****
+Best accuracy,: 0.916396
+Class accuracy,: 0.870418
+**** EPOCH 008 ****
+Best accuracy,: 0.917614
+Class accuracy,: 0.881603
+**** EPOCH 009 ****
+Best accuracy,: 0.923295
+Class accuracy,: 0.885513
+**** EPOCH 010 ****
+**** EPOCH 011 ****
+**** EPOCH 012 ****
+**** EPOCH 013 ****
+**** EPOCH 014 ****
+Best accuracy,: 0.924513
+Class accuracy,: 0.888875
+**** EPOCH 015 ****
+**** EPOCH 016 ****
+Best accuracy,: 0.926948
+Class accuracy,: 0.890706
+**** EPOCH 017 ****
+**** EPOCH 018 ****
+**** EPOCH 019 ****
+**** EPOCH 020 ****
+**** EPOCH 021 ****
+**** EPOCH 022 ****
+Best accuracy,: 0.929383
+Class accuracy,: 0.900135
+**** EPOCH 023 ****
+Best accuracy,: 0.931818
+Class accuracy,: 0.903755
+**** EPOCH 024 ****
+**** EPOCH 025 ****
+**** EPOCH 026 ****
+**** EPOCH 027 ****
+**** EPOCH 028 ****
+**** EPOCH 029 ****
+**** EPOCH 030 ****
+**** EPOCH 031 ****
+**** EPOCH 032 ****
+**** EPOCH 033 ****
+**** EPOCH 034 ****
+**** EPOCH 035 ****
+**** EPOCH 036 ****
+**** EPOCH 037 ****
+**** EPOCH 038 ****
+**** EPOCH 039 ****
+**** EPOCH 040 ****
+**** EPOCH 041 ****
+**** EPOCH 042 ****
+**** EPOCH 043 ****
+**** EPOCH 044 ****
+**** EPOCH 045 ****
+**** EPOCH 046 ****
+**** EPOCH 047 ****
+**** EPOCH 048 ****
+**** EPOCH 049 ****
+**** EPOCH 050 ****
+**** EPOCH 051 ****
+**** EPOCH 052 ****
+**** EPOCH 053 ****
+**** EPOCH 054 ****
+**** EPOCH 055 ****
+**** EPOCH 056 ****
+**** EPOCH 057 ****
+**** EPOCH 058 ****
+**** EPOCH 059 ****
+**** EPOCH 060 ****
+**** EPOCH 061 ****
+**** EPOCH 062 ****
+**** EPOCH 063 ****
+**** EPOCH 064 ****
+**** EPOCH 065 ****
+**** EPOCH 066 ****
+**** EPOCH 067 ****
+**** EPOCH 068 ****
+**** EPOCH 069 ****
+**** EPOCH 070 ****
+**** EPOCH 071 ****
+**** EPOCH 072 ****
+**** EPOCH 073 ****
+**** EPOCH 074 ****
+**** EPOCH 075 ****
+**** EPOCH 076 ****
+**** EPOCH 077 ****
+**** EPOCH 078 ****
+**** EPOCH 079 ****
+**** EPOCH 080 ****
+**** EPOCH 081 ****
+**** EPOCH 082 ****
+**** EPOCH 083 ****
+**** EPOCH 084 ****
+**** EPOCH 085 ****
+**** EPOCH 086 ****
+**** EPOCH 087 ****
+**** EPOCH 088 ****
+**** EPOCH 089 ****
+**** EPOCH 090 ****
+**** EPOCH 091 ****
+**** EPOCH 092 ****
+**** EPOCH 093 ****
+**** EPOCH 094 ****
+**** EPOCH 095 ****
+**** EPOCH 096 ****
+**** EPOCH 097 ****
+**** EPOCH 098 ****
+**** EPOCH 099 ****
+Max of best accuracy,: 0.931818
+Max of class accuracy,: 0.905800
+Model saved in file: log\ldgcnn_classifier_model.ckpt

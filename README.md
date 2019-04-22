@@ -10,7 +10,7 @@ We propose a linked dynamic graph CNN (LDGCNN) to classify and segment point clo
 * Classification accuracy on the ModelNet40: **92.9%**.
 * Mean IoU on the ShapeNet: **85.0%**
 
-Further information please contact [Kuangen Zhang](kuangen.zhang@alumni.ubc.ca).
+Further information please contact Kuangen Zhang (kuangen.zhang@alumni.ubc.ca).
 
 ## Requirements
 * [TensorFlow](https://www.tensorflow.org/)

@@ -1,0 +1,2 @@
+model_checkpoint_path: "ldgcnn_classifier_model.ckpt"
+all_model_checkpoint_paths: "ldgcnn_classifier_model.ckpt"
