@@ -33,7 +33,7 @@ sudo pip install h5py
 
 * We upload our pretrained model, you can evaluate the performance of our network directly by running the evaluation script:
 ``` bash
-python evalutate.py
+python evaluate.py
 ```
 * Run the training script:
 ``` bash
