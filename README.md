@@ -1,4 +1,4 @@
-﻿# Linked Dynamic Graph CNN: Learning on Point Cloud via Linking Hierarchical Features
+﻿# Linked Dynamic Graph CNN: Learning through Point Cloud by Linking Hierarchical Features
 
 <img src='./LDGCNN_architecture.png' width=800>
 
