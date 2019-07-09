@@ -13,7 +13,7 @@ K. Zhang, M. Hao, J. Wang, C. W. de Silva, and C. Fu, “Linked dynamic graph cn
 `LDGCNN` is the improved version of Dynamic Graph CNN. We have evaluated our network on the point cloud classification dataset (ModelNet40) and segementation dataset (ShapeNet):
 
 * Classification accuracy on the ModelNet40: **92.9%**.
-* Mean IoU on the ShapeNet: **85.0%**
+* Mean IoU on the ShapeNet: **85.1%**
 
 Further information please contact Kuangen Zhang (kuangen.zhang@alumni.ubc.ca).
 
