@@ -4,6 +4,8 @@
 
 We propose a linked dynamic graph CNN (LDGCNN) to classify and segment point cloud directly. We remove the transformation network, link hierarchical features from dynamic graphs, freeze feature extractor, and retrain the classifier to increase the performance of LDGCNN.
 
+## Contact
+
 For more related works and codes, please view my homepage: https://kuangenzhang.github.io/
 
 Further information please contact Kuangen Zhang (kuangen.zhang@alumni.ubc.ca).
