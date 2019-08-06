@@ -4,6 +4,10 @@
 
 We propose a linked dynamic graph CNN (LDGCNN) to classify and segment point cloud directly. We remove the transformation network, link hierarchical features from dynamic graphs, freeze feature extractor, and retrain the classifier to increase the performance of LDGCNN.
 
+For more related works and codes, please view my homepage: https://kuangenzhang.github.io/
+
+Further information please contact Kuangen Zhang (kuangen.zhang@alumni.ubc.ca).
+
 ## Citation
 If you find our work useful in your research, please consider citing:
 
@@ -14,8 +18,6 @@ K. Zhang, M. Hao, J. Wang, C. W. de Silva, and C. Fu, “Linked dynamic graph cn
 
 * Classification accuracy on the ModelNet40: **92.9%**.
 * Mean IoU on the ShapeNet: **85.1%**
-
-Further information please contact Kuangen Zhang (kuangen.zhang@alumni.ubc.ca).
 
 ## Requirements
 * [TensorFlow](https://www.tensorflow.org/)
