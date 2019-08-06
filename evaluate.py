@@ -27,7 +27,7 @@ import provider
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--log_dir', default='log', help='Log dir [default: log]')
-parser.add_argument('--gpu', type=int, default=1, help='GPU to use [default: GPU 0]')
+parser.add_argument('--gpu', type=int, default=0, help='GPU to use [default: GPU 0]')
 parser.add_argument('--model_cnn', default='ldgcnn', help='Model name: dgcnn [default: dgcnn]')
 parser.add_argument('--model_fc', default='ldgcnn_classifier', help='Model name: dgcnn [default: dgcnn]')
 parser.add_argument('--batch_size', type=int, default= 16, help='Batch Size during training [default: 1]')

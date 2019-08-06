@@ -1,4 +1,4 @@
-Namespace(batch_size=16, dump_dir='dump', gpu=1, log_dir='log', model_cnn='ldgcnn', model_fc='ldgcnn_classifier', num_feature=3072, num_point=1024)
+Namespace(batch_size=16, dump_dir='dump', gpu=0, log_dir='log', model_cnn='ldgcnn', model_fc='ldgcnn_classifier', num_feature=3072, num_point=1024)
 Model restored.
 ----0----
 ----1----
