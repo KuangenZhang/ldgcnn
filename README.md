@@ -12,7 +12,17 @@ Further information please contact Kuangen Zhang (kuangen.zhang@alumni.ubc.ca).
 
 ## Citation
 If you find our work useful in your research, please consider citing:
-
+```bash
+@article{zhang_linked_2019,
+	title = {Linked dynamic graph cnn: learning on point cloud via linking hierarchical features},
+	shorttitle = {Linked {Dynamic} {Graph} {CNN}},
+	urldate = {2019-04-24},
+	journal = {arXiv:1904.10014 [cs]},
+	author = {Zhang, Kuangen and Hao, Ming and Wang, Jing and de Silva, Clarence W. and Fu, Chenglong},
+	month = apr,
+	year = {2019}
+}
+```
 K. Zhang, M. Hao, J. Wang, C. W. de Silva, and C. Fu, “Linked dynamic graph cnn: learning on point cloud via linking hierarchical features,” arXiv:1904.10014 [cs], Apr. 2019.
 
 ## Overview
