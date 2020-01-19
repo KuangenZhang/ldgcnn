@@ -83,7 +83,7 @@ Model parameters with the highest validation accuracy are saved in "log/ldgcnn_s
 MIT License
 
 ## Acknowledgement
-We achknowledeg that we borrow the code from [PointNet](https://github.com/charlesq34/pointnet) and [DGCNN](https://github.com/WangYueFt/dgcnn) heavily. We have marked our own parts in the code, otherwise the code is borrowed from PointNet and DGCNN.
+We acknowledge that we borrow the code from [PointNet](https://github.com/charlesq34/pointnet) and [DGCNN](https://github.com/WangYueFt/dgcnn) heavily. We have marked our own parts in the code, otherwise the code is borrowed from PointNet and DGCNN.
 
 ## Reference
 * C.  R.  Qi,  H.  Su,  K.  Mo,  and  L.  J.  Guibas,  “PointNet:Deep  Learning  on  Point  Sets  for  3d  Classification  andSegmentation,”  in2017  IEEE  Conference  on  ComputerVision  and  Pattern  Recognition  (CVPR),  Jul.  2017,  pp.77–85, read.
