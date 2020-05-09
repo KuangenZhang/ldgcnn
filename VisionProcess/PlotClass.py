@@ -54,7 +54,6 @@ class PlotClass:
             ax.set_ylabel('y', fontsize=fontsize)
             ax.set_title(label, fontsize=fontsize)
         fig.subplots_adjust(left=0, right=1, bottom=0, top=1,wspace = 0, hspace = 0)
-        plt.show()
     
     def subplot_points(points,label,fig,nrows, ncols, index, 
                        axis_off = False):
