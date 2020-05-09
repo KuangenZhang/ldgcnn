@@ -15,7 +15,7 @@ import sys
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(BASE_DIR)
-sys.path.append(os.path.join(BASE_DIR, '../../VisionProcess'))
+sys.path.append(os.path.join(BASE_DIR, 'VisionProcess'))
 from FileIO import FileIO
 import provider
 
@@ -38,7 +38,9 @@ for i in range(1):
 data = np.array([], dtype=np.float32).reshape(0,1024) 
 label = np.array([], dtype=np.float32).reshape(0)
 for i in range(len(TEST_FILES_VEC[0])):
+    print(TEST_FILES_VEC[0][i])
     data_temp, label_temp = FileIO.load_h5(TEST_FILES_VEC[0][i])
+
     data = np.concatenate((data, data_temp), axis=0)
     label = np.concatenate((label, label_temp), axis=0)
 

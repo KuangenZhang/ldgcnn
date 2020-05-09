@@ -2,7 +2,7 @@ Namespace(batch_size=16, dump_dir='dump', gpu=0, log_dir='log', model_cnn='ldgcn
 Model restored.
 ----0----
 ----1----
-eval mean loss: 1.469021
+eval mean loss: 1.469011
 eval accuracy: 0.931818
 eval avg class acc: 0.903755
   airplane:	1.000

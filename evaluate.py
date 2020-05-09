@@ -183,7 +183,7 @@ with tf.Session(config=config) as sess:
                     total_seen_class[l] += 1
                     total_correct_class[l] += (pred_val[i-start_idx] == l)
                     fout.write('%d, %d\n' % (pred_val[i-start_idx], l))
-                    
+  
         log_string('eval mean loss: %f' % (loss_sum / float(total_seen)))
         log_string('eval accuracy: %f' % (total_correct / float(total_seen)))
         log_string('eval avg class acc: %f' % (np.mean(np.array(total_correct_class)/np.array(total_seen_class,dtype=np.float))))
