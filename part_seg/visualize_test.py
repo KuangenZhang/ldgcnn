@@ -72,7 +72,7 @@ def plot_point_cloud_rendered_by_feature_distance(pts, feature_distance_list, ce
     fig = plt.figure(figsize= (16, 9))
     rows, cols = len(center_idx_list), len(feature_distance_list[0])
     xs, ys, zs = pts[:, 0], pts[:, 2], pts[:, 1]
-    cm = plt.get_cmap("cool")
+    cm = plt.get_cmap("winter")
     for r in range(rows):
         for c in range(cols):
             ax = fig.add_subplot(rows, cols, r * cols + c + 1, projection='3d')
