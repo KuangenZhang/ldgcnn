@@ -1,3 +1,9 @@
+*.npy
+*.obj
+*.jpg
+*.png
+*.log
+*.idea*
 *.pyc
 *.zip
 *.h5

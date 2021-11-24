@@ -7,7 +7,7 @@ import sys
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(BASE_DIR)
 sys.path.append(os.path.dirname(BASE_DIR))
-import ldgcnn_seg_model as model
+from part_seg import ldgcnn_seg_model_visu as model
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--model_path', default=
@@ -20,7 +20,7 @@ pretrained_model_path = FLAGS.model_path
 hdf5_data_dir = os.path.join(BASE_DIR, 'hdf5_data')
 ply_data_dir = os.path.join(BASE_DIR, 'PartAnnotation')
 gpu_to_use = 0
-output_dir = os.path.join(BASE_DIR, 'test_results')
+output_dir = os.path.join(BASE_DIR, 'visualization_results')
 output_verbose = True  
 
 # MAIN SCRIPT
@@ -124,7 +124,7 @@ def predict():
     is_training_ph = tf.placeholder(tf.bool, shape=())
     
     # Get model and loss 
-    seg_pred, layers = model.get_model(pointclouds_ph, input_label_ph, \
+    seg_pred, layers, features = model.get_model(pointclouds_ph, input_label_ph, \
         cat_num=NUM_OBJ_CATS, part_num=NUM_PART_CATS, is_training=is_training_ph, \
         batch_size=batch_size, num_point=point_num, weight_decay=0.0, bn_decay=None)
     
@@ -163,6 +163,7 @@ def predict():
 
     len_pts_files = len(pts_files)
     for shape_idx in range(len_pts_files):
+    # for shape_idx in [163]:
       if shape_idx % 100 == 0:
         printout(flog, '%d/%d ...' % (shape_idx, len_pts_files))
 
@@ -180,6 +181,10 @@ def predict():
       batch_data[0, ...] = pc_augment_to_point_num(pc_normalize(pts), point_num)
       
       # Input the point cloud , object labels, and point labels to the graph.
+      features_res = sess.run(features, feed_dict={
+        pointclouds_ph: batch_data,
+        input_label_ph: cur_label_one_hot,
+        is_training_ph: is_training})
       seg_pred_res = sess.run(seg_pred, feed_dict={
             pointclouds_ph: batch_data,
             input_label_ph: cur_label_one_hot, 
@@ -228,6 +233,9 @@ def predict():
       if output_verbose:
         output_color_point_cloud(pts, seg, os.path.join(output_dir, str(shape_idx)+'_gt.obj'))
         output_color_point_cloud(pts, seg_pred_val, os.path.join(output_dir, str(shape_idx)+'_pred.obj'))
+        features_res['seg_pred'] = seg_pred_val
+        features_res['gt'] = seg
+        np.save(os.path.join(output_dir, str(shape_idx)+'_features.npy'), features_res)
         output_color_point_cloud_red_blue(pts, np.int32(seg == seg_pred_val), 
             os.path.join(output_dir, str(shape_idx)+'_diff.obj'))
 
