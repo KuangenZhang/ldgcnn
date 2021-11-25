@@ -3,6 +3,8 @@
 *.jpg
 *.png
 *.log
+*.gif
+*.pdf
 *.idea*
 *.pyc
 *.zip

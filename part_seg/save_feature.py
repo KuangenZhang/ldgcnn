@@ -162,8 +162,8 @@ def predict():
     ffiles.close()
 
     len_pts_files = len(pts_files)
-    for shape_idx in range(len_pts_files):
-    # for shape_idx in [163]:
+    # for shape_idx in range(len_pts_files):
+    for shape_idx in [0]:
       if shape_idx % 100 == 0:
         printout(flog, '%d/%d ...' % (shape_idx, len_pts_files))
 
@@ -179,7 +179,7 @@ def predict():
       ori_point_num = len(seg)
 
       batch_data[0, ...] = pc_augment_to_point_num(pc_normalize(pts), point_num)
-      
+      print(pts.shape, seg.shape, batch_data[0, ...].shape)
       # Input the point cloud , object labels, and point labels to the graph.
       features_res = sess.run(features, feed_dict={
         pointclouds_ph: batch_data,
